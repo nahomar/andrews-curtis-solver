@@ -1,0 +1,304 @@
+# fcc cap=23 mode=quot16 start=xxxYYYY | xyxYXY
+layer 1 new=14 total=15 t=0.0s
+layer 2 new=134 total=149 t=0.0s
+layer 3 new=945 total=1094 t=0.0s
+layer 4 new=4849 total=5943 t=0.0s
+layer 5 new=18778 total=24721 t=0.0s
+layer 6 new=55809 total=80530 t=0.0s
+layer 7 new=129524 total=210054 t=0.1s
+layer 8 new=240370 total=450424 t=0.3s
+layer 9 new=364507 total=814931 t=0.7s
+layer 10 new=479613 total=1294544 t=1.2s
+layer 11 new=608452 total=1902996 t=1.9s
+layer 12 new=724935 total=2627931 t=2.7s
+layer 13 new=804575 total=3432506 t=3.7s
+layer 14 new=834725 total=4267231 t=4.9s
+layer 15 new=810613 total=5077844 t=6.0s
+layer 16 new=730710 total=5808554 t=7.1s
+layer 17 new=653774 total=6462328 t=8.2s
+layer 18 new=615055 total=7077383 t=9.1s
+layer 19 new=635753 total=7713136 t=10.0s
+layer 20 new=743179 total=8456315 t=10.9s
+layer 21 new=928676 total=9384991 t=12.0s
+layer 22 new=1177961 total=10562952 t=13.3s
+layer 23 new=1463804 total=12026756 t=15.0s
+layer 24 new=1744795 total=13771551 t=17.1s
+layer 25 new=1966748 total=15738299 t=19.7s
+layer 26 new=2062135 total=17800434 t=22.5s
+layer 27 new=2046886 total=19847320 t=25.5s
+layer 28 new=2007588 total=21854908 t=29.0s
+layer 29 new=1960996 total=23815904 t=32.2s
+layer 30 new=1879579 total=25695483 t=35.8s
+layer 31 new=1766095 total=27461578 t=39.1s
+layer 32 new=1702419 total=29163997 t=42.2s
+layer 33 new=1685485 total=30849482 t=45.4s
+layer 34 new=1697226 total=32546708 t=48.5s
+layer 35 new=1725871 total=34272579 t=51.4s
+layer 36 new=1761041 total=36033620 t=54.6s
+layer 37 new=1822988 total=37856608 t=57.9s
+layer 38 new=1923792 total=39780400 t=61.3s
+layer 39 new=2042750 total=41823150 t=64.9s
+layer 40 new=2167032 total=43990182 t=68.6s
+layer 41 new=2292121 total=46282303 t=72.4s
+layer 42 new=2396132 total=48678435 t=75.9s
+layer 43 new=2454787 total=51133222 t=80.1s
+layer 44 new=2488376 total=53621598 t=84.4s
+layer 45 new=2511325 total=56132923 t=88.8s
+layer 46 new=2538186 total=58671109 t=93.3s
+layer 47 new=2541905 total=61213014 t=97.9s
+layer 48 new=2476916 total=63689930 t=102.4s
+layer 49 new=2329752 total=66019682 t=106.8s
+layer 50 new=2123144 total=68142826 t=111.1s
+layer 51 new=1879842 total=70022668 t=114.9s
+layer 52 new=1643893 total=71666561 t=118.2s
+layer 53 new=1437753 total=73104314 t=121.4s
+layer 54 new=1301846 total=74406160 t=124.3s
+layer 55 new=1226860 total=75633020 t=126.8s
+layer 56 new=1197300 total=76830320 t=129.2s
+layer 57 new=1171775 total=78002095 t=131.4s
+layer 58 new=1134928 total=79137023 t=133.6s
+layer 59 new=1074940 total=80211963 t=135.8s
+layer 60 new=1023319 total=81235282 t=138.2s
+layer 61 new=978880 total=82214162 t=140.5s
+layer 62 new=908477 total=83122639 t=142.4s
+layer 63 new=818673 total=83941312 t=144.2s
+layer 64 new=741313 total=84682625 t=145.8s
+layer 65 new=683155 total=85365780 t=147.2s
+layer 66 new=633094 total=85998874 t=148.7s
+layer 67 new=592870 total=86591744 t=149.9s
+layer 68 new=603550 total=87195294 t=151.0s
+layer 69 new=660814 total=87856108 t=152.1s
+layer 70 new=735418 total=88591526 t=153.4s
+layer 71 new=821076 total=89412602 t=154.8s
+layer 72 new=903783 total=90316385 t=156.4s
+layer 73 new=951927 total=91268312 t=158.2s
+layer 74 new=945358 total=92213670 t=160.0s
+layer 75 new=895242 total=93108912 t=161.9s
+layer 76 new=821664 total=93930576 t=163.7s
+layer 77 new=748577 total=94679153 t=165.4s
+layer 78 new=678826 total=95357979 t=166.9s
+layer 79 new=607886 total=95965865 t=168.2s
+layer 80 new=531533 total=96497398 t=169.3s
+layer 81 new=456553 total=96953951 t=170.2s
+layer 82 new=389169 total=97343120 t=171.0s
+layer 83 new=338768 total=97681888 t=171.6s
+layer 84 new=298505 total=97980393 t=172.2s
+layer 85 new=259456 total=98239849 t=172.7s
+layer 86 new=223102 total=98462951 t=173.1s
+layer 87 new=181880 total=98644831 t=173.4s
+layer 88 new=149904 total=98794735 t=173.7s
+layer 89 new=136613 total=98931348 t=173.9s
+layer 90 new=130415 total=99061763 t=174.1s
+layer 91 new=124550 total=99186313 t=174.4s
+layer 92 new=118924 total=99305237 t=174.6s
+layer 93 new=120821 total=99426058 t=174.8s
+layer 94 new=131376 total=99557434 t=175.0s
+layer 95 new=147429 total=99704863 t=175.2s
+layer 96 new=166714 total=99871577 t=175.4s
+layer 97 new=176335 total=100047912 t=175.7s
+layer 98 new=176342 total=100224254 t=175.9s
+layer 99 new=163591 total=100387845 t=176.2s
+layer 100 new=135059 total=100522904 t=176.4s
+layer 101 new=102393 total=100625297 t=176.7s
+layer 102 new=83441 total=100708738 t=176.8s
+layer 103 new=74691 total=100783429 t=176.9s
+layer 104 new=67364 total=100850793 t=177.1s
+layer 105 new=55188 total=100905981 t=177.2s
+layer 106 new=42183 total=100948164 t=177.3s
+layer 107 new=33278 total=100981442 t=177.3s
+layer 108 new=28482 total=101009924 t=177.4s
+layer 109 new=26412 total=101036336 t=177.4s
+layer 110 new=25128 total=101061464 t=177.5s
+layer 111 new=21452 total=101082916 t=177.5s
+layer 112 new=16703 total=101099619 t=177.5s
+layer 113 new=13580 total=101113199 t=177.6s
+layer 114 new=10615 total=101123814 t=177.6s
+layer 115 new=8631 total=101132445 t=177.6s
+layer 116 new=7759 total=101140204 t=177.6s
+layer 117 new=6475 total=101146679 t=177.7s
+layer 118 new=5342 total=101152021 t=177.7s
+layer 119 new=4687 total=101156708 t=177.7s
+layer 120 new=4352 total=101161060 t=177.7s
+layer 121 new=4028 total=101165088 t=177.7s
+layer 122 new=3827 total=101168915 t=177.7s
+layer 123 new=3910 total=101172825 t=177.7s
+layer 124 new=4060 total=101176885 t=177.7s
+layer 125 new=4236 total=101181121 t=177.8s
+layer 126 new=4262 total=101185383 t=177.8s
+layer 127 new=4189 total=101189572 t=177.8s
+layer 128 new=3971 total=101193543 t=177.8s
+layer 129 new=3526 total=101197069 t=177.8s
+layer 130 new=2951 total=101200020 t=177.8s
+layer 131 new=2836 total=101202856 t=177.8s
+layer 132 new=3055 total=101205911 t=177.8s
+layer 133 new=3090 total=101209001 t=177.9s
+layer 134 new=2836 total=101211837 t=177.9s
+layer 135 new=2314 total=101214151 t=177.9s
+layer 136 new=2276 total=101216427 t=177.9s
+layer 137 new=2645 total=101219072 t=177.9s
+layer 138 new=2708 total=101221780 t=177.9s
+layer 139 new=4004 total=101225784 t=177.9s
+layer 140 new=7439 total=101233223 t=177.9s
+layer 141 new=11578 total=101244801 t=177.9s
+layer 142 new=13692 total=101258493 t=178.0s
+layer 143 new=12928 total=101271421 t=178.0s
+layer 144 new=14414 total=101285835 t=178.0s
+layer 145 new=18529 total=101304364 t=178.0s
+layer 146 new=21969 total=101326333 t=178.1s
+layer 147 new=22553 total=101348886 t=178.1s
+layer 148 new=22287 total=101371173 t=178.2s
+layer 149 new=24763 total=101395936 t=178.2s
+layer 150 new=28296 total=101424232 t=178.2s
+layer 151 new=30646 total=101454878 t=178.3s
+layer 152 new=31737 total=101486615 t=178.3s
+layer 153 new=32847 total=101519462 t=178.4s
+layer 154 new=34442 total=101553904 t=178.4s
+layer 155 new=37033 total=101590937 t=178.5s
+layer 156 new=40294 total=101631231 t=178.6s
+layer 157 new=42462 total=101673693 t=178.6s
+layer 158 new=41643 total=101715336 t=178.7s
+layer 159 new=35900 total=101751236 t=178.8s
+layer 160 new=31471 total=101782707 t=178.8s
+layer 161 new=27897 total=101810604 t=178.9s
+layer 162 new=24694 total=101835298 t=178.9s
+layer 163 new=22318 total=101857616 t=179.0s
+layer 164 new=20212 total=101877828 t=179.0s
+layer 165 new=18102 total=101895930 t=179.0s
+layer 166 new=16040 total=101911970 t=179.1s
+layer 167 new=13575 total=101925545 t=179.1s
+layer 168 new=11740 total=101937285 t=179.1s
+layer 169 new=11534 total=101948819 t=179.1s
+layer 170 new=12575 total=101961394 t=179.2s
+layer 171 new=14467 total=101975861 t=179.2s
+layer 172 new=14760 total=101990621 t=179.2s
+layer 173 new=14179 total=102004800 t=179.3s
+layer 174 new=14131 total=102018931 t=179.3s
+layer 175 new=13561 total=102032492 t=179.3s
+layer 176 new=14675 total=102047167 t=179.3s
+layer 177 new=15484 total=102062651 t=179.4s
+layer 178 new=15412 total=102078063 t=179.4s
+layer 179 new=14881 total=102092944 t=179.4s
+layer 180 new=14454 total=102107398 t=179.5s
+layer 181 new=13589 total=102120987 t=179.5s
+layer 182 new=12714 total=102133701 t=179.5s
+layer 183 new=12689 total=102146390 t=179.5s
+layer 184 new=12988 total=102159378 t=179.5s
+layer 185 new=13021 total=102172399 t=179.6s
+layer 186 new=12555 total=102184954 t=179.6s
+layer 187 new=12615 total=102197569 t=179.6s
+layer 188 new=13760 total=102211329 t=179.6s
+layer 189 new=14162 total=102225491 t=179.7s
+layer 190 new=13523 total=102239014 t=179.7s
+layer 191 new=12564 total=102251578 t=179.7s
+layer 192 new=11157 total=102262735 t=179.8s
+layer 193 new=9820 total=102272555 t=179.8s
+layer 194 new=8818 total=102281373 t=179.8s
+layer 195 new=8284 total=102289657 t=179.8s
+layer 196 new=7671 total=102297328 t=179.9s
+layer 197 new=6731 total=102304059 t=179.9s
+layer 198 new=6338 total=102310397 t=179.9s
+layer 199 new=5920 total=102316317 t=179.9s
+layer 200 new=5745 total=102322062 t=179.9s
+layer 201 new=5514 total=102327576 t=179.9s
+layer 202 new=5395 total=102332971 t=179.9s
+layer 203 new=5360 total=102338331 t=180.0s
+layer 204 new=5889 total=102344220 t=180.0s
+layer 205 new=5779 total=102349999 t=180.0s
+layer 206 new=5254 total=102355253 t=180.0s
+layer 207 new=4239 total=102359492 t=180.0s
+layer 208 new=4123 total=102363615 t=180.0s
+layer 209 new=4587 total=102368202 t=180.0s
+layer 210 new=4682 total=102372884 t=180.1s
+layer 211 new=4585 total=102377469 t=180.1s
+layer 212 new=4027 total=102381496 t=180.1s
+layer 213 new=3752 total=102385248 t=180.1s
+layer 214 new=3337 total=102388585 t=180.1s
+layer 215 new=2623 total=102391208 t=180.1s
+layer 216 new=2167 total=102393375 t=180.1s
+layer 217 new=1959 total=102395334 t=180.1s
+layer 218 new=1705 total=102397039 t=180.1s
+layer 219 new=1442 total=102398481 t=180.1s
+layer 220 new=1252 total=102399733 t=180.2s
+layer 221 new=877 total=102400610 t=180.2s
+layer 222 new=688 total=102401298 t=180.2s
+layer 223 new=611 total=102401909 t=180.2s
+layer 224 new=559 total=102402468 t=180.2s
+layer 225 new=468 total=102402936 t=180.2s
+layer 226 new=361 total=102403297 t=180.2s
+layer 227 new=357 total=102403654 t=180.2s
+layer 228 new=401 total=102404055 t=180.2s
+layer 229 new=355 total=102404410 t=180.2s
+layer 230 new=321 total=102404731 t=180.2s
+layer 231 new=405 total=102405136 t=180.2s
+layer 232 new=491 total=102405627 t=180.2s
+layer 233 new=535 total=102406162 t=180.2s
+layer 234 new=552 total=102406714 t=180.2s
+layer 235 new=493 total=102407207 t=180.2s
+layer 236 new=402 total=102407609 t=180.2s
+layer 237 new=255 total=102407864 t=180.2s
+layer 238 new=152 total=102408016 t=180.2s
+layer 239 new=152 total=102408168 t=180.2s
+layer 240 new=123 total=102408291 t=180.2s
+layer 241 new=124 total=102408415 t=180.2s
+layer 242 new=143 total=102408558 t=180.2s
+layer 243 new=152 total=102408710 t=180.2s
+layer 244 new=105 total=102408815 t=180.2s
+layer 245 new=64 total=102408879 t=180.2s
+layer 246 new=62 total=102408941 t=180.2s
+layer 247 new=30 total=102408971 t=180.2s
+layer 248 new=0 total=102408971 t=180.2s
+RESULT cap=23 mode=quot16 size=102408971 radius=247 NOT-TRIVIAL (component exhausted, (x,y) absent)
+peak_three_layers=7591416
+HIT AK3 dist=0
+HIT ms0199 dist=10
+HIT ms0101 dist=11
+HIT ms0059 dist=14
+HIT ms0724 dist=14
+HIT ms0066 dist=14
+HIT ms0577 dist=15
+HIT ms0262 dist=18
+HIT ms0346 dist=19
+HIT ms1067 dist=22
+HIT ms0108 dist=22
+HIT ms1172 dist=23
+HIT ms0276 dist=24
+HIT ms0304 dist=26
+HIT ms0129 dist=27
+HIT ms0507 dist=27
+HIT ms0647 dist=27
+HIT ms0409 dist=30
+HIT ms0374 dist=32
+HIT ms0206 dist=33
+HIT ms0157 dist=33
+HIT ms0458 dist=33
+HIT ms0234 dist=35
+HIT ms1102 dist=40
+HIT ms1074 dist=40
+HIT ms0269 dist=41
+HIT ms0472 dist=42
+HIT ms0556 dist=43
+HIT ms0773 dist=45
+HIT ms0584 dist=48
+HIT ms0717 dist=50
+HIT ms0780 dist=52
+HIT ms0892 dist=52
+HIT ms0654 dist=63
+HIT ms0864 dist=64
+      180.34 real       170.96 user         1.51 sys
+           518438912  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              131225  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  15  voluntary context switches
+               69321  involuntary context switches
+       2827840152021  instructions retired
+        615210999800  cycles elapsed
+           212059096  peak memory footprint

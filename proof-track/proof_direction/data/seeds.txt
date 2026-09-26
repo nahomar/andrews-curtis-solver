@@ -1,0 +1,6 @@
+13 xxxYYYY xyxYXY AK3
+14 XyyxYYY YxxyXXX P1
+14 XyyxYYY XyxxyXX P2
+14 xxyXy xyyyyyxYY C3
+14 xxxxyXy xyyyxYY C4
+14 xxyxxYY xyXYYXy C6

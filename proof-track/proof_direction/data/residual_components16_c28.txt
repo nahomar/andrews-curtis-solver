@@ -1,0 +1,1295 @@
+component 0 name=AK3 seed=13 xxxYYYY xyxYXY states=8650489 complete=1 trivial=0 residual_members=161
+component 1 name=P1 seed=14 XyyxYYY YxxyXXX states=680700 complete=1 trivial=0 residual_members=11
+component 2 name=P2 seed=14 XyyxYYY XyxxyXX states=1880041 complete=1 trivial=0 residual_members=37
+component 3 name=C3 seed=14 xxyXy xyyyyyxYY states=5981990 complete=1 trivial=0 residual_members=62
+component 4 name=C4 seed=14 xxxxyXy xyyyxYY states=108455 complete=1 trivial=0 residual_members=5
+component 5 name=C6 seed=14 xxyxxYY xyXYYXy states=100703 complete=1 trivial=0 residual_members=6
+component 6 name=R6 seed=14 xxxyXyy xyxyyXY states=103672 complete=0 trivial=1 residual_members=2
+component 7 name=R7 seed=14 xxyxyXY xxYYXyy states=136384 complete=0 trivial=1 residual_members=5
+component 8 name=R8 seed=15 xxyxYY xxxxYxYXy states=148738 complete=1 trivial=0 residual_members=1
+component 9 name=R9 seed=15 xxyxYY xxxxYXYXy states=921014 complete=1 trivial=0 residual_members=29
+component 10 name=R10 seed=15 xxyxYY xxxyXYYXy states=44122 complete=0 trivial=1 residual_members=3
+component 11 name=R11 seed=15 xxyxYY xxxYXyxxY states=24254 complete=0 trivial=1 residual_members=4
+component 12 name=R12 seed=15 xxyxYY xxYxYXyXy states=113544 complete=0 trivial=1 residual_members=1
+component 13 name=R13 seed=15 xxyxYY xxYXYxyXy states=258790 complete=1 trivial=0 residual_members=1
+component 14 name=R14 seed=15 xxyXYY xxxxxYYXY states=193992 complete=1 trivial=0 residual_members=3
+component 15 name=R15 seed=15 xxyXYY xxxxYxYXY states=296822 complete=0 trivial=1 residual_members=12
+component 16 name=R16 seed=15 xxyXYY xxxxYXYXy states=165526 complete=1 trivial=0 residual_members=3
+component 17 name=R17 seed=15 xxyXYY xxxxYYYXy states=122008 complete=1 trivial=0 residual_members=1
+component 18 name=R18 seed=15 xxyXYY xxxYxYYXy states=590935 complete=1 trivial=0 residual_members=16
+component 19 name=R19 seed=15 xxyXYY xxxYxYYXY states=184383 complete=0 trivial=1 residual_members=3
+component 20 name=R20 seed=15 xxyXYY xxxYYXyXy states=238537 complete=1 trivial=0 residual_members=3
+component 21 name=R21 seed=15 xxyXYY xxxYYXYxy states=99274 complete=1 trivial=0 residual_members=1
+component 22 name=R22 seed=15 xxyXYY xxxYYXYxY states=171183 complete=1 trivial=0 residual_members=2
+component 23 name=R23 seed=15 xxyXYY xxxYYXYXy states=112796 complete=1 trivial=0 residual_members=1
+component 24 name=R24 seed=15 xyxYXY xxxxxYYYY states=2066893 complete=1 trivial=0 residual_members=18
+component 25 name=R25 seed=15 xyxYXY xxxxYxYYY states=369237 complete=1 trivial=0 residual_members=1
+component 26 name=R26 seed=15 xyxYXY xxxxYYxYY states=128392 complete=1 trivial=0 residual_members=1
+component 27 name=R27 seed=15 xyxYXY xxxYxxYYY states=257334 complete=1 trivial=0 residual_members=1
+component 28 name=R28 seed=15 xyxYXY xxxYxYYxY states=128061 complete=1 trivial=0 residual_members=1
+component 29 name=R29 seed=15 xxxxyxy xyyyxYxY states=74412 complete=0 trivial=1 residual_members=4
+component 30 name=R30 seed=15 xxxxyXy xxyyyXYY states=160518 complete=1 trivial=0 residual_members=4
+component 31 name=R31 seed=15 xxxxyXy xyxyyXYY states=53618 complete=1 trivial=0 residual_members=1
+component 32 name=R32 seed=15 xxxxyXy xyXYYYXy states=68324 complete=1 trivial=0 residual_members=4
+component 33 name=R33 seed=15 xxxyxyy xyXyXYYY states=54341 complete=0 trivial=1 residual_members=2
+component 34 name=R34 seed=15 xxxyxyy xyyXyxYY states=247721 complete=0 trivial=1 residual_members=6
+component 35 name=R35 seed=15 xxxyxyy xyyyXYxY states=51465 complete=1 trivial=0 residual_members=2
+component 36 name=R36 seed=15 xxxyxYY xxxYxYxy states=41006 complete=1 trivial=0 residual_members=3
+component 37 name=R37 seed=15 xxxyxYY xxxYxYXy states=36186 complete=1 trivial=0 residual_members=2
+component 38 name=R38 seed=15 xxxyxYY xxxYXYxy states=124415 complete=1 trivial=0 residual_members=5
+component 39 name=R39 seed=15 xxxyxYY xxYxxYXy states=118060 complete=0 trivial=1 residual_members=5
+component 40 name=R40 seed=15 xxxyXXy xyxyyXYY states=58181 complete=1 trivial=0 residual_members=3
+component 41 name=R41 seed=15 xxxyXXy xyxyyyXY states=61281 complete=1 trivial=0 residual_members=3
+component 42 name=R42 seed=15 xxxyXXy xyXyXYYY states=61520 complete=1 trivial=0 residual_members=2
+component 43 name=R43 seed=15 xxxyXXy xyXyyxYY states=60112 complete=1 trivial=0 residual_members=3
+component 44 name=R44 seed=15 xxxyXXy xyXyyyxY states=57407 complete=1 trivial=0 residual_members=2
+component 45 name=R45 seed=15 xxxyXXy xyXYxyyy states=74348 complete=0 trivial=1 residual_members=5
+component 46 name=R46 seed=15 xxxyXXy xyXYYxyy states=65591 complete=1 trivial=0 residual_members=4
+component 47 name=R47 seed=15 xxxyXXy xyXYYXYY states=248410 complete=1 trivial=0 residual_members=3
+component 48 name=R48 seed=15 xxxyXXy xyXYYYXy states=35653 complete=1 trivial=0 residual_members=4
+component 49 name=R49 seed=15 xxxyXXy xyyXyyxY states=28517 complete=1 trivial=0 residual_members=2
+component 50 name=R50 seed=15 xxxyXXY xxyyxYYY states=680203 complete=1 trivial=0 residual_members=12
+component 51 name=R51 seed=15 xxxyXXY xxyyXYYY states=660826 complete=1 trivial=0 residual_members=12
+component 52 name=R52 seed=15 xxxyXXY xyxYYYXy states=592114 complete=1 trivial=0 residual_members=11
+component 53 name=R53 seed=15 xxxyXXY xyXyxYYY states=524489 complete=1 trivial=0 residual_members=11
+component 54 name=R54 seed=15 xxxyXyy xyXYYYXy states=285143 complete=1 trivial=0 residual_members=10
+component 55 name=R55 seed=15 xxxyXYY xxxYxYXy states=40193 complete=1 trivial=0 residual_members=3
+component 56 name=R56 seed=15 xxxyXYY xxxYXYxy states=35755 complete=1 trivial=0 residual_members=3
+component 57 name=R57 seed=15 xxxyXYY xxxYXYXy states=38020 complete=1 trivial=0 residual_members=3
+component 58 name=R58 seed=15 xxxyXYY xxxYYXXy states=545398 complete=1 trivial=0 residual_members=17
+component 59 name=R59 seed=15 xxxyXYY xyxyxYYY states=104015 complete=1 trivial=0 residual_members=4
+component 60 name=R60 seed=15 xxxyXYY xyxYYYXy states=36237 complete=1 trivial=0 residual_members=2
+component 61 name=R61 seed=15 xxyxyxY xxYYxyyy states=64908 complete=1 trivial=0 residual_members=1
+component 62 name=R62 seed=15 xxyxyXy xxxyyyyy states=198141 complete=1 trivial=0 residual_members=3
+component 63 name=R63 seed=15 xxyxyXy xyxYYXyy states=60243 complete=0 trivial=1 residual_members=3
+component 64 name=R64 seed=15 xxyxyXY xxxxYXyy states=133204 complete=1 trivial=0 residual_members=4
+component 65 name=R65 seed=15 xxyxyXY xxYYxyyy states=35288 complete=1 trivial=0 residual_members=1
+component 66 name=R66 seed=15 xxyxyXY xxYYXyyy states=44661 complete=1 trivial=0 residual_members=1
+component 67 name=R67 seed=15 xxyxyXY xyxYYXyy states=374363 complete=0 trivial=1 residual_members=5
+component 68 name=R68 seed=15 xxyxyXY xyXyXYYY states=65687 complete=1 trivial=0 residual_members=4
+component 69 name=R69 seed=15 xxyxyXY xyyyxYxY states=50140 complete=1 trivial=0 residual_members=2
+component 70 name=R70 seed=15 xxyxYXY xxxxYxYY states=44411 complete=0 trivial=1 residual_members=3
+component 71 name=R71 seed=15 xxyxYXY xxxxYYXy states=95261 complete=0 trivial=1 residual_members=3
+component 72 name=R72 seed=15 xxyxYXY xxYYYxyy states=31463 complete=1 trivial=0 residual_members=1
+component 73 name=R73 seed=15 xxyxYXY xxYYYXyy states=49692 complete=1 trivial=0 residual_members=1
+component 74 name=R74 seed=15 xxyxYXY xyXyxYYY states=1630825 complete=1 trivial=0 residual_members=8
+component 75 name=R75 seed=15 xxyxYXY xyyxYxYY states=38651 complete=1 trivial=0 residual_members=2
+component 76 name=R76 seed=15 xxyxYXY xyyXyXYY states=41569 complete=0 trivial=1 residual_members=2
+component 77 name=R77 seed=15 xxyXXYY xyxyyyXY states=24962 complete=1 trivial=0 residual_members=1
+component 78 name=R78 seed=15 xxyXXYY xyxYYYXy states=50779 complete=1 trivial=0 residual_members=3
+component 79 name=R79 seed=15 xxyXXYY xyxYYYXY states=25241 complete=1 trivial=0 residual_members=1
+component 80 name=R80 seed=15 xxyXXYY xyXyxYYY states=305341 complete=1 trivial=0 residual_members=16
+component 81 name=R81 seed=15 xxyXXYY xyXyyyXY states=32967 complete=0 trivial=1 residual_members=3
+component 82 name=R82 seed=15 xxyXyXY xxyyyXyy states=40605 complete=1 trivial=0 residual_members=3
+component 83 name=R83 seed=15 xxyXyXY xxYXyyyy states=59868 complete=0 trivial=1 residual_members=2
+component 84 name=R84 seed=15 xxyXyXY xxYXYYYY states=63802 complete=0 trivial=1 residual_members=4
+component 85 name=R85 seed=15 xxyXyXY xxYYXyyy states=32393 complete=1 trivial=0 residual_members=1
+component 86 name=R86 seed=15 xxyXyXY xxYYXYYY states=36475 complete=1 trivial=0 residual_members=2
+component 87 name=R87 seed=15 xxyXyXY xxYYYXyy states=34420 complete=1 trivial=0 residual_members=1
+component 88 name=R88 seed=15 xxyXyXY xyxYXYYY states=51212 complete=1 trivial=0 residual_members=3
+component 89 name=R89 seed=15 xxyXyXY xyxYYXyy states=44953 complete=1 trivial=0 residual_members=2
+component 90 name=R90 seed=15 xxyXyXY xyxYYXYY states=53233 complete=1 trivial=0 residual_members=2
+component 91 name=R91 seed=15 xxyXyXY xyxYYYXy states=135870 complete=1 trivial=0 residual_members=3
+component 92 name=R92 seed=15 xxyXyXY xyXYYXyy states=216192 complete=1 trivial=0 residual_members=7
+component 93 name=R93 seed=15 xxyXYXy xxYYXYYY states=90587 complete=1 trivial=0 residual_members=4
+component 94 name=R94 seed=15 xxyXYXy xyXyxYYY states=1460395 complete=1 trivial=0 residual_members=8
+component 95 name=R95 seed=15 xxyXYXy xyXyXyyy states=73332 complete=0 trivial=1 residual_members=2
+component 96 name=R96 seed=15 xxyXYXy xyyXyXyy states=42465 complete=1 trivial=0 residual_members=2
+component 97 name=R97 seed=15 xxyXYXy xyyXyyxY states=66995 complete=1 trivial=0 residual_members=4
+component 98 name=R98 seed=16 x xyxYxyxYYxyyxYY states=10 complete=0 trivial=1 residual_members=1
+component 99 name=R99 seed=16 x xyXYxyXYYxyyXYY states=6 complete=0 trivial=1 residual_members=1
+component 100 name=R100 seed=16 xxxxyxy xyXyyxYxY states=98755 complete=0 trivial=1 residual_members=1
+component 101 name=R101 seed=16 xxxxyXy xxyxyyXYY states=109682 complete=1 trivial=0 residual_members=4
+component 102 name=R102 seed=16 xxxxyXy xxyxyyyxY states=48955 complete=1 trivial=0 residual_members=3
+component 103 name=R103 seed=16 xxxxyXy xxyxYYXyy states=47320 complete=1 trivial=0 residual_members=1
+component 104 name=R104 seed=16 xxxxyXy xxyyxyyxY states=47001 complete=1 trivial=0 residual_members=3
+component 105 name=R105 seed=16 xxxxyXy xxyyyxYXY states=85335 complete=1 trivial=0 residual_members=1
+component 106 name=R106 seed=16 xxxxyXy xyxyyxYXY states=81907 complete=1 trivial=0 residual_members=1
+component 107 name=R107 seed=16 xxxxyXy xyyyyxYYY states=23461 complete=1 trivial=0 residual_members=1
+component 108 name=R108 seed=16 xxxxyyy xxyxyxyXY states=53652 complete=1 trivial=0 residual_members=1
+component 109 name=R109 seed=16 xxxxyyy xxyxyxYXy states=48526 complete=0 trivial=1 residual_members=1
+component 110 name=R110 seed=16 xxxxyyy xxyxyXyxY states=51565 complete=1 trivial=0 residual_members=1
+component 111 name=R111 seed=16 xxxxyyy xxyxyXYxy states=52709 complete=1 trivial=0 residual_members=1
+component 112 name=R112 seed=16 xxxxyyy xxyxYxyXy states=51609 complete=1 trivial=0 residual_members=1
+component 113 name=R113 seed=16 xxxxyyy xxyXyxyxY states=51604 complete=1 trivial=0 residual_members=1
+component 114 name=R114 seed=16 xxxyxyy xxyXyxyxY states=79520 complete=1 trivial=0 residual_members=2
+component 115 name=R115 seed=16 xxxyxyy xxyyXyxxY states=58677 complete=0 trivial=1 residual_members=1
+component 116 name=R116 seed=16 xxxyxyy xxYxyXyxy states=79888 complete=0 trivial=1 residual_members=3
+component 117 name=R117 seed=16 xxxyxyy xyxYYxyyy states=45089 complete=1 trivial=0 residual_members=1
+component 118 name=R118 seed=16 xxxyxYY xxxYXYXyy states=24019 complete=1 trivial=0 residual_members=1
+component 119 name=R119 seed=16 xxxyxYY xxyXXYYxy states=26620 complete=1 trivial=0 residual_members=1
+component 120 name=R120 seed=16 xxxyxYY xxyXXYYXy states=18744 complete=1 trivial=0 residual_members=1
+component 121 name=R121 seed=16 xxxyxYY xxyXYxYXy states=20159 complete=1 trivial=0 residual_members=1
+component 122 name=R122 seed=16 xxxyxYY xxyXYYXXy states=27882 complete=1 trivial=0 residual_members=1
+component 123 name=R123 seed=16 xxxyxYY xxYxYXyXy states=13346 complete=1 trivial=0 residual_members=1
+component 124 name=R124 seed=16 xxxyxYY xxYXyXyxY states=20059 complete=1 trivial=0 residual_members=1
+component 125 name=R125 seed=16 xxxyxYY xxYXyXyXY states=279821 complete=1 trivial=0 residual_members=2
+component 126 name=R126 seed=16 xxxyxYY xxYXYxyXy states=15022 complete=1 trivial=0 residual_members=1
+component 127 name=R127 seed=16 xxxyxYY xxYXYXyxy states=37390 complete=0 trivial=1 residual_members=2
+component 128 name=R128 seed=16 xxxyxYY xxYXYXyXy states=17917 complete=1 trivial=0 residual_members=1
+component 129 name=R129 seed=16 xxxyXXy xxyxYXyyy states=29026 complete=0 trivial=1 residual_members=1
+component 130 name=R130 seed=16 xxxyXXy xxyyxYXyy states=171135 complete=0 trivial=1 residual_members=5
+component 131 name=R131 seed=16 xxxyXXy xyxyyXyxY states=51166 complete=1 trivial=0 residual_members=3
+component 132 name=R132 seed=16 xxxyXXy xyxYXyXYY states=49475 complete=1 trivial=0 residual_members=2
+component 133 name=R133 seed=16 xxxyXXy xyxYXyyXY states=22147 complete=1 trivial=0 residual_members=1
+component 134 name=R134 seed=16 xxxyXXy xyXyXyxYY states=23507 complete=1 trivial=0 residual_members=1
+component 135 name=R135 seed=16 xxxyXXy xyXyXYYxY states=24502 complete=1 trivial=0 residual_members=2
+component 136 name=R136 seed=16 xxxyXXy xyyyXYYYY states=24996 complete=1 trivial=0 residual_members=1
+component 137 name=R137 seed=16 xxxyXXy xyyyyyxYY states=8764 complete=1 trivial=0 residual_members=1
+component 138 name=R138 seed=16 xxxyXXy xyyyyyyxY states=13038 complete=1 trivial=0 residual_members=1
+component 139 name=R139 seed=16 xxxyXXY xyyyxYYYY states=110469 complete=1 trivial=0 residual_members=1
+component 140 name=R140 seed=16 xxxyXXY xyyyXYYYY states=117413 complete=1 trivial=0 residual_members=1
+component 141 name=R141 seed=16 xxxyXyy xxyxyXYXy states=24767 complete=1 trivial=0 residual_members=2
+component 142 name=R142 seed=16 xxxyXyy xxyxyyXXY states=20332 complete=1 trivial=0 residual_members=1
+component 143 name=R143 seed=16 xxxyXyy xxyyXXyxY states=17904 complete=1 trivial=0 residual_members=1
+component 144 name=R144 seed=16 xxxyXyy xxyyXXYxy states=32925 complete=1 trivial=0 residual_members=1
+component 145 name=R145 seed=16 xxxyXyy xxyyyyyxY states=22747 complete=1 trivial=0 residual_members=1
+component 146 name=R146 seed=16 xxxyXyy xxYxyyXXy states=17393 complete=1 trivial=0 residual_members=1
+component 147 name=R147 seed=16 xxxyXyy xxYXyXYXY states=19047 complete=1 trivial=0 residual_members=2
+component 148 name=R148 seed=16 xxxyXyy xxYXYXyXY states=18244 complete=1 trivial=0 residual_members=1
+component 149 name=R149 seed=16 xxxyXyy xyxyyyyxY states=17707 complete=1 trivial=0 residual_members=1
+component 150 name=R150 seed=16 xxxyXyy xyxYxyyyy states=15455 complete=1 trivial=0 residual_members=1
+component 151 name=R151 seed=16 xxxyXyy xyxYYXyyy states=16972 complete=1 trivial=0 residual_members=1
+component 152 name=R152 seed=16 xxxyXyy xyXYYYYXy states=18972 complete=1 trivial=0 residual_members=1
+component 153 name=R153 seed=16 xxxyXyy xyyxyyyxY states=18708 complete=1 trivial=0 residual_members=1
+component 154 name=R154 seed=16 xxxyXyy xyyyXyxYY states=27106 complete=1 trivial=0 residual_members=2
+component 155 name=R155 seed=16 xxxyXYY xxxxYYYxy states=29146 complete=1 trivial=0 residual_members=1
+component 156 name=R156 seed=16 xxxyXYY xxxxYYYXy states=68477 complete=1 trivial=0 residual_members=1
+component 157 name=R157 seed=16 xxxyXYY xxxYxYYxy states=28409 complete=1 trivial=0 residual_members=2
+component 158 name=R158 seed=16 xxxyXYY xxxYxYYXy states=24616 complete=1 trivial=0 residual_members=2
+component 159 name=R159 seed=16 xxxyXYY xxxYYxYxy states=19295 complete=1 trivial=0 residual_members=1
+component 160 name=R160 seed=16 xxxyXYY xxxYYxYXy states=21896 complete=1 trivial=0 residual_members=1
+component 161 name=R161 seed=16 xxxyXYY xxxYYXyXy states=52488 complete=1 trivial=0 residual_members=1
+component 162 name=R162 seed=16 xxxyXYY xxxYYXYxy states=14933 complete=1 trivial=0 residual_members=1
+component 163 name=R163 seed=16 xxxyXYY xxyxxYYxY states=23597 complete=1 trivial=0 residual_members=1
+component 164 name=R164 seed=16 xxxyXYY xxyxxYYXY states=17960 complete=1 trivial=0 residual_members=1
+component 165 name=R165 seed=16 xxxyXYY xxyxYxYXY states=31553 complete=0 trivial=1 residual_members=1
+component 166 name=R166 seed=16 xxxyXYY xxyxYYXXy states=32686 complete=1 trivial=0 residual_members=2
+component 167 name=R167 seed=16 xxxyXYY xxyyXXYxY states=23538 complete=1 trivial=0 residual_members=1
+component 168 name=R168 seed=16 xxxyXYY xxyyXXYXY states=20433 complete=1 trivial=0 residual_members=1
+component 169 name=R169 seed=16 xxxyXYY xxYxxYYXy states=23197 complete=1 trivial=0 residual_members=1
+component 170 name=R170 seed=16 xxxyXYY xxYxyyXXY states=21374 complete=1 trivial=0 residual_members=1
+component 171 name=R171 seed=16 xxxyXYY xxYxYxYXy states=17439 complete=1 trivial=0 residual_members=1
+component 172 name=R172 seed=16 xxxyXYY xxYxYXyxY states=25146 complete=1 trivial=0 residual_members=1
+component 173 name=R173 seed=16 xxxyXYY xxYxYXYxy states=14646 complete=1 trivial=0 residual_members=1
+component 174 name=R174 seed=16 xxxyXYY xxYXyxYxY states=20619 complete=0 trivial=1 residual_members=1
+component 175 name=R175 seed=16 xxxyXYY xxYXyyXXY states=27953 complete=1 trivial=0 residual_members=1
+component 176 name=R176 seed=16 xxxyXYY xxYXYxyxY states=22021 complete=1 trivial=0 residual_members=1
+component 177 name=R177 seed=16 xxxyXYY xxYXYxYxy states=17048 complete=1 trivial=0 residual_members=1
+component 178 name=R178 seed=16 xxxyXYY xxYXYXyxy states=18557 complete=1 trivial=0 residual_members=1
+component 179 name=R179 seed=16 xxxyXYY xyxyxYYYY states=21799 complete=1 trivial=0 residual_members=1
+component 180 name=R180 seed=16 xxyxxYY xxxyXYYXy states=10271 complete=1 trivial=0 residual_members=1
+component 181 name=R181 seed=16 xxyxxYY xxxyyXYXY states=212025 complete=0 trivial=1 residual_members=1
+component 182 name=R182 seed=16 xxyxxYY xxyXYxYXy states=13594 complete=1 trivial=0 residual_members=1
+component 183 name=R183 seed=16 xxyxxYY xxyXYXYXy states=20260 complete=1 trivial=0 residual_members=2
+component 184 name=R184 seed=16 xxyxxYY xxYxyXyXY states=16945 complete=1 trivial=0 residual_members=1
+component 185 name=R185 seed=16 xxyxxYY xxYXyxyXY states=7970 complete=1 trivial=0 residual_members=1
+component 186 name=R186 seed=16 xxyxxYY xxYXyXyXY states=9913 complete=1 trivial=0 residual_members=1
+component 187 name=R187 seed=16 xxyxxYY xyxyyXYYY states=48702 complete=1 trivial=0 residual_members=2
+component 188 name=R188 seed=16 xxyxxYY xyXYYYXyy states=14649 complete=1 trivial=0 residual_members=1
+component 189 name=R189 seed=16 xxyxyxY xxxYXyyXY states=70413 complete=1 trivial=0 residual_members=2
+component 190 name=R190 seed=16 xxyxyxY xxxYYXyXy states=38577 complete=1 trivial=0 residual_members=1
+component 191 name=R191 seed=16 xxyxyxY xxyXXYYXy states=63937 complete=1 trivial=0 residual_members=2
+component 192 name=R192 seed=16 xxyxyxY xxYxyyXXY states=46323 complete=1 trivial=0 residual_members=1
+component 193 name=R193 seed=16 xxyxyxY xxYXyxyXY states=28072 complete=0 trivial=1 residual_members=1
+component 194 name=R194 seed=16 xxyxyxY xxYXyyXXY states=42404 complete=1 trivial=0 residual_members=1
+component 195 name=R195 seed=16 xxyxyxY xxYYYXyyy states=470850 complete=0 trivial=1 residual_members=1
+component 196 name=R196 seed=16 xxyxyxY xyyyXYxYY states=54870 complete=1 trivial=0 residual_members=1
+component 197 name=R197 seed=16 xxyxyXy xxyXXyyxY states=19515 complete=0 trivial=1 residual_members=1
+component 198 name=R198 seed=16 xxyxyXy xxyyyyyxY states=25244 complete=1 trivial=0 residual_members=1
+component 199 name=R199 seed=16 xxyxyXy xxYxyXXyy states=63274 complete=1 trivial=0 residual_members=2
+component 200 name=R200 seed=16 xxyxyXy xxYxyyyyy states=24327 complete=1 trivial=0 residual_members=1
+component 201 name=R201 seed=16 xxyxyXy xxYYXyyyy states=22757 complete=1 trivial=0 residual_members=1
+component 202 name=R202 seed=16 xxyxyXy xyxYxyyyy states=24617 complete=1 trivial=0 residual_members=1
+component 203 name=R203 seed=16 xxyxyXy xyxYYXyyy states=23872 complete=1 trivial=0 residual_members=1
+component 204 name=R204 seed=16 xxyxyXy xyyxyyXYY states=42923 complete=1 trivial=0 residual_members=1
+component 205 name=R205 seed=16 xxyxyXy xyyxyyyxY states=31852 complete=1 trivial=0 residual_members=1
+component 206 name=R206 seed=16 xxyxyXy xyyxYxyyy states=28020 complete=1 trivial=0 residual_members=1
+component 207 name=R207 seed=16 xxyxyXy xyyxYYXyy states=29299 complete=1 trivial=0 residual_members=1
+component 208 name=R208 seed=16 xxyxyXy xyyXYYYXY states=30698 complete=1 trivial=0 residual_members=1
+component 209 name=R209 seed=16 xxyxyXY xxxxYxyyy states=21622 complete=1 trivial=0 residual_members=1
+component 210 name=R210 seed=16 xxyxyXY xxxxYXyyy states=27340 complete=1 trivial=0 residual_members=1
+component 211 name=R211 seed=16 xxyxyXY xxxyyXXYY states=52541 complete=1 trivial=0 residual_members=2
+component 212 name=R212 seed=16 xxyxyXY xxxyyyxxY states=32147 complete=1 trivial=0 residual_members=1
+component 213 name=R213 seed=16 xxyxyXY xxxYxyyxy states=30891 complete=1 trivial=0 residual_members=1
+component 214 name=R214 seed=16 xxyxyXY xxxYxyyXy states=31939 complete=1 trivial=0 residual_members=1
+component 215 name=R215 seed=16 xxyxyXY xxxYXyyxy states=34944 complete=1 trivial=0 residual_members=1
+component 216 name=R216 seed=16 xxyxyXY xxxYYXyXy states=35211 complete=1 trivial=0 residual_members=1
+component 217 name=R217 seed=16 xxyxyXY xxyyxxYxy states=4355 complete=0 trivial=1 residual_members=1
+component 218 name=R218 seed=16 xxyxyXY xxYYxyyyy states=17326 complete=1 trivial=0 residual_members=1
+component 219 name=R219 seed=16 xxyxyXY xxYYYXyyy states=19993 complete=1 trivial=0 residual_members=1
+component 220 name=R220 seed=16 xxyxyXY xyxYYxyyy states=30662 complete=1 trivial=0 residual_members=1
+component 221 name=R221 seed=16 xxyxyXY xyxYYYXyy states=38488 complete=1 trivial=0 residual_members=1
+component 222 name=R222 seed=16 xxyxyXY xyXyyXYYY states=40078 complete=1 trivial=0 residual_members=1
+component 223 name=R223 seed=16 xxyxyXY xyyxyyxYY states=41869 complete=1 trivial=0 residual_members=1
+component 224 name=R224 seed=16 xxyxyXY xyyXyXYYY states=26546 complete=1 trivial=0 residual_members=1
+component 225 name=R225 seed=16 xxyxyXY xyyyyxYxY states=24023 complete=1 trivial=0 residual_members=1
+component 226 name=R226 seed=16 xxyxYXy xxyyyXYYY states=67377 complete=0 trivial=1 residual_members=1
+component 227 name=R227 seed=16 xxyxYXy xxyyyyxYY states=123178 complete=0 trivial=1 residual_members=1
+component 228 name=R228 seed=16 xxyxYXY xxxxYYYxy states=32429 complete=1 trivial=0 residual_members=1
+component 229 name=R229 seed=16 xxyxYXY xxxxYYYXy states=23726 complete=1 trivial=0 residual_members=1
+component 230 name=R230 seed=16 xxyxYXY xxxYxYYxy states=29078 complete=1 trivial=0 residual_members=1
+component 231 name=R231 seed=16 xxyxYXY xxxYxYYXy states=26069 complete=1 trivial=0 residual_members=1
+component 232 name=R232 seed=16 xxyxYXY xxxYYxYXy states=25982 complete=1 trivial=0 residual_members=1
+component 233 name=R233 seed=16 xxyxYXY xxxYYXyxY states=35793 complete=1 trivial=0 residual_members=1
+component 234 name=R234 seed=16 xxyxYXY xxxYYXyXy states=22037 complete=0 trivial=1 residual_members=2
+component 235 name=R235 seed=16 xxyxYXY xxyXXYYXy states=43660 complete=0 trivial=1 residual_members=2
+component 236 name=R236 seed=16 xxyxYXY xxYxxYYXy states=7230 complete=0 trivial=1 residual_members=1
+component 237 name=R237 seed=16 xxyxYXY xxYXyxxYY states=30041 complete=1 trivial=0 residual_members=1
+component 238 name=R238 seed=16 xxyxYXY xxYYYXyyy states=15398 complete=1 trivial=0 residual_members=1
+component 239 name=R239 seed=16 xxyxYXY xxYYYYxyy states=15457 complete=1 trivial=0 residual_members=1
+component 240 name=R240 seed=16 xxyxYXY xyXyyxYYY states=23796 complete=1 trivial=0 residual_members=1
+component 241 name=R241 seed=16 xxyxYXY xyXyyXYYY states=21354 complete=1 trivial=0 residual_members=1
+component 242 name=R242 seed=16 xxyxYXY xyyxYxYYY states=17867 complete=1 trivial=0 residual_members=1
+component 243 name=R243 seed=16 xxyxYXY xyyxYYxYY states=20711 complete=1 trivial=0 residual_members=1
+component 244 name=R244 seed=16 xxyxYXY xyyxYYYxY states=22698 complete=1 trivial=0 residual_members=1
+component 245 name=R245 seed=16 xxyxYXY xyyXyxYYY states=26564 complete=1 trivial=0 residual_members=1
+component 246 name=R246 seed=16 xxyxYXY xyyXyXYYY states=18384 complete=1 trivial=0 residual_members=1
+component 247 name=R247 seed=16 xxyxYXY xyyyXYxYY states=27671 complete=1 trivial=0 residual_members=1
+component 248 name=R248 seed=16 xxyxYXY xyyyXYYxY states=27518 complete=1 trivial=0 residual_members=1
+component 249 name=R249 seed=16 xxyXXYY xxxyyXyXy states=34717 complete=1 trivial=0 residual_members=2
+component 250 name=R250 seed=16 xxyXXYY xxxyyXyXY states=102964 complete=0 trivial=1 residual_members=6
+component 251 name=R251 seed=16 xxyXXYY xxxyyXYXy states=26730 complete=0 trivial=1 residual_members=2
+component 252 name=R252 seed=16 xxyXXYY xxxyyXYXY states=27042 complete=1 trivial=0 residual_members=2
+component 253 name=R253 seed=16 xxyXXYY xxyxyXYXy states=42235 complete=0 trivial=1 residual_members=2
+component 254 name=R254 seed=16 xxyXXYY xxyxYXYXy states=42593 complete=1 trivial=0 residual_members=2
+component 255 name=R255 seed=16 xxyXXYY xyxyyXyyy states=22066 complete=1 trivial=0 residual_members=1
+component 256 name=R256 seed=16 xxyXXYY xyxyyXYYY states=20872 complete=1 trivial=0 residual_members=1
+component 257 name=R257 seed=16 xxyXXYY xyxyyyyXy states=16105 complete=1 trivial=0 residual_members=1
+component 258 name=R258 seed=16 xxyXXYY xyxyyyyXY states=15937 complete=1 trivial=0 residual_members=1
+component 259 name=R259 seed=16 xxyXXYY xyxYYXyyy states=20990 complete=1 trivial=0 residual_members=1
+component 260 name=R260 seed=16 xxyXXYY xyxYYXYYY states=21765 complete=1 trivial=0 residual_members=1
+component 261 name=R261 seed=16 xxyXXYY xyxYYYYXy states=15876 complete=1 trivial=0 residual_members=1
+component 262 name=R262 seed=16 xxyXXYY xyxYYYYXY states=15962 complete=1 trivial=0 residual_members=1
+component 263 name=R263 seed=16 xxyXXYY xyyxyyyXy states=18631 complete=1 trivial=0 residual_members=1
+component 264 name=R264 seed=16 xxyXXYY xyyxyyyXY states=18482 complete=1 trivial=0 residual_members=1
+component 265 name=R265 seed=16 xxyXXYY xyyxYYYXy states=18382 complete=1 trivial=0 residual_members=1
+component 266 name=R266 seed=16 xxyXXYY xyyxYYYXY states=18385 complete=1 trivial=0 residual_members=1
+component 267 name=R267 seed=16 xxyXXYY xyyXyxyyy states=20817 complete=1 trivial=0 residual_members=1
+component 268 name=R268 seed=16 xxyXXYY xyyXyxYYY states=18683 complete=1 trivial=0 residual_members=1
+component 269 name=R269 seed=16 xxyXXYY xyyXyyyXY states=18541 complete=1 trivial=0 residual_members=1
+component 270 name=R270 seed=16 xxyXXYY xyyXYxYYY states=18591 complete=1 trivial=0 residual_members=1
+component 271 name=R271 seed=16 xxyXyXY xxxyyXXyy states=28533 complete=1 trivial=0 residual_members=1
+component 272 name=R272 seed=16 xxyXyXY xxxyyXYXy states=100865 complete=1 trivial=0 residual_members=2
+component 273 name=R273 seed=16 xxyXyXY xxxYXYYXy states=48053 complete=1 trivial=0 residual_members=2
+component 274 name=R274 seed=16 xxyXyXY xxyyXXYXy states=42177 complete=1 trivial=0 residual_members=1
+component 275 name=R275 seed=16 xxyXyXY xxyyyXyyy states=18201 complete=1 trivial=0 residual_members=1
+component 276 name=R276 seed=16 xxyXyXY xxyyyyXyy states=18005 complete=1 trivial=0 residual_members=1
+component 277 name=R277 seed=16 xxyXyXY xxYxyXXYY states=54661 complete=1 trivial=0 residual_members=1
+component 278 name=R278 seed=16 xxyXyXY xxYXyyyyy states=17731 complete=1 trivial=0 residual_members=1
+component 279 name=R279 seed=16 xxyXyXY xxYXYYYYY states=21634 complete=1 trivial=0 residual_members=1
+component 280 name=R280 seed=16 xxyXyXY xxYYXyyyy states=14755 complete=1 trivial=0 residual_members=1
+component 281 name=R281 seed=16 xxyXyXY xxYYXYYYY states=16294 complete=1 trivial=0 residual_members=1
+component 282 name=R282 seed=16 xxyXyXY xxYYYXyyy states=13885 complete=1 trivial=0 residual_members=1
+component 283 name=R283 seed=16 xxyXyXY xxYYYXYYY states=16420 complete=1 trivial=0 residual_members=1
+component 284 name=R284 seed=16 xxyXyXY xxYYYYXyy states=14735 complete=1 trivial=0 residual_members=1
+component 285 name=R285 seed=16 xxyXyXY xxYYYYYXy states=491338 complete=1 trivial=0 residual_members=3
+component 286 name=R286 seed=16 xxyXyXY xyxyyXyyy states=34206 complete=1 trivial=0 residual_members=1
+component 287 name=R287 seed=16 xxyXyXY xyxyyXYYY states=20309 complete=1 trivial=0 residual_members=1
+component 288 name=R288 seed=16 xxyXyXY xyxyyyXyy states=42085 complete=1 trivial=0 residual_members=1
+component 289 name=R289 seed=16 xxyXyXY xyxyyyXYY states=23502 complete=1 trivial=0 residual_members=1
+component 290 name=R290 seed=16 xxyXyXY xyxyyyyXy states=24194 complete=1 trivial=0 residual_members=1
+component 291 name=R291 seed=16 xxyXyXY xyxYXyyyy states=17867 complete=1 trivial=0 residual_members=1
+component 292 name=R292 seed=16 xxyXyXY xyxYXYYYY states=22046 complete=1 trivial=0 residual_members=1
+component 293 name=R293 seed=16 xxyXyXY xyxYYXyyy states=18311 complete=1 trivial=0 residual_members=1
+component 294 name=R294 seed=16 xxyXyXY xyxYYXYYY states=22311 complete=1 trivial=0 residual_members=1
+component 295 name=R295 seed=16 xxyXyXY xyxYYYXyy states=17267 complete=1 trivial=0 residual_members=1
+component 296 name=R296 seed=16 xxyXyXY xyxYYYXYY states=23422 complete=1 trivial=0 residual_members=1
+component 297 name=R297 seed=16 xxyXyXY xyxYYYYXy states=20528 complete=1 trivial=0 residual_members=1
+component 298 name=R298 seed=16 xxyXyXY xyXYYxyyy states=26521 complete=1 trivial=0 residual_members=1
+component 299 name=R299 seed=16 xxyXyXY xyXYYXyyy states=41762 complete=1 trivial=0 residual_members=2
+component 300 name=R300 seed=16 xxyXyXY xyXYYXYYY states=20018 complete=1 trivial=0 residual_members=1
+component 301 name=R301 seed=16 xxyXyXY xyXYYYxyy states=23194 complete=1 trivial=0 residual_members=1
+component 302 name=R302 seed=16 xxyXyXY xyXYYYXyy states=19986 complete=1 trivial=0 residual_members=1
+component 303 name=R303 seed=16 xxyXyXY xyXYYYXYY states=20156 complete=1 trivial=0 residual_members=1
+component 304 name=R304 seed=16 xxyXyXY xyyxyyXyy states=30556 complete=1 trivial=0 residual_members=1
+component 305 name=R305 seed=16 xxyXyXY xyyxyyXYY states=20485 complete=1 trivial=0 residual_members=1
+component 306 name=R306 seed=16 xxyXyXY xyyxyyyXy states=22101 complete=1 trivial=0 residual_members=1
+component 307 name=R307 seed=16 xxyXyXY xyyxYYXyy states=20577 complete=1 trivial=0 residual_members=1
+component 308 name=R308 seed=16 xxyXyXY xyyxYYXYY states=18845 complete=1 trivial=0 residual_members=1
+component 309 name=R309 seed=16 xxyXyXY xyyxYYYXY states=22418 complete=1 trivial=0 residual_members=1
+component 310 name=R310 seed=16 xxyXyXY xyyXyxyyy states=24009 complete=0 trivial=1 residual_members=1
+component 311 name=R311 seed=16 xxyXyXY xyyXYYxYY states=36647 complete=1 trivial=0 residual_members=1
+component 312 name=R312 seed=16 xxyXyXY xyyXYYYxY states=29793 complete=1 trivial=0 residual_members=1
+component 313 name=R313 seed=16 xxyXyXY xyyXYYYXy states=26502 complete=1 trivial=0 residual_members=1
+component 314 name=R314 seed=16 xxyXyXY xyyXYYYXY states=24191 complete=1 trivial=0 residual_members=1
+component 315 name=R315 seed=16 xxyXyXY xyyyXYYxY states=30476 complete=1 trivial=0 residual_members=1
+component 316 name=R316 seed=16 xxyXYXy xxxyyXyXY states=59423 complete=1 trivial=0 residual_members=2
+component 317 name=R317 seed=16 xxyXYXy xxYXYYYYY states=51299 complete=0 trivial=1 residual_members=1
+component 318 name=R318 seed=16 xxyXYXy xxYYXYYYY states=46861 complete=1 trivial=0 residual_members=1
+component 319 name=R319 seed=16 xxyXYXy xxYYYXYYY states=23386 complete=1 trivial=0 residual_members=1
+component 320 name=R320 seed=16 xxyXYXy xyXyxYYYY states=65300 complete=1 trivial=0 residual_members=2
+component 321 name=R321 seed=16 xxyXYXy xyXyXyyyy states=42062 complete=1 trivial=0 residual_members=1
+component 322 name=R322 seed=16 xxyXYXy xyXyXYYYY states=72004 complete=1 trivial=0 residual_members=2
+component 323 name=R323 seed=16 xxyXYXy xyXyyxYYY states=87552 complete=1 trivial=0 residual_members=2
+component 324 name=R324 seed=16 xxyXYXy xyXyyXyyy states=43005 complete=1 trivial=0 residual_members=1
+component 325 name=R325 seed=16 xxyXYXy xyXyyXYYY states=35824 complete=1 trivial=0 residual_members=1
+component 326 name=R326 seed=16 xxyXYXy xyXyyyxyy states=79601 complete=0 trivial=1 residual_members=1
+component 327 name=R327 seed=16 xxyXYXy xyXyyyyXy states=28752 complete=1 trivial=0 residual_members=1
+component 328 name=R328 seed=16 xxyXYXy xyyXyXyyy states=40296 complete=1 trivial=0 residual_members=1
+component 329 name=R329 seed=16 xxyXYXy xyyXyXYYY states=64294 complete=1 trivial=0 residual_members=1
+component 330 name=R330 seed=16 xxyXYXy xyyXyyxYY states=32139 complete=1 trivial=0 residual_members=1
+component 331 name=R331 seed=16 xxyXYXy xyyXyyXyy states=22081 complete=1 trivial=0 residual_members=1
+component 332 name=R332 seed=16 xxyXYXy xyyXyyXYY states=63998 complete=1 trivial=0 residual_members=1
+component 333 name=R333 seed=16 xxyXYXy xyyXyyyxY states=67295 complete=1 trivial=0 residual_members=1
+component 334 name=R334 seed=16 xxyXYXy xyyXYYYxY states=64068 complete=1 trivial=0 residual_members=1
+member 13 xxyXYY xxxYYXy 0
+member 13 xyxYXY xxxxYYY 0
+member 14 xxyXy xyyyXYYYY 0
+member 14 xxyXy xyyyyyxYY 3
+member 14 xxxxyXy xyyyxYY 4
+member 14 xxxxyyy xyxyyxY 3
+member 14 xxxyXXy xyyXYYY 2
+member 14 xxxyXXY xyyXYYY 1
+member 14 xxxyXyy xyxyyXY -2
+member 14 xxxyXYY xyyXYxY 0
+member 14 xxyxxYY xyXYYXy 5
+member 14 xxyxyXY xxYYXyy -2
+member 14 xxyxYXY xyXyxYY 3
+member 14 xxyxYXY xyXyXYY 0
+member 14 xxyXXYY xyxYYXy 2
+member 14 xxyXyXY xyxyXYY 0
+member 14 xxyXyXY xyXYYXy 0
+member 14 xxyXYXy xyXyxYY 3
+member 15 xxyXy xxyyyyXYYY 0
+member 15 xxyXy xxyyyyyXYY 0
+member 15 xxyXy xxyyyyyyxY 3
+member 15 xxyXy xyxyxyyyyy 0
+member 15 xxyXy xyxyyyyyxY 3
+member 15 xxyXy xyXYYxyyyy 0
+member 15 xxyXy xyXYYYxyyy 0
+member 15 xxyXy xyXYYYYXyy 3
+member 15 xxyXy xyyxyyyyxY 3
+member 15 xxyXy xyyyxyyyxY 3
+member 15 xxyxYY xxxxxxYXY 3
+member 15 xxyxYY xxxxYxYXy 8
+member 15 xxyxYY xxxxYXyXY 3
+member 15 xxyxYY xxxxYXYXy 9
+member 15 xxyxYY xxxxYYYxy 9
+member 15 xxyxYY xxxyXYYXy -2
+member 15 xxyxYY xxxYxxYXy -2
+member 15 xxyxYY xxxYxyXXY 0
+member 15 xxyxYY xxxYXXYxy 9
+member 15 xxyxYY xxxYXyxxY -2
+member 15 xxyxYY xxxYYYXyy 9
+member 15 xxyxYY xxyXXYYxy 9
+member 15 xxyxYY xxyXYxYXy -2
+member 15 xxyxYY xxYxYXyXy -2
+member 15 xxyxYY xxYXyXyxY 0
+member 15 xxyxYY xxYXyXyXY 3
+member 15 xxyxYY xxYXYxyXy 13
+member 15 xxyxYY xxYXYXyXy -2
+member 15 xxyxYY xxYXYYxyy 9
+member 15 xxyxYY xxYYXYxyy -2
+member 15 xxyxYY xxYYYxyXy -2
+member 15 xxyxYY xyXYYXyXy 0
+member 15 xxyxYY xyyxYxYxY 3
+member 15 xxyXYY xxxxxYYXY 14
+member 15 xxyXYY xxxxYxYXY -2
+member 15 xxyXYY xxxxYXXXy 0
+member 15 xxyXYY xxxxYXyXY 0
+member 15 xxyXYY xxxxYXYXy 16
+member 15 xxyXYY xxxxYXYXY -2
+member 15 xxyXYY xxxxYYYxY -2
+member 15 xxyXYY xxxxYYYXy 17
+member 15 xxyXYY xxxxYYYXY 16
+member 15 xxyXYY xxxyXyXXY 0
+member 15 xxyXYY xxxyyXXXY 2
+member 15 xxyXYY xxxYxyXXY 0
+member 15 xxyXYY xxxYxYYXy 18
+member 15 xxyXYY xxxYxYYXY -2
+member 15 xxyXYY xxxYXXYXy 0
+member 15 xxyXYY xxxYXyXXy 0
+member 15 xxyXYY xxxYXyXXY 0
+member 15 xxyXYY xxxYXyyXY 0
+member 15 xxyXYY xxxYXYYxy 0
+member 15 xxyXYY xxxYXYYXy 2
+member 15 xxyXYY xxxYYxyXY 0
+member 15 xxyXYY xxxYYxYXy 16
+member 15 xxyXYY xxxYYxYXY -2
+member 15 xxyXYY xxxYYXyxY 14
+member 15 xxyXYY xxxYYXyXy 20
+member 15 xxyXYY xxxYYXyXY 2
+member 15 xxyXYY xxxYYXYxy 21
+member 15 xxyXYY xxxYYXYxY 22
+member 15 xxyXYY xxxYYXYXy 23
+member 15 xxyXYY xxyxxYYXY 0
+member 15 xxyXYY xxYxxYYXy 2
+member 15 xxyXYY xxYxxYYXY 0
+member 15 xxyXYY xxYxyXyXY 0
+member 15 xxyXYY xxYxyyXXY 0
+member 15 xxyXYY xxYxYxYXy -2
+member 15 xxyXYY xxYxYXyxY -2
+member 15 xxyXYY xxYxYXyXy 2
+member 15 xxyXYY xxYxYXyXY 0
+member 15 xxyXYY xxYxYXYxy 22
+member 15 xxyXYY xxYxYXYXy 14
+member 15 xxyXYY xxYXyxxYY 0
+member 15 xxyXYY xxYXyXyxY 0
+member 15 xxyXYY xxYXyXyXy 0
+member 15 xxyXYY xxYXyXyXY 0
+member 15 xxyXYY xxYXyyXXy 0
+member 15 xxyXYY xxYXyyXXY 0
+member 15 xxyXYY xxYXYXyxy -2
+member 15 xxyXYY xxYXYXyxY -2
+member 15 xxyXYY xxYXYXyXy 0
+member 15 xyxyxY xxxxxxyXy 3
+member 15 xyxyxY xxxxyXXXY 0
+member 15 xyxYXY xxxxxYYYY 24
+member 15 xyxYXY xxxxyXXXY 0
+member 15 xyxYXY xxxxYxYYY 25
+member 15 xyxYXY xxxxYXXXY 3
+member 15 xyxYXY xxxxYXXYY 3
+member 15 xyxYXY xxxxYYxYY 26
+member 15 xyxYXY xxxyXXyXY 0
+member 15 xyxYXY xxxYxxYYY 27
+member 15 xyxYXY xxxYxyXXY 0
+member 15 xyxYXY xxxYxYXXY 3
+member 15 xyxYXY xxxYxYYxY 28
+member 15 xyxYXY xxxYXXyXY 3
+member 15 xyxYXY xxxYXyxYY 0
+member 15 xyxYXY xxxYXyXYY 3
+member 15 xyxYXY xxyXXyxYY 3
+member 15 xyxYXY xxyXXyXXy 3
+member 15 xyxYXY xxyXXyyXY 0
+member 15 xyxYXY xxYxyXyXY 0
+member 15 xyxYXY xxYxYXyXY 3
+member 15 xyxYXY xxYXyXyXY 3
+member 15 xxxxyxy xyyyxYxY -2
+member 15 xxxxyXy xxyyyXYY 30
+member 15 xxxxyXy xyxyyXYY 31
+member 15 xxxxyXy xyXYYxyy 30
+member 15 xxxxyXy xyXYYYXy 32
+member 15 xxxxyyy xxxyXyXY 3
+member 15 xxxxyyy xxxyXYXy 3
+member 15 xxxxyyy xyXYYxyy 0
+member 15 xxxyxyy xyXyXYYY -2
+member 15 xxxyxyy xyyXyxYY -2
+member 15 xxxyxyy xyyyXYxY 35
+member 15 xxxyxYY xxxYxYxy 36
+member 15 xxxyxYY xxxYxYXy 37
+member 15 xxxyxYY xxxYXYxy 38
+member 15 xxxyxYY xxYxxYxy 9
+member 15 xxxyxYY xxYxxYXy -2
+member 15 xxxyxYY xxYYYxyy 38
+member 15 xxxyXXy xyxyyXYY 40
+member 15 xxxyXXy xyxyyyXY 41
+member 15 xxxyXXy xyXyXYYY 42
+member 15 xxxyXXy xyXyyxYY 43
+member 15 xxxyXXy xyXyyyxY 44
+member 15 xxxyXXy xyXYxyyy -2
+member 15 xxxyXXy xyXYYxyy 46
+member 15 xxxyXXy xyXYYXYY 47
+member 15 xxxyXXy xyXYYYXy 48
+member 15 xxxyXXy xyyXyyxY 49
+member 15 xxxyXXY xxyyxYYY 50
+member 15 xxxyXXY xxyyXYYY 51
+member 15 xxxyXXY xyxyxYYY 50
+member 15 xxxyXXY xyxyXYYY 51
+member 15 xxxyXXY xyxyyxYY 51
+member 15 xxxyXXY xyxyyXYY 50
+member 15 xxxyXXY xyxYYxyy 1
+member 15 xxxyXXY xyxYYXyy 2
+member 15 xxxyXXY xyxYYYXy 52
+member 15 xxxyXXY xyXyxYYY 53
+member 15 xxxyXXY xyXyyxYY 52
+member 15 xxxyXXY xyXyyXYY 53
+member 15 xxxyXXY xyXYYxyy 2
+member 15 xxxyXXY xyXYYXyy 1
+member 15 xxxyXyy xxYxyXXy 0
+member 15 xxxyXyy xyXYYYXy 54
+member 15 xxxyXyy xyyxYYXy 0
+member 15 xxxyXyy xyyXyxYY 9
+member 15 xxxyXyy xyyyXYxY 9
+member 15 xxxyXYY xxxxYYXy 24
+member 15 xxxyXYY xxxYxYXy 55
+member 15 xxxyXYY xxxYXyXY 0
+member 15 xxxyXYY xxxYXYxy 56
+member 15 xxxyXYY xxxYXYXy 57
+member 15 xxxyXYY xxxYYXXy 58
+member 15 xxxyXYY xxYxxYXy 0
+member 15 xxxyXYY xxYxyXXY 0
+member 15 xxxyXYY xyxyxYYY 59
+member 15 xxxyXYY xyxYYYXy 60
+member 15 xxxyXYY xyXyxYYY 58
+member 15 xxxyXYY xyyXYxYY 0
+member 15 xxyxxYY xyxyxYYY 0
+member 15 xxyxyxY xxxxYXyy 9
+member 15 xxyxyxY xxxYxyXy 9
+member 15 xxyxyxY xxYYxyyy 61
+member 15 xxyxyXy xxxyyyyy 62
+member 15 xxyxyXy xxYYXyyy 2
+member 15 xxyxyXy xyxYYXyy -2
+member 15 xxyxyXy xyXyXYYY 3
+member 15 xxyxyXy xyXYYYXy 3
+member 15 xxyxyXy xyyxYYXy 0
+member 15 xxyxyXY xxxxxyyy -2
+member 15 xxyxyXY xxxxYXyy 64
+member 15 xxyxyXY xxxYXyxy 0
+member 15 xxyxyXY xxxYXyXy 0
+member 15 xxyxyXY xxYYxyyy 65
+member 15 xxyxyXY xxYYXyyy 66
+member 15 xxyxyXY xyxYYXyy -2
+member 15 xxyxyXY xyXyXYYY 68
+member 15 xxyxyXY xyyyxYxY 69
+member 15 xxyxYXY xxxxxYYY 2
+member 15 xxyxYXY xxxxYxYY -2
+member 15 xxyxYXY xxxxYYxY 0
+member 15 xxyxYXY xxxxYYXy -2
+member 15 xxyxYXY xxxYXyXY 3
+member 15 xxyxYXY xxyyxYYY 3
+member 15 xxyxYXY xxyyXYYY 0
+member 15 xxyxYXY xxYxyXXY 0
+member 15 xxyxYXY xxYYYxyy 72
+member 15 xxyxYXY xxYYYXyy 73
+member 15 xxyxYXY xyxyxYYY 3
+member 15 xxyxYXY xyXyxYYY 74
+member 15 xxyxYXY xyXyyXYY 18
+member 15 xxyxYXY xyyxYxYY 75
+member 15 xxyxYXY xyyxYYxY 54
+member 15 xxyxYXY xyyXyXYY -2
+member 15 xxyxYXY xyyXYxYY 2
+member 15 xxyxYXY xyyXYYxY -2
+member 15 xxyXXYY xyxyXYYY 58
+member 15 xxyXXYY xyxyyyXy -2
+member 15 xxyXXYY xyxyyyXY 77
+member 15 xxyXXYY xyxYXyyy -2
+member 15 xxyXXYY xyxYYYXy 78
+member 15 xxyXXYY xyxYYYXY 79
+member 15 xxyXXYY xyXyxYYY 80
+member 15 xxyXXYY xyXyyyXY -2
+member 15 xxyXXYY xyyxyyXY 2
+member 15 xxyXXYY xyyxYYXy 0
+member 15 xxyXXYY xyyxYYXY 9
+member 15 xxyXyXY xxxyXXYY 0
+member 15 xxyXyXY xxxyXYXy 0
+member 15 xxyXyXY xxxYXyXy 0
+member 15 xxyXyXY xxxYXYXy 0
+member 15 xxyXyXY xxyXXYxy 0
+member 15 xxyXyXY xxyXXYXy 0
+member 15 xxyXyXY xxyyyXyy 82
+member 15 xxyXyXY xxyyyyXy 0
+member 15 xxyXyXY xxYXyyyy -2
+member 15 xxyXyXY xxYXYYYY -2
+member 15 xxyXyXY xxYYXyyy 85
+member 15 xxyXyXY xxYYXYYY 86
+member 15 xxyXyXY xxYYYXyy 87
+member 15 xxyXyXY xxYYYXYY 0
+member 15 xxyXyXY xxYYYYXy 24
+member 15 xxyXyXY xyxyXYYY 24
+member 15 xxyXyXY xyxyyXyy 0
+member 15 xxyXyXY xyxyyXYY 80
+member 15 xxyXyXY xyxyyyXy 9
+member 15 xxyXyXY xyxYXyyy 0
+member 15 xxyXyXY xyxYXYYY 88
+member 15 xxyXyXY xyxYYXyy 89
+member 15 xxyXyXY xyxYYXYY 90
+member 15 xxyXyXY xyxYYYXy 91
+member 15 xxyXyXY xyXyxYYY 0
+member 15 xxyXyXY xyXyyxYY 0
+member 15 xxyXyXY xyXyyXYY 0
+member 15 xxyXyXY xyXYYxyy 18
+member 15 xxyXyXY xyXYYxYY -2
+member 15 xxyXyXY xyXYYXyy 92
+member 15 xxyXyXY xyXYYXYY 0
+member 15 xxyXyXY xyXYYYXy 24
+member 15 xxyXyXY xyyxYYXy 18
+member 15 xxyXyXY xyyxYYXY 18
+member 15 xxyXyXY xyyXYxYY 0
+member 15 xxyXyXY xyyXYYxY 2
+member 15 xxyXyXY xyyyXYxY 0
+member 15 xxyXYXy xxxyXXyy 3
+member 15 xxyXYXy xxxyXyXy 3
+member 15 xxyXYXy xxxyXyXY 0
+member 15 xxyXYXy xxxYXYXY 0
+member 15 xxyXYXy xxyXXyxY 3
+member 15 xxyXYXy xxyXXyXY 0
+member 15 xxyXYXy xxyyyXYY 5
+member 15 xxyXYXy xxYYXYYY 93
+member 15 xxyXYXy xyxyyXyy 5
+member 15 xxyXYXy xyXyxYYY 94
+member 15 xxyXYXy xyXyXyyy -2
+member 15 xxyXYXy xyXyXYYY 80
+member 15 xxyXYXy xyXyyxYY 54
+member 15 xxyXYXy xyXyyXYY 80
+member 15 xxyXYXy xyXyyyxY 94
+member 15 xxyXYXy xyXYYxyy 0
+member 15 xxyXYXy xyXYYXyy 3
+member 15 xxyXYXy xyXYYYXy 3
+member 15 xxyXYXy xyyXyXyy 96
+member 15 xxyXYXy xyyXyXYY 58
+member 15 xxyXYXy xyyXyyxY 97
+member 16 x xyxYxyxYYxyyxYY -2
+member 16 x xyXYxyXYYxyyXYY -2
+member 16 xxyXy xxxxyyyyyyy 3
+member 16 xxyXy xxxyxyyyyyy 3
+member 16 xxyXy xxxyyxyyyyy 3
+member 16 xxyXy xxxyyyxyyyy 3
+member 16 xxyXy xxyxyyyyXYY 0
+member 16 xxyXy xxyxyyyyyXY 0
+member 16 xxyXy xxyyyXXYYYY 0
+member 16 xxyXy xxyyyyxyXYY 0
+member 16 xxyXy xxyyyyyxyXY 0
+member 16 xxyXy xxyyyyyxYXY 3
+member 16 xxyXy xxYxyyyyyXY 3
+member 16 xxyXy xyxyxyxyyyy 0
+member 16 xxyXy xyxyXYxyyyy 0
+member 16 xxyXy xyxyXYYxyyy 0
+member 16 xxyXy xyxyXYYYXyy 3
+member 16 xxyXy xyxyyyyxYXY 3
+member 16 xxyXy xyxYxyyyyXY 3
+member 16 xxyXy xyXYxyyyyxY 3
+member 16 xxyXy xyXYYXyXYYY 3
+member 16 xxyXy xyXYYXyyyxY 0
+member 16 xxyXy xyXYYXYxyyy 0
+member 16 xxyXy xyXYYXYYYXy 3
+member 16 xxyXy xyXYYYXyxyy 3
+member 16 xxyXy xyXYYYXyXYY 3
+member 16 xxyXy xyXYYYXyyxY 0
+member 16 xxyXy xyyxYYXyXYY 0
+member 16 xxyXy xyyyyXYYYYY 24
+member 16 xxyXy xyyyyyyxYYY 94
+member 16 xxyXy xyyyyyyyxYY 74
+member 16 xxxxyxy xxyXyyxYY -2
+member 16 xxxxyxy xxyXYYxyy -2
+member 16 xxxxyxy xyXyyxYxY -2
+member 16 xxxxyxy xyXYxyyxY -2
+member 16 xxxxyxy xyyyyxYYY 0
+member 16 xxxxyXy xxxyyyXYY 30
+member 16 xxxxyXy xxxyyyyxY 32
+member 16 xxxxyXy xxyxyyXYY 101
+member 16 xxxxyXy xxyxyyyxY 102
+member 16 xxxxyXy xxyxYxyyy 32
+member 16 xxxxyXy xxyxYYXyy 103
+member 16 xxxxyXy xxyXYYxyy 30
+member 16 xxxxyXy xxyyxyyxY 104
+member 16 xxxxyXy xxyyxYxyy 32
+member 16 xxxxyXy xxyyyxyxY 104
+member 16 xxxxyXy xxyyyxYXY 105
+member 16 xxxxyXy xxyyyyxxY 102
+member 16 xxxxyXy xxYxyyyXY 4
+member 16 xxxxyXy xyxyxyXYY 101
+member 16 xxxxyXy xyxyxyyxY 102
+member 16 xxxxyXy xyxyyxyxY 104
+member 16 xxxxyXy xyxyyxYXY 106
+member 16 xxxxyXy xyxYxyyXY 4
+member 16 xxxxyXy xyXYxyyxY 4
+member 16 xxxxyXy xyyyyxYYY 107
+member 16 xxxxyyy xxxyxyyxy 0
+member 16 xxxxyyy xxxyXyyxY 0
+member 16 xxxxyyy xxxyXYxyy 0
+member 16 xxxxyyy xxyxyxyXY 108
+member 16 xxxxyyy xxyxyxYXy -2
+member 16 xxxxyyy xxyxyXyxY 110
+member 16 xxxxyyy xxyxyXYxy 111
+member 16 xxxxyyy xxyxYxyXy 112
+member 16 xxxxyyy xxyXyxyxY 113
+member 16 xxxxyyy xyyxyyxYY 3
+member 16 xxxxyyy xyyyyxYxY 3
+member 16 xxxyxyy xxxxyyyXY -2
+member 16 xxxyxyy xxxyyXyxY 35
+member 16 xxxyxyy xxyxYxyXy -2
+member 16 xxxyxyy xxyXyxyxY 114
+member 16 xxxyxyy xxyXyxYxy 0
+member 16 xxxyxyy xxyyXyxxY -2
+member 16 xxxyxyy xxYxyXyxy -2
+member 16 xxxyxyy xyxYYxyyy 117
+member 16 xxxyxyy xyyyyxYxY 114
+member 16 xxxyxYY xxxyXYYXy 38
+member 16 xxxyxYY xxxYXYXyy 118
+member 16 xxxyxYY xxyxyXXYY 38
+member 16 xxxyxYY xxyXXyXYY 9
+member 16 xxxyxYY xxyXXYYxy 119
+member 16 xxxyxYY xxyXXYYXy 120
+member 16 xxxyxYY xxyXyxYXY 2
+member 16 xxxyxYY xxyXyXXYY 36
+member 16 xxxyxYY xxyXYxYXy 121
+member 16 xxxyxYY xxyXYXYxy 9
+member 16 xxxyxYY xxyXYXYXy -2
+member 16 xxxyxYY xxyXYYXXy 122
+member 16 xxxyxYY xxYxyXyXY -2
+member 16 xxxyxYY xxYxYXyXy 123
+member 16 xxxyxYY xxYXyXyxY 124
+member 16 xxxyxYY xxYXyXyXY 125
+member 16 xxxyxYY xxYXYxyXy 126
+member 16 xxxyxYY xxYXYXyxy -2
+member 16 xxxyxYY xxYXYXyXy 128
+member 16 xxxyxYY xxYYYXyyy -2
+member 16 xxxyxYY xyXyyxYYY 37
+member 16 xxxyxYY xyXYYYxyy 9
+member 16 xxxyxYY xyXYYYXyy -2
+member 16 xxxyxYY xyyxYYYXy 38
+member 16 xxxyxYY xyyyXYYxY 36
+member 16 xxxyXXy xxyxyXyyy 2
+member 16 xxxyXXy xxyxyyXyy 46
+member 16 xxxyXXy xxyxyyyXy -2
+member 16 xxxyXXy xxyxYXyyy -2
+member 16 xxxyXXy xxyXyxyyy 41
+member 16 xxxyXXy xxyXyXYYY -2
+member 16 xxxyXXy xxyXyyxyy 47
+member 16 xxxyXXy xxyXyyXYY 46
+member 16 xxxyXXy xxyXyyyxY 48
+member 16 xxxyXXy xxyXYxyyy 42
+member 16 xxxyXXy xxyXYYXyy 43
+member 16 xxxyXXy xxyXYYYXy 44
+member 16 xxxyXXy xxyyxyXyy 40
+member 16 xxxyXXy xxyyxYXyy -2
+member 16 xxxyXXy xxyyXyXYY -2
+member 16 xxxyXXy xxyyXyyxY 48
+member 16 xxxyXXy xxyyyXyxY 4
+member 16 xxxyXXy xyxyxyyXY 41
+member 16 xxxyXXy xyxyXyXYY -2
+member 16 xxxyXXy xyxyXyyxY 43
+member 16 xxxyXXy xyxyXYxyy -2
+member 16 xxxyXXy xyxyXYXYY 40
+member 16 xxxyXXy xyxyXYYXy 48
+member 16 xxxyXXy xyxyXYYXY 46
+member 16 xxxyXXy xyxyyxyXY 47
+member 16 xxxyXXy xyxyyXyxY 131
+member 16 xxxyXXy xyxYXyXYY 132
+member 16 xxxyXXy xyxYXyyXY 133
+member 16 xxxyXXy xyXyxyyxY 131
+member 16 xxxyXXy xyXyxYXYY 131
+member 16 xxxyXXy xyXyXyxYY 134
+member 16 xxxyXXy xyXyXYxYY 132
+member 16 xxxyXXy xyXyXYYxY 135
+member 16 xxxyXXy xyXyyxYXY 49
+member 16 xxxyXXy xyXYYXyxY 135
+member 16 xxxyXXy xyyyXYYYY 136
+member 16 xxxyXXy xyyyyyxYY 137
+member 16 xxxyXXy xyyyyyyxY 138
+member 16 xxxyXXY xxxYYxyyy 1
+member 16 xxxyXXY xxxYYXyyy 2
+member 16 xxxyXXY xxyxyxYYY 2
+member 16 xxxyXXY xxyxyXYYY 1
+member 16 xxxyXXY xxyxyyxYY 1
+member 16 xxxyXXY xxyxyyXYY 2
+member 16 xxxyXXY xxyxYYxyy 2
+member 16 xxxyXXY xxyxYYXyy 1
+member 16 xxxyXXY xxyxYYYxy 52
+member 16 xxxyXXY xxyxYYYXy 50
+member 16 xxxyXXY xxyXyxYYY 52
+member 16 xxxyXXY xxyXyXYYY 53
+member 16 xxxyXXY xxyXyyxYY 53
+member 16 xxxyXXY xxyXyyXYY 52
+member 16 xxxyXXY xxyXYYxyy 1
+member 16 xxxyXXY xxyXYYXyy 2
+member 16 xxxyXXY xxyXYYYxy 53
+member 16 xxxyXXY xxyXYYYXy 51
+member 16 xxxyXXY xxyyxyxYY 51
+member 16 xxxyXXY xxyyxyXYY 50
+member 16 xxxyXXY xxyyxYXYY 51
+member 16 xxxyXXY xxyyxYYxy 52
+member 16 xxxyXXY xxyyxYYXy 50
+member 16 xxxyXXY xxyyXyXYY 50
+member 16 xxxyXXY xxyyXYYxy 53
+member 16 xxxyXXY xxyyXYYXy 51
+member 16 xxxyXXY xyxyxyxYY 50
+member 16 xxxyXXY xyxyxyXYY 51
+member 16 xxxyXXY xyxyxYxYY 51
+member 16 xxxyXXY xyxyxYXYY 51
+member 16 xxxyXXY xyxyxYYxY 53
+member 16 xxxyXXY xyxyxYYXy 52
+member 16 xxxyXXY xyxyxYYXY 1
+member 16 xxxyXXY xyxyXyxYY 50
+member 16 xxxyXXY xyxyXyXYY 51
+member 16 xxxyXXY xyxyXYxYY 50
+member 16 xxxyXXY xyxyXYXYY 50
+member 16 xxxyXXY xyxyXYYxY 52
+member 16 xxxyXXY xyxyXYYXy 53
+member 16 xxxyXXY xyxyXYYXY 2
+member 16 xxxyXXY xyxyyxYXY 1
+member 16 xxxyXXY xyxyyXYXY 2
+member 16 xxxyXXY xyxYxYXyy 53
+member 16 xxxyXXY xyxYXYxyy 52
+member 16 xxxyXXY xyxYXYYXy 53
+member 16 xxxyXXY xyxYYxyXy 53
+member 16 xxxyXXY xyxYYxYXy 51
+member 16 xxxyXXY xyXyxyXYY 52
+member 16 xxxyXXY xyXyxYXYY 52
+member 16 xxxyXXY xyXyxYYXY 50
+member 16 xxxyXXY xyyyxYYYY 139
+member 16 xxxyXXY xyyyXYYYY 140
+member 16 xxxyXyy xxxxyyyXy 9
+member 16 xxxyXyy xxxYXyyXy 9
+member 16 xxxyXyy xxyxyXYXy 141
+member 16 xxxyXyy xxyxyyXXY 142
+member 16 xxxyXyy xxyXXYxyy 0
+member 16 xxxyXyy xxyXYXyxy 54
+member 16 xxxyXyy xxyyxyXXY 0
+member 16 xxxyXyy xxyyXXyxY 143
+member 16 xxxyXyy xxyyXXYxy 144
+member 16 xxxyXyy xxyyyyyxY 145
+member 16 xxxyXyy xxYxyyXXy 146
+member 16 xxxyXyy xxYxyyyyy 54
+member 16 xxxyXyy xxYXyxyXy 0
+member 16 xxxyXyy xxYXyXyxy -2
+member 16 xxxyXyy xxYXyXYXY 147
+member 16 xxxyXyy xxYXYXyXY 148
+member 16 xxxyXyy xyxyyyyxY 149
+member 16 xxxyXyy xyxYxyyyy 150
+member 16 xxxyXyy xyxYYXyyy 151
+member 16 xxxyXyy xyXYYYYXy 152
+member 16 xxxyXyy xyyxyyyxY 153
+member 16 xxxyXyy xyyxYxyyy 141
+member 16 xxxyXyy xyyXYYYXY 147
+member 16 xxxyXyy xyyyXyxYY 154
+member 16 xxxyXyy xyyyyXYxY 154
+member 16 xxxyXYY xxxxyXXXY 0
+member 16 xxxyXYY xxxxYYYxy 155
+member 16 xxxyXYY xxxxYYYXy 156
+member 16 xxxyXYY xxxyxYYXY 0
+member 16 xxxyXYY xxxYxYYxy 157
+member 16 xxxyXYY xxxYxYYXy 158
+member 16 xxxyXYY xxxYXyxYY 0
+member 16 xxxyXYY xxxYXyyXY 0
+member 16 xxxyXYY xxxYXYYxy 58
+member 16 xxxyXYY xxxYYxyxY 59
+member 16 xxxyXYY xxxYYxyXY 58
+member 16 xxxyXYY xxxYYxYxy 159
+member 16 xxxyXYY xxxYYxYXy 160
+member 16 xxxyXYY xxxYYXyxY 60
+member 16 xxxyXYY xxxYYXyXy 161
+member 16 xxxyXYY xxxYYXYxy 162
+member 16 xxxyXYY xxxYYYxxy 55
+member 16 xxxyXYY xxyxxYxYY 0
+member 16 xxxyXYY xxyxxYXYY 0
+member 16 xxxyXYY xxyxxYYxY 163
+member 16 xxxyXYY xxyxxYYXY 164
+member 16 xxxyXYY xxyxYxYXY -2
+member 16 xxxyXYY xxyxYXYXy 0
+member 16 xxxyXYY xxyxYYXXy 166
+member 16 xxxyXYY xxyXXyxYY 0
+member 16 xxxyXYY xxyXyXYxY 58
+member 16 xxxyXYY xxyXyXYXY 59
+member 16 xxxyXYY xxyXYxxYY 0
+member 16 xxxyXYY xxyyXXYxY 167
+member 16 xxxyXYY xxyyXXYXY 168
+member 16 xxxyXYY xxyyyXYYY 58
+member 16 xxxyXYY xxYxxYYxy 166
+member 16 xxxyXYY xxYxxYYXy 169
+member 16 xxxyXYY xxYxyxxYY 56
+member 16 xxxyXYY xxYxyXyXY 92
+member 16 xxxyXYY xxYxyyXXY 170
+member 16 xxxyXYY xxYxYxyxY 3
+member 16 xxxyXYY xxYxYxYxy 9
+member 16 xxxyXYY xxYxYxYXy 171
+member 16 xxxyXYY xxYxYXyxY 172
+member 16 xxxyXYY xxYxYXyXy 78
+member 16 xxxyXYY xxYxYXYxy 173
+member 16 xxxyXYY xxYXyxxYY 57
+member 16 xxxyXYY xxYXyxyXY 0
+member 16 xxxyXYY xxYXyxYxY -2
+member 16 xxxyXYY xxYXyXyxY 24
+member 16 xxxyXYY xxYXyXyXY 80
+member 16 xxxyXYY xxYXyXYXy 0
+member 16 xxxyXYY xxYXyyXXY 175
+member 16 xxxyXYY xxYXYxyxY 176
+member 16 xxxyXYY xxYXYxyXy 157
+member 16 xxxyXYY xxYXYxYxy 177
+member 16 xxxyXYY xxYXYXyxy 178
+member 16 xxxyXYY xxYXYXyXy 158
+member 16 xxxyXYY xxYYYXyyy 78
+member 16 xxxyXYY xyxyxYYYY 179
+member 16 xxxyXYY xyxyyXYYY 57
+member 16 xxxyXYY xyXyyXYYY 55
+member 16 xxxyXYY xyXYYYxyy 0
+member 16 xxxyXYY xyyxYYYXy 24
+member 16 xxxyXYY xyyXyxYYY 80
+member 16 xxxyXYY xyyXyXYYY 24
+member 16 xxxyXYY xyyXYYYXy 56
+member 16 xxxyXYY xyyyXYxYY 92
+member 16 xxxyXYY xyyyXYYxY 0
+member 16 xxyxxYY xxxyXYYXy 180
+member 16 xxyxxYY xxxyyXYXY -2
+member 16 xxyxxYY xxyxYXYXy 0
+member 16 xxyxxYY xxyXYxYXy 182
+member 16 xxyxxYY xxyXYXYXy 183
+member 16 xxyxxYY xxYxyXyXY 184
+member 16 xxyxxYY xxYXyxyXY 185
+member 16 xxyxxYY xxYXyXyXY 186
+member 16 xxyxxYY xyxyyXYYY 187
+member 16 xxyxxYY xyXyyxYYY 183
+member 16 xxyxxYY xyXyyXYYY 0
+member 16 xxyxxYY xyXYYYxyy 187
+member 16 xxyxxYY xyXYYYXyy 188
+member 16 xxyxxYY xyyXyXYYY 0
+member 16 xxyxyxY xxxxxxxyy 3
+member 16 xxyxyxY xxxYXyyXY 189
+member 16 xxyxyxY xxxYYXyXy 190
+member 16 xxyxyxY xxyXXYYxy -2
+member 16 xxyxyxY xxyXXYYXy 191
+member 16 xxyxyxY xxyXYxYXy -2
+member 16 xxyxyxY xxYxyyXXY 192
+member 16 xxyxyxY xxYXyxyXY -2
+member 16 xxyxyxY xxYXyyXXY 194
+member 16 xxyxyxY xxYXYXyXy 9
+member 16 xxyxyxY xxYYYXyyy -2
+member 16 xxyxyxY xyXyyXYYY -2
+member 16 xxyxyxY xyXYYYxyy 191
+member 16 xxyxyxY xyXYYYXyy -2
+member 16 xxyxyxY xyyXyxYYY 189
+member 16 xxyxyxY xyyyXYxYY 196
+member 16 xxyxyXy xxxyXYXyy -2
+member 16 xxyxyXy xxxyyXYXy 0
+member 16 xxyxyXy xxyXXyyxY -2
+member 16 xxyxyXy xxyyyyXYY 2
+member 16 xxyxyXy xxyyyyyxY 198
+member 16 xxyxyXy xxYxyXXyy 199
+member 16 xxyxyXy xxYxyyXXy -2
+member 16 xxyxyXy xxYxyyyyy 200
+member 16 xxyxyXy xxYXyXYXY -2
+member 16 xxyxyXy xxYYXyyyy 201
+member 16 xxyxyXy xyxyyyXYY 0
+member 16 xxyxyXy xyxyyyyxY 3
+member 16 xxyxyXy xyxYxyyyy 202
+member 16 xxyxyXy xyxYYXyyy 203
+member 16 xxyxyXy xyXyXYYYY 62
+member 16 xxyxyXy xyXYYxyyy 2
+member 16 xxyxyXy xyXYYYYXy 62
+member 16 xxyxyXy xyyxyyXYY 204
+member 16 xxyxyXy xyyxyyyxY 205
+member 16 xxyxyXy xyyxYxyyy 206
+member 16 xxyxyXy xyyxYYXyy 207
+member 16 xxyxyXy xyyXyyxYY 199
+member 16 xxyxyXy xyyXYYYXY 208
+member 16 xxyxyXy xyyyXyxYY -2
+member 16 xxyxyXY xxxxyyyxY -2
+member 16 xxyxyXY xxxxYxyyy 209
+member 16 xxyxyXY xxxxYXXXy 0
+member 16 xxyxyXY xxxxYXyyy 210
+member 16 xxyxyXY xxxyxYXyy -2
+member 16 xxyxyXY xxxyXyXYY 0
+member 16 xxyxyXY xxxyyxyxY -2
+member 16 xxyxyXY xxxyyXXYY 211
+member 16 xxyxyXY xxxyyyxxY 212
+member 16 xxyxyXY xxxYxxyyy 64
+member 16 xxyxyXY xxxYxyxyy 0
+member 16 xxyxyXY xxxYxyXyy 68
+member 16 xxyxyXY xxxYxyyxy 213
+member 16 xxyxyXY xxxYxyyXy 214
+member 16 xxyxyXY xxxYXyxyy 2
+member 16 xxyxyXY xxxYXyyxy 215
+member 16 xxyxyXY xxxYYXyXy 216
+member 16 xxyxyXY xxyxxYxyy 69
+member 16 xxyxyXY xxyxxYXyy 68
+member 16 xxyxyXY xxyXXYYxy 0
+member 16 xxyxyXY xxyyxxYxy -2
+member 16 xxyxyXY xxyyxxYXy -2
+member 16 xxyxyXY xxyyxyxxY 0
+member 16 xxyxyXY xxyyXyxxY 0
+member 16 xxyxyXY xxyyyyxYY 68
+member 16 xxyxyXY xxYxyXyxy -2
+member 16 xxyxyXY xxYxyyXXY -2
+member 16 xxyxyXY xxYxYXyXy 2
+member 16 xxyxyXY xxYXyxyxy 0
+member 16 xxyxyXY xxYXyXyxY 0
+member 16 xxyxyXY xxYYxyyyy 218
+member 16 xxyxyXY xxYYYXyyy 219
+member 16 xxyxyXY xyxYYxyyy 220
+member 16 xxyxyXY xyxYYYXyy 221
+member 16 xxyxyXY xyXyyxYYY -2
+member 16 xxyxyXY xyXyyXYYY 222
+member 16 xxyxyXY xyyxyyxYY 223
+member 16 xxyxyXY xyyxYYYXy 59
+member 16 xxyxyXY xyyXyXYYY 224
+member 16 xxyxyXY xyyyXYxYY -2
+member 16 xxyxyXY xyyyXYYxY 211
+member 16 xxyxyXY xyyyyxYxY 225
+member 16 xxyxYxy xxxxxxxyy 3
+member 16 xxyxYxy xxxxyXXXY 0
+member 16 xxyxYXy xxyyyXYYY -2
+member 16 xxyxYXy xxyyyyxYY -2
+member 16 xxyxYXY xxxxxYXXY 3
+member 16 xxyxYXY xxxxYYYxy 228
+member 16 xxyxYXY xxxxYYYXy 229
+member 16 xxyxYXY xxxyxxYYY 3
+member 16 xxyxYXY xxxYxYYxy 230
+member 16 xxyxYXY xxxYxYYXy 231
+member 16 xxyxYXY xxxYXyxYY 58
+member 16 xxyxYXY xxxYXyyXY 74
+member 16 xxyxYXY xxxYYxyxY -2
+member 16 xxyxYXY xxxYYxyXY 2
+member 16 xxyxYXY xxxYYxYxy 1
+member 16 xxyxYXY xxxYYxYXy 232
+member 16 xxyxYXY xxxYYXyxY 233
+member 16 xxyxYXY xxxYYXyXy -2
+member 16 xxyxYXY xxyXXyxYY 3
+member 16 xxyxYXY xxyXXYYXy -2
+member 16 xxyxYXY xxyXYxxYY 0
+member 16 xxyxYXY xxyyxYYYY 74
+member 16 xxyxYXY xxyyyXYYY 18
+member 16 xxyxYXY xxYxxYYxy -2
+member 16 xxyxYXY xxYxxYYXy -2
+member 16 xxyxYXY xxYxyxxYY 92
+member 16 xxyxYXY xxYxyXyXY 18
+member 16 xxyxYXY xxYxyyXXY -2
+member 16 xxyxYXY xxYxYxyXY -2
+member 16 xxyxYXY xxYxYxYxy 9
+member 16 xxyxYXY xxYxYXyXy 9
+member 16 xxyxYXY xxYXyxxYY 237
+member 16 xxyxYXY xxYXyxYxY -2
+member 16 xxyxYXY xxYXyXyxY 92
+member 16 xxyxYXY xxYXyXyXY 54
+member 16 xxyxYXY xxYXyyXXY 75
+member 16 xxyxYXY xxYYYXyyy 238
+member 16 xxyxYXY xxYYYYxyy 239
+member 16 xxyxYXY xyxyxYYYY 74
+member 16 xxyxYXY xyxYYYXyy 2
+member 16 xxyxYXY xyXyyxYYY 240
+member 16 xxyxYXY xyXyyXYYY 241
+member 16 xxyxYXY xyyxYxYYY 242
+member 16 xxyxYXY xyyxYYxYY 243
+member 16 xxyxYXY xyyxYYYxY 244
+member 16 xxyxYXY xyyxYYYXy 3
+member 16 xxyxYXY xyyXyxYYY 245
+member 16 xxyxYXY xyyXyXYYY 246
+member 16 xxyxYXY xyyyXYxYY 247
+member 16 xxyxYXY xyyyXYYxY 248
+member 16 xxyXXYY xxxyXyyXY 2
+member 16 xxyXXYY xxxyXYYXy 0
+member 16 xxyXXYY xxxyXYYXY 9
+member 16 xxyXXYY xxxyyXyXy 249
+member 16 xxyXXYY xxxyyXyXY -2
+member 16 xxyXXYY xxxyyXYXy -2
+member 16 xxyXXYY xxxyyXYXY 252
+member 16 xxyXXYY xxyxyXYXy -2
+member 16 xxyXXYY xxyxYXyXy 101
+member 16 xxyXXYY xxyxYXYXy 254
+member 16 xxyXXYY xxyXyxYXy -2
+member 16 xxyXXYY xxyXyXYxy -2
+member 16 xxyXXYY xxyXYxYXy 58
+member 16 xxyXXYY xxyXYXyXy -2
+member 16 xxyXXYY xxyXYXYxy 80
+member 16 xxyXXYY xxyXYXYXy 58
+member 16 xxyXXYY xyxyXYYYY 2
+member 16 xxyXXYY xyxyyXyyy 255
+member 16 xxyXXYY xyxyyXYYY 256
+member 16 xxyXXYY xyxyyyyXy 257
+member 16 xxyXXYY xyxyyyyXY 258
+member 16 xxyXXYY xyxYXYYYY -2
+member 16 xxyXXYY xyxYYXyyy 259
+member 16 xxyXXYY xyxYYXYYY 260
+member 16 xxyXXYY xyxYYYXyy 80
+member 16 xxyXXYY xyxYYYXYY -2
+member 16 xxyXXYY xyxYYYYXy 261
+member 16 xxyXXYY xyxYYYYXY 262
+member 16 xxyXXYY xyXyxyyyy 249
+member 16 xxyXXYY xyXyxYYYY 252
+member 16 xxyXXYY xyXyyxYYY 58
+member 16 xxyXXYY xyXyyXYYY 254
+member 16 xxyXXYY xyXyyyxYY 101
+member 16 xxyXXYY xyXyyyXYY -2
+member 16 xxyXXYY xyXyyyyXY -2
+member 16 xxyXXYY xyXYxYYYY -2
+member 16 xxyXXYY xyXYYXYYY -2
+member 16 xxyXXYY xyyxyyyXy 263
+member 16 xxyXXYY xyyxyyyXY 264
+member 16 xxyXXYY xyyxYYYXy 265
+member 16 xxyXXYY xyyxYYYXY 266
+member 16 xxyXXYY xyyXyxyyy 267
+member 16 xxyXXYY xyyXyxYYY 268
+member 16 xxyXXYY xyyXyyyXY 269
+member 16 xxyXXYY xyyXYxYYY 270
+member 16 xxyXyXY xxxxYXXXy 0
+member 16 xxyXyXY xxxyXXyyy 0
+member 16 xxyXyXY xxxyXXYYY 88
+member 16 xxyXyXY xxxyXYXyy 89
+member 16 xxyXyXY xxxyXYXYY 90
+member 16 xxyXyXY xxxyXYYXy 91
+member 16 xxyXyXY xxxyyXXyy 271
+member 16 xxyXyXY xxxyyXXYY 20
+member 16 xxyXyXY xxxyyXYXy 272
+member 16 xxyXyXY xxxyyXYXY 2
+member 16 xxyXyXY xxxyyyXXy 0
+member 16 xxyXyXY xxxyyyXXY 0
+member 16 xxyXyXY xxxYXyXyy 18
+member 16 xxyXyXY xxxYXyyXy 64
+member 16 xxyXyXY xxxYXYXyy 24
+member 16 xxyXyXY xxxYXYYXy 273
+member 16 xxyXyXY xxxYYXXyy 0
+member 16 xxyXyXY xxxYYXXYY -2
+member 16 xxyXyXY xxxYYXyXy 20
+member 16 xxyXyXY xxxYYXYXy 2
+member 16 xxyXyXY xxyxyXYXy 2
+member 16 xxyXyXY xxyxyyXXy 9
+member 16 xxyXyXY xxyxYXyXy 272
+member 16 xxyXyXY xxyxYXYXy 18
+member 16 xxyXyXY xxyXXyyxy 0
+member 16 xxyXyXY xxyXXyyXy -2
+member 16 xxyXyXY xxyXXYxyy 24
+member 16 xxyXyXY xxyXXYXyy 24
+member 16 xxyXyXY xxyXXYYxy 92
+member 16 xxyXyXY xxyXXYYXy 18
+member 16 xxyXyXY xxyXYxyXy 0
+member 16 xxyXyXY xxyXYxYXy 0
+member 16 xxyXyXY xxyXYXyxy 18
+member 16 xxyXyXY xxyXYXyXy 2
+member 16 xxyXyXY xxyXYXYxy 18
+member 16 xxyXyXY xxyXYXYXy 80
+member 16 xxyXyXY xxyyXXyxy 82
+member 16 xxyXyXY xxyyXXyXy 9
+member 16 xxyXyXY xxyyXXYxy 18
+member 16 xxyXyXY xxyyXXYXy 274
+member 16 xxyXyXY xxyyXyyyy -2
+member 16 xxyXyXY xxyyyXyyy 275
+member 16 xxyXyXY xxyyyXYYY 2
+member 16 xxyXyXY xxyyyyXyy 276
+member 16 xxyXyXY xxyyyyXYY 0
+member 16 xxyXyXY xxyyyyyXy 24
+member 16 xxyXyXY xxYxyXXyy 9
+member 16 xxyXyXY xxYxyXXYY 277
+member 16 xxyXyXY xxYxyXYXY -2
+member 16 xxyXyXY xxYxyyXXY 0
+member 16 xxyXyXY xxYXyxyXy 0
+member 16 xxyXyXY xxYXyXyxy 2
+member 16 xxyXyXY xxYXyXyXy 0
+member 16 xxyXyXY xxYXyyyyy 278
+member 16 xxyXyXY xxYXYxyXy 0
+member 16 xxyXyXY xxYXYxYXy 0
+member 16 xxyXyXY xxYXYXyxy 0
+member 16 xxyXyXY xxYXYXyXy 0
+member 16 xxyXyXY xxYXYXYxy 0
+member 16 xxyXyXY xxYXYXYxY 0
+member 16 xxyXyXY xxYXYXYXy 0
+member 16 xxyXyXY xxYXYXYXY 0
+member 16 xxyXyXY xxYXYYYYY 279
+member 16 xxyXyXY xxYYXyyyy 280
+member 16 xxyXyXY xxYYXYYYY 281
+member 16 xxyXyXY xxYYYXyyy 282
+member 16 xxyXyXY xxYYYXYYY 283
+member 16 xxyXyXY xxYYYYXyy 284
+member 16 xxyXyXY xxYYYYXYY 24
+member 16 xxyXyXY xxYYYYYXy 285
+member 16 xxyXyXY xyxyXYYYY 285
+member 16 xxyXyXY xyxyyXyyy 286
+member 16 xxyXyXY xyxyyXYYY 287
+member 16 xxyXyXY xyxyyyXyy 288
+member 16 xxyXyXY xyxyyyXYY 289
+member 16 xxyXyXY xyxyyyyXy 290
+member 16 xxyXyXY xyxYXyyyy 291
+member 16 xxyXyXY xyxYXYYYY 292
+member 16 xxyXyXY xyxYYXyyy 293
+member 16 xxyXyXY xyxYYXYYY 294
+member 16 xxyXyXY xyxYYYXyy 295
+member 16 xxyXyXY xyxYYYXYY 296
+member 16 xxyXyXY xyxYYYYXy 297
+member 16 xxyXyXY xyxYYYYXY -2
+member 16 xxyXyXY xyXyxyyyy 0
+member 16 xxyXyXY xyXyxYYYY 24
+member 16 xxyXyXY xyXyyxyyy 9
+member 16 xxyXyXY xyXyyxYYY 91
+member 16 xxyXyXY xyXyyXYYY 24
+member 16 xxyXyXY xyXyyyxYY 18
+member 16 xxyXyXY xyXyyyXYY 18
+member 16 xxyXyXY xyXYxyyyy -2
+member 16 xxyXyXY xyXYxYYYY -2
+member 16 xxyXyXY xyXYYxyyy 298
+member 16 xxyXyXY xyXYYxYYY 0
+member 16 xxyXyXY xyXYYXyyy 299
+member 16 xxyXyXY xyXYYXYYY 300
+member 16 xxyXyXY xyXYYYxyy 301
+member 16 xxyXyXY xyXYYYxYY 0
+member 16 xxyXyXY xyXYYYXyy 302
+member 16 xxyXyXY xyXYYYXYY 303
+member 16 xxyXyXY xyXYYYYxY -2
+member 16 xxyXyXY xyXYYYYXy 285
+member 16 xxyXyXY xyXYYYYXY -2
+member 16 xxyXyXY xyyxyyXyy 304
+member 16 xxyXyXY xyyxyyXYY 305
+member 16 xxyXyXY xyyxyyyXy 306
+member 16 xxyXyXY xyyxyyyXY 0
+member 16 xxyXyXY xyyxYYXyy 307
+member 16 xxyXyXY xyyxYYXYY 308
+member 16 xxyXyXY xyyxYYYXy 299
+member 16 xxyXyXY xyyxYYYXY 309
+member 16 xxyXyXY xyyXyxyyy -2
+member 16 xxyXyXY xyyXyxYYY 18
+member 16 xxyXyXY xyyXyXyyy -2
+member 16 xxyXyXY xyyXyyxYY 64
+member 16 xxyXyXY xyyXyyXyy 0
+member 16 xxyXyXY xyyXyyXYY 273
+member 16 xxyXyXY xyyXyyyxY 82
+member 16 xxyXyXY xyyXyyyXY -2
+member 16 xxyXyXY xyyXYxyyy 0
+member 16 xxyXyXY xyyXYxYYY 88
+member 16 xxyXyXY xyyXYYxYY 311
+member 16 xxyXyXY xyyXYYYxY 312
+member 16 xxyXyXY xyyXYYYXy 313
+member 16 xxyXyXY xyyXYYYXY 314
+member 16 xxyXyXY xyyyXyXyy 86
+member 16 xxyXyXY xyyyXyyxY 0
+member 16 xxyXyXY xyyyXyyXy 9
+member 16 xxyXyXY xyyyXYxYY 92
+member 16 xxyXyXY xyyyXYYxY 315
+member 16 xxyXyXY xyyyyXyXy 0
+member 16 xxyXyXY xyyyyXYxY 24
+member 16 xxyXYXy xxxxyXXXy 3
+member 16 xxyXYXy xxxxyXXXY 0
+member 16 xxyXYXy xxxyXXyyy 94
+member 16 xxyXYXy xxxyXyXyy 97
+member 16 xxyXYXy xxxyXyXYY 58
+member 16 xxyXYXy xxxyXyyXy 94
+member 16 xxyXYXy xxxyXyyXY 80
+member 16 xxyXYXy xxxyyXXyy 54
+member 16 xxyXYXy xxxyyXyXY 316
+member 16 xxyXYXy xxxYXyXYY 74
+member 16 xxyXYXy xxxYXyyXY 74
+member 16 xxyXYXy xxxYXYXYY 80
+member 16 xxyXYXy xxxYXYYXY 316
+member 16 xxyXYXy xxxYYXXYY 0
+member 16 xxyXYXy xxyXXyxYY 94
+member 16 xxyXYXy xxyXXyXYY 80
+member 16 xxyXYXy xxyXXyyxY 54
+member 16 xxyXYXy xxyXXyyXY 80
+member 16 xxyXYXy xxyXyxyXY 0
+member 16 xxyXYXy xxyXyxYXY 3
+member 16 xxyXYXy xxyXyXXYY 5
+member 16 xxyXYXy xxyXyXyxY 54
+member 16 xxyXYXy xxyXyXyXY 58
+member 16 xxyXYXy xxyXyXYxY 80
+member 16 xxyXYXy xxyyXXyxY 97
+member 16 xxyXYXy xxyyXXyXY 58
+member 16 xxyXYXy xxyyyXyyy 5
+member 16 xxyXYXy xxyyyXYYY 93
+member 16 xxyXYXy xxyyyyXYY 93
+member 16 xxyXYXy xxYxyXyXY 24
+member 16 xxyXYXy xxYxYXyXY 74
+member 16 xxyXYXy xxYxYXYXY 58
+member 16 xxyXYXy xxYXyxYXY 0
+member 16 xxyXYXy xxYXyXyXY 125
+member 16 xxyXYXy xxYXyXYXY 3
+member 16 xxyXYXy xxYXYXYXY 0
+member 16 xxyXYXy xxYXYYYYY -2
+member 16 xxyXYXy xxYYXYYYY 318
+member 16 xxyXYXy xxYYYXYYY 319
+member 16 xxyXYXy xyxyyXyyy 93
+member 16 xxyXYXy xyxyyXYYY 5
+member 16 xxyXYXy xyXyxYYYY 320
+member 16 xxyXYXy xyXyXyyyy 321
+member 16 xxyXYXy xyXyXYYYY 322
+member 16 xxyXYXy xyXyyxYYY 323
+member 16 xxyXYXy xyXyyXyyy 324
+member 16 xxyXYXy xyXyyXYYY 325
+member 16 xxyXYXy xyXyyyxyy -2
+member 16 xxyXYXy xyXyyyxYY 323
+member 16 xxyXYXy xyXyyyXyy 9
+member 16 xxyXYXy xyXyyyXYY 322
+member 16 xxyXYXy xyXyyyyxY 320
+member 16 xxyXYXy xyXyyyyXy 327
+member 16 xxyXYXy xyXYYxyyy 80
+member 16 xxyXYXy xyXYYxYYY -2
+member 16 xxyXYXy xyXYYXyyy 94
+member 16 xxyXYXy xyXYYYxyy 80
+member 16 xxyXYXy xyXYYYXyy 54
+member 16 xxyXYXy xyXYYYYXy 94
+member 16 xxyXYXy xyyxyyXyy 96
+member 16 xxyXYXy xyyxyyXYY 58
+member 16 xxyXYXy xyyxYYXYY 97
+member 16 xxyXYXy xyyXyXyyy 328
+member 16 xxyXYXy xyyXyXYYY 329
+member 16 xxyXYXy xyyXyyxYY 330
+member 16 xxyXYXy xyyXyyXyy 331
+member 16 xxyXYXy xyyXyyXYY 332
+member 16 xxyXYXy xyyXyyyxY 333
+member 16 xxyXYXy xyyXYYYxY 334

@@ -1,0 +1,8 @@
+*.bin
+*.pt
+results/
+best*.json
+records*.json
+submitted.json
+.gcp_*
+__pycache__/

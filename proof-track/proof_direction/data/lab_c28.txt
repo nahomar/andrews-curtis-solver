@@ -1,0 +1,36 @@
+# component 0: seed 13 xxxYYYY xyxYXY, 8650489 states (complete=1), 10 listed members
+# component 1: seed 14 XyyxYYY YxxyXXX, 680700 states (complete=1), 4 listed members
+# component 2: seed 14 XyyxYYY XyxxyXX, 1880041 states (complete=1), 4 listed members
+# component 3: seed 14 xxyXy xyyyyyxYY, 5981990 states (complete=1), 4 listed members
+# component 4: seed 14 xxxxyXy xyyyxYY, 108455 states (complete=1), 1 listed members
+# seed 14 xxxyXyy xyxyyXY: AC-TRIVIAL (reaches trivial component at xxyxyXY xxxxxxyXyxxxyxy)
+# component 5: seed 14 xxxyXyy xyxyyXY, 103672 states (complete=0), 1 listed members
+# component 6: seed 14 xxyxxYY xyXYYXy, 100703 states (complete=1), 1 listed members
+# seed 14 xxyxyXY xxYYXyy: AC-TRIVIAL (reaches trivial component at xxyxxYXXY xxxxxyXYXXyXY)
+# component 7: seed 14 xxyxyXY xxYYXyy, 136384 states (complete=0), 1 listed members
+0 13 xxxYYYY xyxYXY
+1 14 XyyxYYY YxxyXXX
+1 14 XyyxYYY XyxxYXX
+2 14 XyyxYYY XyxxyXX
+2 14 XyyxYYY XXXYxxY
+1 14 XyyxYYY XXXYxxy
+0 14 XyyyxYYYY Xyxxy
+0 14 XyyyxYYYY XYxxY
+0 13 xxyXYY xxxYYXy
+0 13 xyxYXY xxxxYYY
+0 14 xxyXy xyyyXYYYY
+3 14 xxyXy xyyyyyxYY
+4 14 xxxxyXy xyyyxYY
+3 14 xxxxyyy xyxyyxY
+2 14 xxxyXXy xyyXYYY
+1 14 xxxyXXY xyyXYYY
+5 14 xxxyXyy xyxyyXY
+0 14 xxxyXYY xyyXYxY
+6 14 xxyxxYY xyXYYXy
+7 14 xxyxyXY xxYYXyy
+3 14 xxyxYXY xyXyxYY
+0 14 xxyxYXY xyXyXYY
+2 14 xxyXXYY xyxYYXy
+0 14 xxyXyXY xyxyXYY
+0 14 xxyXyXY xyXYYXy
+3 14 xxyXYXy xyXyxYY

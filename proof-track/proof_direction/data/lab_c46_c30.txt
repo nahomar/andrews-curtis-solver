@@ -1,0 +1,4 @@
+# component 0: seed 14 xxxxyXy xyyyxYY, 623460 states (complete=1), 1 listed members
+# component 1: seed 14 xxyxxYY xyXYYXy, 5307099 states (complete=1), 1 listed members
+0 14 xxxxyXy xyyyxYY
+1 14 xxyxxYY xyXYYXy

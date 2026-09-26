@@ -1,0 +1,23 @@
+(1) certificate: 68688 edges replayed with the official verifier; 65805 AC-trivial classes; 335 seeds (1 of them shown AC-trivial) (5s)
+(2) 67 nontriviality certificates verified (homomorphisms onto nontrivial permutation groups)
+    necklaces generated (92s)
+    length  2:      1 classes =      1 AC-trivial +    0 nontrivial group +    0 residual in 0 certified residual components  (unaccounted: 0)
+    length  3:      1 classes =      1 AC-trivial +    0 nontrivial group +    0 residual in 0 certified residual components  (unaccounted: 0)
+    length  4:      1 classes =      1 AC-trivial +    0 nontrivial group +    0 residual in 0 certified residual components  (unaccounted: 0)
+    length  5:      2 classes =      2 AC-trivial +    0 nontrivial group +    0 residual in 0 certified residual components  (unaccounted: 0)
+    length  6:      3 classes =      3 AC-trivial +    0 nontrivial group +    0 residual in 0 certified residual components  (unaccounted: 0)
+    length  7:     11 classes =     11 AC-trivial +    0 nontrivial group +    0 residual in 0 certified residual components  (unaccounted: 0)
+    length  8:     17 classes =     17 AC-trivial +    0 nontrivial group +    0 residual in 0 certified residual components  (unaccounted: 0)
+    length  9:     54 classes =     54 AC-trivial +    0 nontrivial group +    0 residual in 0 certified residual components  (unaccounted: 0)
+    length 10:     91 classes =     91 AC-trivial +    0 nontrivial group +    0 residual in 0 certified residual components  (unaccounted: 0)
+    length 11:    349 classes =    349 AC-trivial +    0 nontrivial group +    0 residual in 0 certified residual components  (unaccounted: 0)
+    length 12:    591 classes =    590 AC-trivial +    1 nontrivial group +    0 residual in 0 certified residual components  (unaccounted: 0)
+    length 13:   2359 classes =   2352 AC-trivial +    5 nontrivial group +    2 residual in 1 certified residual components  (unaccounted: 0)
+               residual classes in the components of the named presentations: AK3:2
+    length 14:   4070 classes =   4052 AC-trivial +    4 nontrivial group +   14 residual in 6 certified residual components  (unaccounted: 0)
+               residual classes in the components of the named presentations: AK3:5, C3:4, P2:2, C4:1, P1:1, C6:1
+    length 15:  17021 classes =  16767 AC-trivial +   22 nontrivial group +  232 residual in 76 certified residual components  (unaccounted: 0)
+               residual classes in the components of the named presentations: AK3:72, C3:31, P2:12, P1:2, C6:2
+    length 16:  29929 classes =  29304 AC-trivial +   35 nontrivial group +  590 residual in 265 certified residual components  (unaccounted: 0)
+               residual classes in the components of the named presentations: AK3:82, C3:27, P2:23, P1:8, C4:4, C6:3
+(3) completeness up to length 16: OK (118s)

@@ -1,0 +1,4993 @@
+{
+ "summary": {
+  "exact_classes": 431,
+  "quotient_classes": 207,
+  "runs": 431,
+  "alarms": [],
+  "runs_with_all_15_nontrivial_sigma_realised": 3,
+  "sigma_realised_histogram": {
+   "15": 3,
+   "1": 190,
+   "7": 6,
+   "3": 16,
+   "0": 216
+  }
+ },
+ "classes": [
+  {
+   "members": [
+    "ms0059",
+    "ms0066",
+    "ms0101",
+    "ms0108",
+    "ms0129",
+    "ms0157",
+    "ms0199",
+    "ms0206",
+    "ms0234",
+    "ms0262",
+    "ms0269",
+    "ms0276",
+    "ms0304",
+    "ms0346",
+    "ms0374",
+    "ms0409",
+    "ms0458",
+    "ms0472",
+    "ms0507",
+    "ms0556",
+    "ms0577",
+    "ms0584",
+    "ms0647",
+    "ms0654",
+    "ms0717",
+    "ms0724",
+    "ms0773",
+    "ms0780",
+    "ms0864",
+    "ms0892",
+    "ms1067",
+    "ms1074",
+    "ms1102",
+    "ms1172"
+   ],
+   "quotient_class": [
+    0
+   ],
+   "contains": [
+    "AK3"
+   ]
+  },
+  {
+   "members": [
+    "ms0352",
+    "ms0366",
+    "ms0898",
+    "ms1031",
+    "ms1038",
+    "ms1108"
+   ],
+   "quotient_class": [
+    1
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0359",
+    "ms0415",
+    "ms0905",
+    "ms0996",
+    "ms1003",
+    "ms1115"
+   ],
+   "quotient_class": [
+    2
+   ],
+   "contains": [
+    "BM_P1"
+   ]
+  },
+  {
+   "members": [
+    "ms0534",
+    "ms0933",
+    "ms1157"
+   ],
+   "quotient_class": [
+    3
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0765",
+    "ms0912",
+    "ms1010"
+   ],
+   "quotient_class": [
+    4
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0842",
+    "ms0926",
+    "ms1052"
+   ],
+   "quotient_class": [
+    4
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0947",
+    "ms0968",
+    "ms1024"
+   ],
+   "quotient_class": [
+    3
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0527",
+    "ms1164"
+   ],
+   "quotient_class": [
+    5
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0835",
+    "ms1045"
+   ],
+   "quotient_class": [
+    6
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0919",
+    "ms1017"
+   ],
+   "quotient_class": [
+    6
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0940",
+    "ms0989"
+   ],
+   "quotient_class": [
+    5
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0060",
+    "ms0200",
+    "ms0263",
+    "ms0396",
+    "ms0627",
+    "ms0634",
+    "ms0648",
+    "ms0830"
+   ],
+   "quotient_class": [
+    7
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0067",
+    "ms0102",
+    "ms0347",
+    "ms0403",
+    "ms0508",
+    "ms0816",
+    "ms1061",
+    "ms1145"
+   ],
+   "quotient_class": [
+    7
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0353"
+   ],
+   "quotient_class": [
+    8
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0360"
+   ],
+   "quotient_class": [
+    9
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0367"
+   ],
+   "quotient_class": [
+    8
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0416"
+   ],
+   "quotient_class": [
+    9
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0088",
+    "ms0214",
+    "ms0256",
+    "ms0487",
+    "ms0599",
+    "ms0732",
+    "ms0977",
+    "ms0984",
+    "ms1124"
+   ],
+   "quotient_class": [
+    10
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0137",
+    "ms0221",
+    "ms0326",
+    "ms0480",
+    "ms0522",
+    "ms0564",
+    "ms0879",
+    "ms1082",
+    "ms1089"
+   ],
+   "quotient_class": [
+    10
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0116",
+    "ms0228",
+    "ms0242",
+    "ms0459",
+    "ms0620",
+    "ms0739",
+    "ms1103",
+    "ms1173"
+   ],
+   "quotient_class": [
+    11
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0172",
+    "ms0410",
+    "ms0438",
+    "ms0452",
+    "ms0550",
+    "ms0872",
+    "ms1068",
+    "ms1075"
+   ],
+   "quotient_class": [
+    11
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0570",
+    "ms1039"
+   ],
+   "quotient_class": [
+    12
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0689",
+    "ms1109"
+   ],
+   "quotient_class": [
+    12
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0696",
+    "ms1116"
+   ],
+   "quotient_class": [
+    13
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0955",
+    "ms1004"
+   ],
+   "quotient_class": [
+    13
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0109"
+   ],
+   "quotient_class": [
+    7
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0130"
+   ],
+   "quotient_class": [
+    7
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0528"
+   ],
+   "quotient_class": [
+    14
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0535"
+   ],
+   "quotient_class": [
+    15
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0766"
+   ],
+   "quotient_class": [
+    16
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0836"
+   ],
+   "quotient_class": [
+    17
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0843"
+   ],
+   "quotient_class": [
+    16
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0899"
+   ],
+   "quotient_class": [
+    18
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0906"
+   ],
+   "quotient_class": [
+    19
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0913"
+   ],
+   "quotient_class": [
+    20
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0920"
+   ],
+   "quotient_class": [
+    21
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0927"
+   ],
+   "quotient_class": [
+    22
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0934"
+   ],
+   "quotient_class": [
+    23
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0941"
+   ],
+   "quotient_class": [
+    14
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0948"
+   ],
+   "quotient_class": [
+    15
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0969"
+   ],
+   "quotient_class": [
+    23
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0990"
+   ],
+   "quotient_class": [
+    24
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0997"
+   ],
+   "quotient_class": [
+    19
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1011"
+   ],
+   "quotient_class": [
+    22
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1018"
+   ],
+   "quotient_class": [
+    17
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1025"
+   ],
+   "quotient_class": [
+    25
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1032"
+   ],
+   "quotient_class": [
+    18
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1046"
+   ],
+   "quotient_class": [
+    21
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1053"
+   ],
+   "quotient_class": [
+    20
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1158"
+   ],
+   "quotient_class": [
+    25
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1165"
+   ],
+   "quotient_class": [
+    24
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0235",
+    "ms0774"
+   ],
+   "quotient_class": [
+    7
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0375",
+    "ms0557"
+   ],
+   "quotient_class": [
+    7
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0061"
+   ],
+   "quotient_class": [
+    26
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0068"
+   ],
+   "quotient_class": [
+    26
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0354"
+   ],
+   "quotient_class": [
+    27
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0361"
+   ],
+   "quotient_class": [
+    28
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0368"
+   ],
+   "quotient_class": [
+    27
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0417"
+   ],
+   "quotient_class": [
+    28
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0159",
+    "ms0278"
+   ],
+   "quotient_class": [
+    30
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0208",
+    "ms0306"
+   ],
+   "quotient_class": [
+    30
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0103"
+   ],
+   "quotient_class": [
+    29
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0110"
+   ],
+   "quotient_class": [
+    31
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0117"
+   ],
+   "quotient_class": [
+    10
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0131"
+   ],
+   "quotient_class": [
+    31
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0152"
+   ],
+   "quotient_class": [
+    32
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0166"
+   ],
+   "quotient_class": [
+    32
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0173"
+   ],
+   "quotient_class": [
+    10
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0201"
+   ],
+   "quotient_class": [
+    29
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0529"
+   ],
+   "quotient_class": [
+    33
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0536"
+   ],
+   "quotient_class": [
+    34
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0543"
+   ],
+   "quotient_class": [
+    11
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0571"
+   ],
+   "quotient_class": [
+    35
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0690"
+   ],
+   "quotient_class": [
+    35
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0697"
+   ],
+   "quotient_class": [
+    36
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0767"
+   ],
+   "quotient_class": [
+    37
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0837"
+   ],
+   "quotient_class": [
+    38
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0844"
+   ],
+   "quotient_class": [
+    37
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0900"
+   ],
+   "quotient_class": [
+    39
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0907"
+   ],
+   "quotient_class": [
+    40
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0914"
+   ],
+   "quotient_class": [
+    41
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0921"
+   ],
+   "quotient_class": [
+    42
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0928"
+   ],
+   "quotient_class": [
+    43
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0935"
+   ],
+   "quotient_class": [
+    44
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0942"
+   ],
+   "quotient_class": [
+    33
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0949"
+   ],
+   "quotient_class": [
+    34
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0956"
+   ],
+   "quotient_class": [
+    36
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0963"
+   ],
+   "quotient_class": [
+    11
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0970"
+   ],
+   "quotient_class": [
+    44
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0991"
+   ],
+   "quotient_class": [
+    45
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0998"
+   ],
+   "quotient_class": [
+    40
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1005"
+   ],
+   "quotient_class": [
+    46
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1012"
+   ],
+   "quotient_class": [
+    43
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1019"
+   ],
+   "quotient_class": [
+    38
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1026"
+   ],
+   "quotient_class": [
+    47
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1033"
+   ],
+   "quotient_class": [
+    39
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1040"
+   ],
+   "quotient_class": [
+    48
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1047"
+   ],
+   "quotient_class": [
+    42
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1054"
+   ],
+   "quotient_class": [
+    41
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1110"
+   ],
+   "quotient_class": [
+    48
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1117"
+   ],
+   "quotient_class": [
+    46
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1159"
+   ],
+   "quotient_class": [
+    47
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1166"
+   ],
+   "quotient_class": [
+    45
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0397",
+    "ms0628",
+    "ms0635",
+    "ms0747"
+   ],
+   "quotient_class": [
+    49
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0404",
+    "ms0684",
+    "ms0817",
+    "ms1146"
+   ],
+   "quotient_class": [
+    49
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0383",
+    "ms0614"
+   ],
+   "quotient_class": [
+    50
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0390",
+    "ms1153"
+   ],
+   "quotient_class": [
+    50
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0062"
+   ],
+   "quotient_class": [
+    51
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0069"
+   ],
+   "quotient_class": [
+    51
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0229"
+   ],
+   "quotient_class": [
+    52
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0236"
+   ],
+   "quotient_class": [
+    53
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0243"
+   ],
+   "quotient_class": [
+    10
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0264"
+   ],
+   "quotient_class": [
+    29
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0271"
+   ],
+   "quotient_class": [
+    54
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0292"
+   ],
+   "quotient_class": [
+    55
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0334"
+   ],
+   "quotient_class": [
+    55
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0341"
+   ],
+   "quotient_class": [
+    56
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0348"
+   ],
+   "quotient_class": [
+    29
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0355"
+   ],
+   "quotient_class": [
+    57
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0362"
+   ],
+   "quotient_class": [
+    58
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0369"
+   ],
+   "quotient_class": [
+    57
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0376"
+   ],
+   "quotient_class": [
+    53
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0418"
+   ],
+   "quotient_class": [
+    58
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0439"
+   ],
+   "quotient_class": [
+    10
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0453"
+   ],
+   "quotient_class": [
+    52
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0467"
+   ],
+   "quotient_class": [
+    56
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0474"
+   ],
+   "quotient_class": [
+    54
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0495"
+   ],
+   "quotient_class": [
+    59
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0502"
+   ],
+   "quotient_class": [
+    59
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0509",
+    "ms0887"
+   ],
+   "quotient_class": [
+    29
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0593",
+    "ms0649"
+   ],
+   "quotient_class": [
+    29
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0621",
+    "ms1139"
+   ],
+   "quotient_class": [
+    60
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0670",
+    "ms0873"
+   ],
+   "quotient_class": [
+    60
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0090"
+   ],
+   "quotient_class": [
+    61
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0104"
+   ],
+   "quotient_class": [
+    62
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0111"
+   ],
+   "quotient_class": [
+    63
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0118"
+   ],
+   "quotient_class": [
+    64
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0132"
+   ],
+   "quotient_class": [
+    63
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0139"
+   ],
+   "quotient_class": [
+    61
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0153"
+   ],
+   "quotient_class": [
+    65
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0160"
+   ],
+   "quotient_class": [
+    66
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0167"
+   ],
+   "quotient_class": [
+    65
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0174"
+   ],
+   "quotient_class": [
+    64
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0202"
+   ],
+   "quotient_class": [
+    62
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0209"
+   ],
+   "quotient_class": [
+    66
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0530"
+   ],
+   "quotient_class": [
+    67
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0537"
+   ],
+   "quotient_class": [
+    68
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0544"
+   ],
+   "quotient_class": [
+    69
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0551"
+   ],
+   "quotient_class": [
+    10
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0558"
+   ],
+   "quotient_class": [
+    70
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0572"
+   ],
+   "quotient_class": [
+    71
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0579"
+   ],
+   "quotient_class": [
+    30
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0607"
+   ],
+   "quotient_class": [
+    72
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0663"
+   ],
+   "quotient_class": [
+    73
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0677"
+   ],
+   "quotient_class": [
+    74
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0691"
+   ],
+   "quotient_class": [
+    71
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0698"
+   ],
+   "quotient_class": [
+    75
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0719"
+   ],
+   "quotient_class": [
+    76
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0726"
+   ],
+   "quotient_class": [
+    30
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0740"
+   ],
+   "quotient_class": [
+    10
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0768"
+   ],
+   "quotient_class": [
+    77
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0775"
+   ],
+   "quotient_class": [
+    70
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0782"
+   ],
+   "quotient_class": [
+    76
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0789"
+   ],
+   "quotient_class": [
+    74
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0810"
+   ],
+   "quotient_class": [
+    73
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0824"
+   ],
+   "quotient_class": [
+    72
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0831"
+   ],
+   "quotient_class": [
+    10
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0838"
+   ],
+   "quotient_class": [
+    78
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0845"
+   ],
+   "quotient_class": [
+    77
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0901"
+   ],
+   "quotient_class": [
+    79
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0908"
+   ],
+   "quotient_class": [
+    80
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0915"
+   ],
+   "quotient_class": [
+    81
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0922"
+   ],
+   "quotient_class": [
+    82
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0929"
+   ],
+   "quotient_class": [
+    83
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0936"
+   ],
+   "quotient_class": [
+    84
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0943"
+   ],
+   "quotient_class": [
+    67
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0950"
+   ],
+   "quotient_class": [
+    68
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0957"
+   ],
+   "quotient_class": [
+    75
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0964"
+   ],
+   "quotient_class": [
+    69
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0971"
+   ],
+   "quotient_class": [
+    84
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0992"
+   ],
+   "quotient_class": [
+    85
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0999"
+   ],
+   "quotient_class": [
+    80
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1006"
+   ],
+   "quotient_class": [
+    86
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1013"
+   ],
+   "quotient_class": [
+    83
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1020"
+   ],
+   "quotient_class": [
+    78
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1027"
+   ],
+   "quotient_class": [
+    87
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1034"
+   ],
+   "quotient_class": [
+    79
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1041"
+   ],
+   "quotient_class": [
+    88
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1048"
+   ],
+   "quotient_class": [
+    82
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1055"
+   ],
+   "quotient_class": [
+    81
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1062"
+   ],
+   "quotient_class": [
+    10
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1111"
+   ],
+   "quotient_class": [
+    88
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1118"
+   ],
+   "quotient_class": [
+    86
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1160"
+   ],
+   "quotient_class": [
+    87
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1167"
+   ],
+   "quotient_class": [
+    85
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0063"
+   ],
+   "quotient_class": [
+    89
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0070"
+   ],
+   "quotient_class": [
+    89
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0216"
+   ],
+   "quotient_class": [
+    90
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0223"
+   ],
+   "quotient_class": [
+    91
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0230"
+   ],
+   "quotient_class": [
+    92
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0237"
+   ],
+   "quotient_class": [
+    93
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0244"
+   ],
+   "quotient_class": [
+    94
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0258"
+   ],
+   "quotient_class": [
+    91
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0265"
+   ],
+   "quotient_class": [
+    95
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0272"
+   ],
+   "quotient_class": [
+    96
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0279"
+   ],
+   "quotient_class": [
+    97
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0293"
+   ],
+   "quotient_class": [
+    98
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0307"
+   ],
+   "quotient_class": [
+    97
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0328"
+   ],
+   "quotient_class": [
+    90
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0335"
+   ],
+   "quotient_class": [
+    98
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0342"
+   ],
+   "quotient_class": [
+    99
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0349"
+   ],
+   "quotient_class": [
+    95
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0356"
+   ],
+   "quotient_class": [
+    100
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0363"
+   ],
+   "quotient_class": [
+    101
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0370"
+   ],
+   "quotient_class": [
+    100
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0377"
+   ],
+   "quotient_class": [
+    93
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0412"
+   ],
+   "quotient_class": [
+    102
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0419"
+   ],
+   "quotient_class": [
+    101
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0440"
+   ],
+   "quotient_class": [
+    94
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0454"
+   ],
+   "quotient_class": [
+    92
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0461"
+   ],
+   "quotient_class": [
+    102
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0468"
+   ],
+   "quotient_class": [
+    99
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0475"
+   ],
+   "quotient_class": [
+    96
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0482"
+   ],
+   "quotient_class": [
+    103
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0489"
+   ],
+   "quotient_class": [
+    103
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0496"
+   ],
+   "quotient_class": [
+    104
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0503"
+   ],
+   "quotient_class": [
+    104
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0091"
+   ],
+   "quotient_class": [
+    105
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0105"
+   ],
+   "quotient_class": [
+    106
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0112"
+   ],
+   "quotient_class": [
+    107
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0119"
+   ],
+   "quotient_class": [
+    108
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0133"
+   ],
+   "quotient_class": [
+    107
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0140"
+   ],
+   "quotient_class": [
+    105
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0154"
+   ],
+   "quotient_class": [
+    109
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0161"
+   ],
+   "quotient_class": [
+    110
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0168"
+   ],
+   "quotient_class": [
+    109
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0175"
+   ],
+   "quotient_class": [
+    108
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0203"
+   ],
+   "quotient_class": [
+    106
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0210"
+   ],
+   "quotient_class": [
+    110
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0510"
+   ],
+   "quotient_class": [
+    111
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0517"
+   ],
+   "quotient_class": [
+    112
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0524"
+   ],
+   "quotient_class": [
+    113
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0531"
+   ],
+   "quotient_class": [
+    114
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0538"
+   ],
+   "quotient_class": [
+    115
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0545"
+   ],
+   "quotient_class": [
+    116
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0552"
+   ],
+   "quotient_class": [
+    117
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0559"
+   ],
+   "quotient_class": [
+    118
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0566"
+   ],
+   "quotient_class": [
+    119
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0573"
+   ],
+   "quotient_class": [
+    120
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0580"
+   ],
+   "quotient_class": [
+    121
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0587"
+   ],
+   "quotient_class": [
+    122
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0594"
+   ],
+   "quotient_class": [
+    123
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0650"
+   ],
+   "quotient_class": [
+    111
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0657"
+   ],
+   "quotient_class": [
+    124
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0664"
+   ],
+   "quotient_class": [
+    125
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0671"
+   ],
+   "quotient_class": [
+    126
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0678"
+   ],
+   "quotient_class": [
+    127
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0685"
+   ],
+   "quotient_class": [
+    128
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0692"
+   ],
+   "quotient_class": [
+    120
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0699"
+   ],
+   "quotient_class": [
+    129
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0720"
+   ],
+   "quotient_class": [
+    130
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0727"
+   ],
+   "quotient_class": [
+    121
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0734"
+   ],
+   "quotient_class": [
+    131
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0741"
+   ],
+   "quotient_class": [
+    117
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0748"
+   ],
+   "quotient_class": [
+    128
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0769"
+   ],
+   "quotient_class": [
+    132
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0776"
+   ],
+   "quotient_class": [
+    118
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0783"
+   ],
+   "quotient_class": [
+    130
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0790"
+   ],
+   "quotient_class": [
+    127
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0811"
+   ],
+   "quotient_class": [
+    125
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0832"
+   ],
+   "quotient_class": [
+    133
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0839"
+   ],
+   "quotient_class": [
+    134
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0846"
+   ],
+   "quotient_class": [
+    132
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0853"
+   ],
+   "quotient_class": [
+    112
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0867"
+   ],
+   "quotient_class": [
+    124
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0888"
+   ],
+   "quotient_class": [
+    123
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0895"
+   ],
+   "quotient_class": [
+    122
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0902"
+   ],
+   "quotient_class": [
+    135
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0909"
+   ],
+   "quotient_class": [
+    136
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0916"
+   ],
+   "quotient_class": [
+    137
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0923"
+   ],
+   "quotient_class": [
+    138
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0930"
+   ],
+   "quotient_class": [
+    139
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0937"
+   ],
+   "quotient_class": [
+    140
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0944"
+   ],
+   "quotient_class": [
+    114
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0951"
+   ],
+   "quotient_class": [
+    115
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0958"
+   ],
+   "quotient_class": [
+    129
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0965"
+   ],
+   "quotient_class": [
+    116
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0972"
+   ],
+   "quotient_class": [
+    140
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0979"
+   ],
+   "quotient_class": [
+    113
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0986"
+   ],
+   "quotient_class": [
+    141
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0993"
+   ],
+   "quotient_class": [
+    142
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1000"
+   ],
+   "quotient_class": [
+    136
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1007"
+   ],
+   "quotient_class": [
+    143
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1014"
+   ],
+   "quotient_class": [
+    139
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1021"
+   ],
+   "quotient_class": [
+    134
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1028"
+   ],
+   "quotient_class": [
+    144
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1035"
+   ],
+   "quotient_class": [
+    135
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1042"
+   ],
+   "quotient_class": [
+    145
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1049"
+   ],
+   "quotient_class": [
+    138
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1056"
+   ],
+   "quotient_class": [
+    137
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1063"
+   ],
+   "quotient_class": [
+    133
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1070"
+   ],
+   "quotient_class": [
+    146
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1077"
+   ],
+   "quotient_class": [
+    147
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1084"
+   ],
+   "quotient_class": [
+    141
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1091"
+   ],
+   "quotient_class": [
+    131
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1105"
+   ],
+   "quotient_class": [
+    147
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1112"
+   ],
+   "quotient_class": [
+    145
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1119"
+   ],
+   "quotient_class": [
+    143
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1126"
+   ],
+   "quotient_class": [
+    119
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1140"
+   ],
+   "quotient_class": [
+    126
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1161"
+   ],
+   "quotient_class": [
+    144
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1168"
+   ],
+   "quotient_class": [
+    142
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1175"
+   ],
+   "quotient_class": [
+    146
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0217"
+   ],
+   "quotient_class": [
+    148
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0224"
+   ],
+   "quotient_class": [
+    149
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0231"
+   ],
+   "quotient_class": [
+    150
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0238"
+   ],
+   "quotient_class": [
+    151
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0245"
+   ],
+   "quotient_class": [
+    152
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0259"
+   ],
+   "quotient_class": [
+    149
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0266"
+   ],
+   "quotient_class": [
+    153
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0273"
+   ],
+   "quotient_class": [
+    154
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0280"
+   ],
+   "quotient_class": [
+    155
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0294"
+   ],
+   "quotient_class": [
+    156
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0308"
+   ],
+   "quotient_class": [
+    155
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0329"
+   ],
+   "quotient_class": [
+    148
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0336"
+   ],
+   "quotient_class": [
+    156
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0343"
+   ],
+   "quotient_class": [
+    157
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0350"
+   ],
+   "quotient_class": [
+    153
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0357"
+   ],
+   "quotient_class": [
+    158
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0364"
+   ],
+   "quotient_class": [
+    159
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0371"
+   ],
+   "quotient_class": [
+    158
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0378"
+   ],
+   "quotient_class": [
+    151
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0385"
+   ],
+   "quotient_class": [
+    160
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0392"
+   ],
+   "quotient_class": [
+    160
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0399"
+   ],
+   "quotient_class": [
+    161
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0406"
+   ],
+   "quotient_class": [
+    161
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0413"
+   ],
+   "quotient_class": [
+    162
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0420"
+   ],
+   "quotient_class": [
+    159
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0441"
+   ],
+   "quotient_class": [
+    152
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0455"
+   ],
+   "quotient_class": [
+    150
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0462"
+   ],
+   "quotient_class": [
+    162
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0469"
+   ],
+   "quotient_class": [
+    157
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0476"
+   ],
+   "quotient_class": [
+    154
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0483"
+   ],
+   "quotient_class": [
+    163
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0490"
+   ],
+   "quotient_class": [
+    163
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0497"
+   ],
+   "quotient_class": [
+    164
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0504"
+   ],
+   "quotient_class": [
+    164
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0511"
+   ],
+   "quotient_class": [
+    165
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0525"
+   ],
+   "quotient_class": [
+    166
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0532"
+   ],
+   "quotient_class": [
+    167
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0539"
+   ],
+   "quotient_class": [
+    168
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0546"
+   ],
+   "quotient_class": [
+    169
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0553"
+   ],
+   "quotient_class": [
+    170
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0560"
+   ],
+   "quotient_class": [
+    171
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0567"
+   ],
+   "quotient_class": [
+    172
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0574"
+   ],
+   "quotient_class": [
+    173
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0581"
+   ],
+   "quotient_class": [
+    174
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0588"
+   ],
+   "quotient_class": [
+    175
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0595"
+   ],
+   "quotient_class": [
+    176
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0602"
+   ],
+   "quotient_class": [
+    177
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0609"
+   ],
+   "quotient_class": [
+    178
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0616"
+   ],
+   "quotient_class": [
+    179
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0623"
+   ],
+   "quotient_class": [
+    180
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0630"
+   ],
+   "quotient_class": [
+    181
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0637"
+   ],
+   "quotient_class": [
+    182
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0651"
+   ],
+   "quotient_class": [
+    165
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0658"
+   ],
+   "quotient_class": [
+    183
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0665"
+   ],
+   "quotient_class": [
+    184
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0672"
+   ],
+   "quotient_class": [
+    185
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0679"
+   ],
+   "quotient_class": [
+    186
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0686"
+   ],
+   "quotient_class": [
+    187
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0693"
+   ],
+   "quotient_class": [
+    173
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0700"
+   ],
+   "quotient_class": [
+    188
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0707"
+   ],
+   "quotient_class": [
+    189
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0721"
+   ],
+   "quotient_class": [
+    190
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0728"
+   ],
+   "quotient_class": [
+    174
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0735"
+   ],
+   "quotient_class": [
+    191
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0742"
+   ],
+   "quotient_class": [
+    170
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0749"
+   ],
+   "quotient_class": [
+    187
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0770"
+   ],
+   "quotient_class": [
+    192
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0777"
+   ],
+   "quotient_class": [
+    171
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0784"
+   ],
+   "quotient_class": [
+    190
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0791"
+   ],
+   "quotient_class": [
+    186
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0812"
+   ],
+   "quotient_class": [
+    184
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0819"
+   ],
+   "quotient_class": [
+    181
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0826"
+   ],
+   "quotient_class": [
+    178
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0840"
+   ],
+   "quotient_class": [
+    193
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0847"
+   ],
+   "quotient_class": [
+    192
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0861"
+   ],
+   "quotient_class": [
+    189
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0868"
+   ],
+   "quotient_class": [
+    183
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0875"
+   ],
+   "quotient_class": [
+    180
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0882"
+   ],
+   "quotient_class": [
+    177
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0889"
+   ],
+   "quotient_class": [
+    176
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0896"
+   ],
+   "quotient_class": [
+    175
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0903"
+   ],
+   "quotient_class": [
+    194
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0910"
+   ],
+   "quotient_class": [
+    195
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0917"
+   ],
+   "quotient_class": [
+    196
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0924"
+   ],
+   "quotient_class": [
+    197
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0931"
+   ],
+   "quotient_class": [
+    198
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0938"
+   ],
+   "quotient_class": [
+    199
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0945"
+   ],
+   "quotient_class": [
+    167
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0952"
+   ],
+   "quotient_class": [
+    168
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0959"
+   ],
+   "quotient_class": [
+    188
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0966"
+   ],
+   "quotient_class": [
+    169
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0973"
+   ],
+   "quotient_class": [
+    199
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0980"
+   ],
+   "quotient_class": [
+    166
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0987"
+   ],
+   "quotient_class": [
+    200
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms0994"
+   ],
+   "quotient_class": [
+    201
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1001"
+   ],
+   "quotient_class": [
+    195
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1008"
+   ],
+   "quotient_class": [
+    202
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1015"
+   ],
+   "quotient_class": [
+    198
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1022"
+   ],
+   "quotient_class": [
+    193
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1029"
+   ],
+   "quotient_class": [
+    203
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1036"
+   ],
+   "quotient_class": [
+    194
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1043"
+   ],
+   "quotient_class": [
+    204
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1050"
+   ],
+   "quotient_class": [
+    197
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1057"
+   ],
+   "quotient_class": [
+    196
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1071"
+   ],
+   "quotient_class": [
+    205
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1078"
+   ],
+   "quotient_class": [
+    206
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1085"
+   ],
+   "quotient_class": [
+    200
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1092"
+   ],
+   "quotient_class": [
+    191
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1106"
+   ],
+   "quotient_class": [
+    206
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1113"
+   ],
+   "quotient_class": [
+    204
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1120"
+   ],
+   "quotient_class": [
+    202
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1127"
+   ],
+   "quotient_class": [
+    172
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1141"
+   ],
+   "quotient_class": [
+    185
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1148"
+   ],
+   "quotient_class": [
+    182
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1155"
+   ],
+   "quotient_class": [
+    179
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1162"
+   ],
+   "quotient_class": [
+    203
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1169"
+   ],
+   "quotient_class": [
+    201
+   ],
+   "contains": []
+  },
+  {
+   "members": [
+    "ms1176"
+   ],
+   "quotient_class": [
+    205
+   ],
+   "contains": []
+  }
+ ],
+ "sigma_realised": {
+  "ms0059": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx-1_yy1",
+   "xx-1_yy1_swap",
+   "xx1_yy-1",
+   "xx1_yy-1_swap",
+   "xx1_yy1_swap",
+   "xy-1_yx-1",
+   "xy-1_yx-1_swap",
+   "xy-1_yx1",
+   "xy-1_yx1_swap",
+   "xy1_yx-1",
+   "xy1_yx-1_swap",
+   "xy1_yx1",
+   "xy1_yx1_swap"
+  ],
+  "ms0352": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx-1_yy1",
+   "xx-1_yy1_swap",
+   "xx1_yy-1",
+   "xx1_yy-1_swap",
+   "xx1_yy1_swap",
+   "xy-1_yx-1",
+   "xy-1_yx-1_swap",
+   "xy-1_yx1",
+   "xy-1_yx1_swap",
+   "xy1_yx-1",
+   "xy1_yx-1_swap",
+   "xy1_yx1",
+   "xy1_yx1_swap"
+  ],
+  "ms0359": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx-1_yy1",
+   "xx-1_yy1_swap",
+   "xx1_yy-1",
+   "xx1_yy-1_swap",
+   "xx1_yy1_swap",
+   "xy-1_yx-1",
+   "xy-1_yx-1_swap",
+   "xy-1_yx1",
+   "xy-1_yx1_swap",
+   "xy1_yx-1",
+   "xy1_yx-1_swap",
+   "xy1_yx1",
+   "xy1_yx1_swap"
+  ],
+  "ms0527": [
+   "xx1_yy1_swap"
+  ],
+  "ms0534": [
+   "xx1_yy1_swap"
+  ],
+  "ms0765": [
+   "xx1_yy1_swap"
+  ],
+  "ms0835": [
+   "xx1_yy1_swap"
+  ],
+  "ms0842": [
+   "xx1_yy1_swap"
+  ],
+  "ms0919": [
+   "xx1_yy1_swap"
+  ],
+  "ms0940": [
+   "xx1_yy1_swap"
+  ],
+  "ms0947": [
+   "xx1_yy1_swap"
+  ],
+  "ms0060": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap",
+   "xy-1_yx-1",
+   "xy-1_yx-1_swap",
+   "xy1_yx1",
+   "xy1_yx1_swap"
+  ],
+  "ms0067": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap",
+   "xy-1_yx-1",
+   "xy-1_yx-1_swap",
+   "xy1_yx1",
+   "xy1_yx1_swap"
+  ],
+  "ms0353": [
+   "xx1_yy1_swap",
+   "xy-1_yx-1",
+   "xy-1_yx-1_swap"
+  ],
+  "ms0360": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap",
+   "xy-1_yx1",
+   "xy-1_yx1_swap",
+   "xy1_yx-1",
+   "xy1_yx-1_swap"
+  ],
+  "ms0367": [
+   "xx1_yy1_swap",
+   "xy1_yx1",
+   "xy1_yx1_swap"
+  ],
+  "ms0416": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap",
+   "xy-1_yx1",
+   "xy-1_yx1_swap",
+   "xy1_yx-1",
+   "xy1_yx-1_swap"
+  ],
+  "ms0088": [
+   "xx1_yy1_swap"
+  ],
+  "ms0109": [
+   "xx-1_yy-1"
+  ],
+  "ms0116": [
+   "xx1_yy1_swap"
+  ],
+  "ms0130": [
+   "xx-1_yy-1"
+  ],
+  "ms0137": [
+   "xx1_yy1_swap"
+  ],
+  "ms0172": [
+   "xx1_yy1_swap"
+  ],
+  "ms0528": [
+   "xx1_yy1_swap"
+  ],
+  "ms0535": [
+   "xx1_yy1_swap"
+  ],
+  "ms0570": [
+   "xx1_yy1_swap"
+  ],
+  "ms0689": [
+   "xx1_yy1_swap"
+  ],
+  "ms0696": [
+   "xx1_yy1_swap"
+  ],
+  "ms0766": [
+   "xx1_yy1_swap"
+  ],
+  "ms0836": [
+   "xx1_yy1_swap"
+  ],
+  "ms0843": [
+   "xx1_yy1_swap"
+  ],
+  "ms0899": [
+   "xx1_yy1_swap"
+  ],
+  "ms0906": [
+   "xx1_yy1_swap"
+  ],
+  "ms0913": [
+   "xx1_yy1_swap"
+  ],
+  "ms0920": [
+   "xx1_yy1_swap"
+  ],
+  "ms0927": [
+   "xx1_yy1_swap"
+  ],
+  "ms0934": [
+   "xx1_yy1_swap"
+  ],
+  "ms0941": [
+   "xx1_yy1_swap"
+  ],
+  "ms0948": [
+   "xx1_yy1_swap"
+  ],
+  "ms0955": [
+   "xx1_yy1_swap"
+  ],
+  "ms0969": [
+   "xx1_yy1_swap"
+  ],
+  "ms0990": [
+   "xx1_yy1_swap"
+  ],
+  "ms0997": [
+   "xx1_yy1_swap"
+  ],
+  "ms1011": [
+   "xx1_yy1_swap"
+  ],
+  "ms1018": [
+   "xx1_yy1_swap"
+  ],
+  "ms1025": [
+   "xx1_yy1_swap"
+  ],
+  "ms1032": [
+   "xx1_yy1_swap"
+  ],
+  "ms1046": [
+   "xx1_yy1_swap"
+  ],
+  "ms1053": [
+   "xx1_yy1_swap"
+  ],
+  "ms1158": [
+   "xx1_yy1_swap"
+  ],
+  "ms1165": [
+   "xx1_yy1_swap"
+  ],
+  "ms0061": [
+   "xx-1_yy-1"
+  ],
+  "ms0068": [
+   "xx-1_yy-1"
+  ],
+  "ms0235": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap"
+  ],
+  "ms0354": [
+   "xx1_yy1_swap"
+  ],
+  "ms0361": [
+   "xx1_yy1_swap"
+  ],
+  "ms0368": [
+   "xx1_yy1_swap"
+  ],
+  "ms0375": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap"
+  ],
+  "ms0417": [
+   "xx1_yy1_swap"
+  ],
+  "ms0103": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap",
+   "xy-1_yx-1",
+   "xy-1_yx-1_swap",
+   "xy1_yx1",
+   "xy1_yx1_swap"
+  ],
+  "ms0110": [
+   "xx-1_yy-1"
+  ],
+  "ms0117": [
+   "xx1_yy1_swap"
+  ],
+  "ms0131": [
+   "xx-1_yy-1"
+  ],
+  "ms0152": [],
+  "ms0159": [
+   "xx1_yy1_swap"
+  ],
+  "ms0166": [],
+  "ms0173": [
+   "xx1_yy1_swap"
+  ],
+  "ms0201": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap",
+   "xy-1_yx-1",
+   "xy-1_yx-1_swap",
+   "xy1_yx1",
+   "xy1_yx1_swap"
+  ],
+  "ms0208": [
+   "xx1_yy1_swap"
+  ],
+  "ms0529": [
+   "xx1_yy1_swap"
+  ],
+  "ms0536": [],
+  "ms0543": [],
+  "ms0571": [
+   "xx1_yy1_swap"
+  ],
+  "ms0690": [
+   "xx1_yy1_swap"
+  ],
+  "ms0697": [
+   "xx1_yy1_swap"
+  ],
+  "ms0767": [],
+  "ms0837": [
+   "xx1_yy1_swap"
+  ],
+  "ms0844": [],
+  "ms0900": [],
+  "ms0907": [],
+  "ms0914": [
+   "xx1_yy1_swap"
+  ],
+  "ms0921": [
+   "xx1_yy1_swap"
+  ],
+  "ms0928": [
+   "xx1_yy1_swap"
+  ],
+  "ms0935": [
+   "xx1_yy1_swap"
+  ],
+  "ms0942": [
+   "xx1_yy1_swap"
+  ],
+  "ms0949": [],
+  "ms0956": [
+   "xx1_yy1_swap"
+  ],
+  "ms0963": [],
+  "ms0970": [
+   "xx1_yy1_swap"
+  ],
+  "ms0991": [
+   "xx1_yy1_swap"
+  ],
+  "ms0998": [],
+  "ms1005": [
+   "xx1_yy1_swap"
+  ],
+  "ms1012": [
+   "xx1_yy1_swap"
+  ],
+  "ms1019": [
+   "xx1_yy1_swap"
+  ],
+  "ms1026": [],
+  "ms1033": [],
+  "ms1040": [
+   "xx1_yy1_swap"
+  ],
+  "ms1047": [
+   "xx1_yy1_swap"
+  ],
+  "ms1054": [
+   "xx1_yy1_swap"
+  ],
+  "ms1110": [
+   "xx1_yy1_swap"
+  ],
+  "ms1117": [
+   "xx1_yy1_swap"
+  ],
+  "ms1159": [],
+  "ms1166": [
+   "xx1_yy1_swap"
+  ],
+  "ms0062": [
+   "xx-1_yy-1"
+  ],
+  "ms0069": [
+   "xx-1_yy-1"
+  ],
+  "ms0229": [
+   "xx1_yy1_swap"
+  ],
+  "ms0236": [
+   "xx-1_yy-1"
+  ],
+  "ms0243": [
+   "xx1_yy1_swap"
+  ],
+  "ms0264": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap"
+  ],
+  "ms0271": [
+   "xx1_yy1_swap"
+  ],
+  "ms0292": [
+   "xx1_yy1_swap"
+  ],
+  "ms0334": [
+   "xx1_yy1_swap"
+  ],
+  "ms0341": [
+   "xx-1_yy-1"
+  ],
+  "ms0348": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap"
+  ],
+  "ms0355": [],
+  "ms0362": [],
+  "ms0369": [],
+  "ms0376": [
+   "xx-1_yy-1"
+  ],
+  "ms0383": [
+   "xx1_yy1_swap"
+  ],
+  "ms0390": [
+   "xx1_yy1_swap"
+  ],
+  "ms0397": [
+   "xx1_yy1_swap"
+  ],
+  "ms0404": [
+   "xx1_yy1_swap"
+  ],
+  "ms0418": [],
+  "ms0439": [
+   "xx1_yy1_swap"
+  ],
+  "ms0453": [
+   "xx1_yy1_swap"
+  ],
+  "ms0467": [
+   "xx-1_yy-1"
+  ],
+  "ms0474": [
+   "xx1_yy1_swap"
+  ],
+  "ms0495": [],
+  "ms0502": [],
+  "ms0090": [],
+  "ms0104": [
+   "xx-1_yy-1",
+   "xy-1_yx-1",
+   "xy1_yx1"
+  ],
+  "ms0111": [
+   "xx-1_yy-1"
+  ],
+  "ms0118": [],
+  "ms0132": [
+   "xx-1_yy-1"
+  ],
+  "ms0139": [],
+  "ms0153": [],
+  "ms0160": [
+   "xx1_yy1_swap"
+  ],
+  "ms0167": [],
+  "ms0174": [],
+  "ms0202": [
+   "xx-1_yy-1",
+   "xy-1_yx-1",
+   "xy1_yx1"
+  ],
+  "ms0209": [
+   "xx1_yy1_swap"
+  ],
+  "ms0509": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap"
+  ],
+  "ms0530": [],
+  "ms0537": [],
+  "ms0544": [],
+  "ms0551": [
+   "xx1_yy1_swap"
+  ],
+  "ms0558": [
+   "xx-1_yy-1"
+  ],
+  "ms0572": [],
+  "ms0579": [
+   "xx1_yy1_swap"
+  ],
+  "ms0593": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap"
+  ],
+  "ms0607": [
+   "xx1_yy1_swap"
+  ],
+  "ms0621": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap"
+  ],
+  "ms0663": [
+   "xx-1_yy-1"
+  ],
+  "ms0670": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap"
+  ],
+  "ms0677": [],
+  "ms0691": [],
+  "ms0698": [],
+  "ms0719": [
+   "xx1_yy1_swap"
+  ],
+  "ms0726": [
+   "xx1_yy1_swap"
+  ],
+  "ms0740": [
+   "xx1_yy1_swap"
+  ],
+  "ms0768": [],
+  "ms0775": [
+   "xx-1_yy-1"
+  ],
+  "ms0782": [
+   "xx1_yy1_swap"
+  ],
+  "ms0789": [],
+  "ms0810": [
+   "xx-1_yy-1"
+  ],
+  "ms0824": [
+   "xx1_yy1_swap"
+  ],
+  "ms0831": [
+   "xx1_yy1_swap"
+  ],
+  "ms0838": [],
+  "ms0845": [],
+  "ms0901": [],
+  "ms0908": [],
+  "ms0915": [],
+  "ms0922": [],
+  "ms0929": [],
+  "ms0936": [],
+  "ms0943": [],
+  "ms0950": [],
+  "ms0957": [],
+  "ms0964": [],
+  "ms0971": [],
+  "ms0992": [],
+  "ms0999": [],
+  "ms1006": [],
+  "ms1013": [],
+  "ms1020": [],
+  "ms1027": [],
+  "ms1034": [],
+  "ms1041": [],
+  "ms1048": [],
+  "ms1055": [],
+  "ms1062": [
+   "xx1_yy1_swap"
+  ],
+  "ms1111": [],
+  "ms1118": [],
+  "ms1160": [],
+  "ms1167": [],
+  "ms0063": [
+   "xx-1_yy-1"
+  ],
+  "ms0070": [
+   "xx-1_yy-1"
+  ],
+  "ms0216": [
+   "xx1_yy1_swap"
+  ],
+  "ms0223": [
+   "xx1_yy1_swap"
+  ],
+  "ms0230": [],
+  "ms0237": [],
+  "ms0244": [
+   "xx1_yy1_swap"
+  ],
+  "ms0258": [
+   "xx1_yy1_swap"
+  ],
+  "ms0265": [
+   "xx-1_yy-1"
+  ],
+  "ms0272": [
+   "xx1_yy1_swap"
+  ],
+  "ms0279": [
+   "xx1_yy1_swap"
+  ],
+  "ms0293": [
+   "xx1_yy1_swap"
+  ],
+  "ms0307": [
+   "xx1_yy1_swap"
+  ],
+  "ms0328": [
+   "xx1_yy1_swap"
+  ],
+  "ms0335": [
+   "xx1_yy1_swap"
+  ],
+  "ms0342": [
+   "xx-1_yy-1"
+  ],
+  "ms0349": [
+   "xx-1_yy-1"
+  ],
+  "ms0356": [],
+  "ms0363": [],
+  "ms0370": [],
+  "ms0377": [],
+  "ms0412": [
+   "xx1_yy1_swap"
+  ],
+  "ms0419": [],
+  "ms0440": [
+   "xx1_yy1_swap"
+  ],
+  "ms0454": [],
+  "ms0461": [
+   "xx1_yy1_swap"
+  ],
+  "ms0468": [
+   "xx-1_yy-1"
+  ],
+  "ms0475": [
+   "xx1_yy1_swap"
+  ],
+  "ms0482": [
+   "xx1_yy1_swap"
+  ],
+  "ms0489": [
+   "xx1_yy1_swap"
+  ],
+  "ms0496": [],
+  "ms0503": [],
+  "ms0091": [],
+  "ms0105": [
+   "xx-1_yy-1",
+   "xy-1_yx-1",
+   "xy1_yx1"
+  ],
+  "ms0112": [],
+  "ms0119": [],
+  "ms0133": [],
+  "ms0140": [],
+  "ms0154": [],
+  "ms0161": [],
+  "ms0168": [],
+  "ms0175": [],
+  "ms0203": [
+   "xx-1_yy-1",
+   "xy-1_yx-1",
+   "xy1_yx1"
+  ],
+  "ms0210": [],
+  "ms0510": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap"
+  ],
+  "ms0517": [
+   "xx1_yy1_swap"
+  ],
+  "ms0524": [],
+  "ms0531": [],
+  "ms0538": [],
+  "ms0545": [],
+  "ms0552": [],
+  "ms0559": [],
+  "ms0566": [
+   "xx1_yy1_swap"
+  ],
+  "ms0573": [],
+  "ms0580": [
+   "xx1_yy1_swap"
+  ],
+  "ms0587": [
+   "xx1_yy1_swap"
+  ],
+  "ms0594": [
+   "xx1_yy1_swap"
+  ],
+  "ms0650": [
+   "xx-1_yy-1",
+   "xx-1_yy-1_swap",
+   "xx1_yy1_swap"
+  ],
+  "ms0657": [],
+  "ms0664": [],
+  "ms0671": [
+   "xx-1_yy-1"
+  ],
+  "ms0678": [],
+  "ms0685": [
+   "xx1_yy1_swap"
+  ],
+  "ms0692": [],
+  "ms0699": [],
+  "ms0720": [
+   "xx1_yy1_swap"
+  ],
+  "ms0727": [
+   "xx1_yy1_swap"
+  ],
+  "ms0734": [],
+  "ms0741": [],
+  "ms0748": [
+   "xx1_yy1_swap"
+  ],
+  "ms0769": [],
+  "ms0776": [],
+  "ms0783": [
+   "xx1_yy1_swap"
+  ],
+  "ms0790": [],
+  "ms0811": [],
+  "ms0832": [
+   "xx1_yy1_swap"
+  ],
+  "ms0839": [],
+  "ms0846": [],
+  "ms0853": [
+   "xx1_yy1_swap"
+  ],
+  "ms0867": [],
+  "ms0888": [
+   "xx1_yy1_swap"
+  ],
+  "ms0895": [
+   "xx1_yy1_swap"
+  ],
+  "ms0902": [],
+  "ms0909": [],
+  "ms0916": [],
+  "ms0923": [],
+  "ms0930": [],
+  "ms0937": [],
+  "ms0944": [],
+  "ms0951": [],
+  "ms0958": [],
+  "ms0965": [],
+  "ms0972": [],
+  "ms0979": [],
+  "ms0986": [],
+  "ms0993": [],
+  "ms1000": [],
+  "ms1007": [],
+  "ms1014": [],
+  "ms1021": [],
+  "ms1028": [],
+  "ms1035": [],
+  "ms1042": [],
+  "ms1049": [],
+  "ms1056": [],
+  "ms1063": [
+   "xx1_yy1_swap"
+  ],
+  "ms1070": [
+   "xx1_yy1_swap"
+  ],
+  "ms1077": [
+   "xx1_yy1_swap"
+  ],
+  "ms1084": [],
+  "ms1091": [],
+  "ms1105": [
+   "xx1_yy1_swap"
+  ],
+  "ms1112": [],
+  "ms1119": [],
+  "ms1126": [
+   "xx1_yy1_swap"
+  ],
+  "ms1140": [
+   "xx-1_yy-1"
+  ],
+  "ms1161": [],
+  "ms1168": [],
+  "ms1175": [
+   "xx1_yy1_swap"
+  ],
+  "ms0217": [
+   "xx1_yy1_swap"
+  ],
+  "ms0224": [],
+  "ms0231": [],
+  "ms0238": [],
+  "ms0245": [
+   "xx1_yy1_swap"
+  ],
+  "ms0259": [],
+  "ms0266": [
+   "xx-1_yy-1"
+  ],
+  "ms0273": [],
+  "ms0280": [],
+  "ms0294": [],
+  "ms0308": [],
+  "ms0329": [
+   "xx1_yy1_swap"
+  ],
+  "ms0336": [],
+  "ms0343": [],
+  "ms0350": [
+   "xx-1_yy-1"
+  ],
+  "ms0357": [],
+  "ms0364": [],
+  "ms0371": [],
+  "ms0378": [],
+  "ms0385": [
+   "xx1_yy1_swap"
+  ],
+  "ms0392": [
+   "xx1_yy1_swap"
+  ],
+  "ms0399": [
+   "xx1_yy1_swap"
+  ],
+  "ms0406": [
+   "xx1_yy1_swap"
+  ],
+  "ms0413": [
+   "xx1_yy1_swap"
+  ],
+  "ms0420": [],
+  "ms0441": [
+   "xx1_yy1_swap"
+  ],
+  "ms0455": [],
+  "ms0462": [
+   "xx1_yy1_swap"
+  ],
+  "ms0469": [],
+  "ms0476": [],
+  "ms0483": [],
+  "ms0490": [],
+  "ms0497": [],
+  "ms0504": [],
+  "ms0511": [
+   "xx-1_yy-1"
+  ],
+  "ms0525": [],
+  "ms0532": [],
+  "ms0539": [],
+  "ms0546": [],
+  "ms0553": [],
+  "ms0560": [],
+  "ms0567": [
+   "xx1_yy1_swap"
+  ],
+  "ms0574": [],
+  "ms0581": [],
+  "ms0588": [
+   "xx1_yy1_swap"
+  ],
+  "ms0595": [
+   "xx1_yy1_swap"
+  ],
+  "ms0602": [],
+  "ms0609": [],
+  "ms0616": [
+   "xx1_yy1_swap"
+  ],
+  "ms0623": [
+   "xx1_yy1_swap"
+  ],
+  "ms0630": [
+   "xx1_yy1_swap"
+  ],
+  "ms0637": [
+   "xx1_yy1_swap"
+  ],
+  "ms0651": [
+   "xx-1_yy-1"
+  ],
+  "ms0658": [],
+  "ms0665": [],
+  "ms0672": [
+   "xx-1_yy-1"
+  ],
+  "ms0679": [],
+  "ms0686": [],
+  "ms0693": [],
+  "ms0700": [],
+  "ms0707": [
+   "xx1_yy1_swap"
+  ],
+  "ms0721": [],
+  "ms0728": [],
+  "ms0735": [],
+  "ms0742": [],
+  "ms0749": [],
+  "ms0770": [],
+  "ms0777": [],
+  "ms0784": [],
+  "ms0791": [],
+  "ms0812": [],
+  "ms0819": [
+   "xx1_yy1_swap"
+  ],
+  "ms0826": [],
+  "ms0840": [],
+  "ms0847": [],
+  "ms0861": [
+   "xx1_yy1_swap"
+  ],
+  "ms0868": [],
+  "ms0875": [
+   "xx1_yy1_swap"
+  ],
+  "ms0882": [],
+  "ms0889": [
+   "xx1_yy1_swap"
+  ],
+  "ms0896": [
+   "xx1_yy1_swap"
+  ],
+  "ms0903": [],
+  "ms0910": [],
+  "ms0917": [],
+  "ms0924": [],
+  "ms0931": [],
+  "ms0938": [],
+  "ms0945": [],
+  "ms0952": [],
+  "ms0959": [],
+  "ms0966": [],
+  "ms0973": [],
+  "ms0980": [],
+  "ms0987": [],
+  "ms0994": [],
+  "ms1001": [],
+  "ms1008": [],
+  "ms1015": [],
+  "ms1022": [],
+  "ms1029": [],
+  "ms1036": [],
+  "ms1043": [],
+  "ms1050": [],
+  "ms1057": [],
+  "ms1071": [
+   "xx1_yy1_swap"
+  ],
+  "ms1078": [],
+  "ms1085": [],
+  "ms1092": [],
+  "ms1106": [],
+  "ms1113": [],
+  "ms1120": [],
+  "ms1127": [
+   "xx1_yy1_swap"
+  ],
+  "ms1141": [
+   "xx-1_yy-1"
+  ],
+  "ms1148": [
+   "xx1_yy1_swap"
+  ],
+  "ms1155": [
+   "xx1_yy1_swap"
+  ],
+  "ms1162": [],
+  "ms1169": [],
+  "ms1176": [
+   "xx1_yy1_swap"
+  ]
+ }
+}
