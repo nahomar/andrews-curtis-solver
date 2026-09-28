@@ -5,8 +5,13 @@ Z=$(cat .gcp_zone); P=$(cat .gcp_project)
 log() { print -r -- "[$(date '+%m-%d %H:%M')] $*" >> results/cloudsync.log; }
 while true; do
   FOCUS_GMAX=8 python3 tools.py focus results/cloud_targets.txt > /dev/null 2>&1   # fresh targets for the perpetual cloud workers
+  python3 -c "
+import json;d=json.load(open('best_ac.json'))
+ids=[l.split()[0] for l in open('results/cloud_targets.txt')]
+open('results/cloud_paths.jsonl','w').writelines(json.dumps({'id':i,'solved':True,'moves':d[i]['moves']})+chr(10) for i in ids if i in d)"   # our best paths, for cloud-side polishing
   for VM in acc1 acc2; do
     gcloud compute scp results/cloud_targets.txt "${VM}:acs/targets.txt" --zone=$Z --project=$P --quiet >> results/cloudsync.log 2>&1
+    gcloud compute scp results/cloud_paths.jsonl "${VM}:acs/paths.jsonl" --zone=$Z --project=$P --quiet >> results/cloudsync.log 2>&1
     st=$(gcloud compute instances describe $VM --zone=$Z --project=$P --format='value(status)' 2>&1)
     if [ "$st" != "RUNNING" ]; then
       log "$VM status $st -> starting"

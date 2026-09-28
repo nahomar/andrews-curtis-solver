@@ -54,3 +54,21 @@ Width is fully saturated. Focus loop back on 12 threads.
 Imitation bootstrap (move-acc 0.34) + PUCT MCTS self-play with curriculum from our near-record paths:
 k=4,6 solved 100%; k=8: 69% -> 75% -> 94% over 3 iterations; k=10: 12% at first try. Paths equal to ours (+0.3..+1.0), none shorter yet.
 Long run started (500 iterations, 32 games, 48 sims) to measure how far the curriculum climbs on the Mac.
+## 2026-09-26 whole-problem bidirectional similarity search (acs bidir): NEGATIVE
+mid15, width 20k and 100k: frontiers never meet over 50-100 moves (exact-state meeting in a huge space); 0/15 improved.
+Bidirectional search only works at window scale (20-40 moves), which `acs window` already exploits.
+## 2026-09-26 self-play prototype long run: stalls at k=12 after 311 iterations (47-62% solved), never shorter than our paths.
+## 2026-09-26 long windows (--wsizes 80,60, width 8000) on long15: 4042 -> 4019 (2/15 improved). Diminishing; 20-40 is the sweet spot.
+
+## 2026-09-26 Outlier diagnostic (8 worst ratio puzzles, rec<=60, ours >=2x)
+- Current base config (w8000, 180s) re-solves them at ~half our stored length (e.g. 297->146, 228->53): stored paths were stale from early weak runs.
+- Still ~2.7x the record after refresh, so no points by itself; the true gap persists. maxlen 100 left most unsolved in 180s (search dilution).
+- 2069 AC puzzles are >=2x record (results/stale2x.txt) — refresh candidates for idle compute, low priority vs near-misses.
+- Result table: len100 / nojunk / cost39 / all relaxations -> no gain (mostly worse or unsolved). Limits are NOT the cause. Negative result.
+- Reference: a public solver reaches 56 on ac-04334 where our from-scratch beam gets 140 -> gap is in search quality, not limits.
+- Rebeam(w4000,60s)+window(w8000) on refreshed outliers: only 1-8% more (e.g. 140->133, 146->122; ac-09344 53->38, rec 33). Local polishing cannot close a 2.5x global gap; needs a different route, not a shorter version of the same route.
+
+## 2026-09-26 Lineage cap (--lincap N --linper K): diverse beam, at most N slots per lineage per level, new lineages every K levels
+- Outliers8, w8000 180s vs base: average no better, but finds different routes: ac-04011 154->82 (lc60p8), ac-06151 unsolved->156 (lc20p4), ac-08564 146->123 (lc200p8).
+- Adopted as portfolio members in focus_loop SETTINGS (lc60p8, lc20p4). acs binary now includes lincap (default off = old behaviour; old binary acs.bak_prelin).
+- 2026-09-27: stopped plateaued az.py long run (k=12 ceiling, 27h) — was draining battery while acs was paused.

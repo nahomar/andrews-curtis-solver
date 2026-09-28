@@ -502,13 +502,14 @@ static vector<int> window_search(const St& a, const St& b, int maxd, int width, 
     }
     return {};
 }
+static vector<int> WSIZES = {40, 30, 20};
 static vector<int> window_opt(const St& start, vector<int> moves, bool stable, int width, uint64_t seed, int* gained) {
     *gained = 0;
     for (int round = 0; round < 50; round++) {
         vector<St> st; if (!verify(start, moves, stable, &st)) return moves;
         int n = st.size() - 1; bool improved = false;
         int cap = 0; for (auto& x : st) cap = max(cap, x.tot()); cap = min(MAXT, cap + 6);
-        for (int w : {40, 30, 20}) {
+        for (int w : WSIZES) {
             for (int i = 0; i + w <= n && !improved; i += 5) {
                 vector<int> seg = window_search(st[i], st[i + w], w, width, cap, seed + i * 131 + w);
                 if (seg.empty() || (int)seg.size() >= w) continue;
@@ -525,7 +526,7 @@ static vector<int> window_opt(const St& start, vector<int> moves, bool stable, i
 // ---------------------------------------------------------------- beam search
 struct Opt {
     int width = 20000, maxlen = 64, extra = 6, radius = 3, slack = 4, heur = 1, max_depth = 2000, maxcost = 30, maxgrow = 1000, class_dedup = 1;
-    double time_limit = 600; int verbose = 0, junk = 4, gw = 8, reps = 3, look = 0, look_pen = 16, power = 8, minw = 0, noise = 0, bmult = 8, gsw = 8, gspen = 64, guidew = 8, guidek = 1;
+    double time_limit = 600; int verbose = 0, junk = 4, gw = 8, reps = 3, look = 0, look_pen = 16, power = 8, minw = 0, noise = 0, bmult = 8, gsw = 8, gspen = 64, guidew = 8, guidek = 1, lincap = 0, linper = 8;
     vector<vector<int>> macros;
     vector<double> lin;   // learned score: cyc, junk, |c0-c1|, min(c0,c1), best_child, const
     string mode = "bucket";
@@ -825,7 +826,7 @@ static bool guide_score(const vector<St>& xs, vector<float>& out) {
 // of g; each keeps its best `width` states by length score, with at most `reps` raw forms per cyclic
 // class (globally), so states only ever compete with states of equal cost.
 static vector<int> bucket_beam(const St& start, const Ball& B, const vector<Source>& srcs, const Opt& o, long long* expanded) {
-    struct Perm { int parent; vector<int8_t> seq; };
+    struct Perm { int parent; vector<int8_t> seq; int lin = 0; };
     struct Pend { St s; int parent; uint64_t h; uint8_t nseq; int8_t seq[48]; };
     struct Key { uint64_t score; uint32_t idx; bool operator<(const Key& o) const { return score < o.score; } };
     vector<Perm> perm{{-1, {}}};
@@ -960,14 +961,17 @@ static vector<int> bucket_beam(const St& start, const Ball& B, const vector<Sour
             }
             sort(kv.begin(), kv.begin() + L);
         }
-        vector<pair<int, St>> sel;
+        vector<pair<int, St>> sel; unordered_map<int, int> lincount;
         for (auto& key : kv) { Pend& c = b[key.idx];
             if ((int)sel.size() >= o.width) break;
             if (!seen.insert(c.h)) continue;
             uint8_t& k = cls_count[mix(class_hash(c.s.r0(), c.s.n0) * 31 + class_hash(c.s.r1(), c.s.n1))];
             if (k >= o.reps) continue;
-            k++;
+            int lin = perm[c.parent].lin;                 // lineage diversity: new lineages every linper levels, capped slots each
+            if (o.lincap > 0 && lincount[lin] >= o.lincap) continue;
+            k++; if (o.lincap > 0) lincount[lin]++;
             perm.push_back({c.parent, vector<int8_t>(c.seq, c.seq + c.nseq)});
+            perm.back().lin = (o.lincap > 0 && g % o.linper == 0) ? (int)perm.size() - 1 : lin;
             sel.push_back({(int)perm.size() - 1, c.s});
         }
         vector<Pend>().swap(b); vector<Key>().swap(kv);
@@ -1057,6 +1061,7 @@ int main(int argc, char** argv) {
         else if (a == "--guidew") o.guidew = stoi(nx());
         else if (a == "--gsw") o.gsw = stoi(nx());
         else if (a == "--gspen") o.gspen = stoi(nx());
+        else if (a == "--wsizes") { WSIZES.clear(); string v = nx(); replace(v.begin(), v.end(), ',', ' '); istringstream ss(v); int x; while (ss >> x) WSIZES.push_back(x); }
         else if (a == "--bucket-mult") o.bmult = max(2, stoi(nx()));
         else if (a == "--noise") o.noise = stoi(nx());
         else if (a == "--minw") o.minw = stoi(nx());
@@ -1064,6 +1069,8 @@ int main(int argc, char** argv) {
         else if (a == "--look") o.look = stoi(nx());
         else if (a == "--look-pen") o.look_pen = stoi(nx());
         else if (a == "--reps") o.reps = stoi(nx());
+        else if (a == "--lincap") o.lincap = stoi(nx());
+        else if (a == "--linper") o.linper = stoi(nx());
         else if (a == "--gw") o.gw = stoi(nx());
         else if (a == "--junk") o.junk = stoi(nx());
         else if (a == "--verbose") o.verbose = stoi(nx());
@@ -1085,7 +1092,7 @@ int main(int argc, char** argv) {
         if (B.stable != o.stable) { fprintf(stderr, "ball stable=%d but --stable=%d\n", B.stable, o.stable); return 1; }
         fprintf(stderr, "ball cap=%d states=%llu\n", B.cap, (unsigned long long)B.count);
     }
-    map<string, vector<int>> given; if (cmd == "shorten" || cmd == "window") given = read_paths(paths_f);
+    map<string, vector<int>> given; if (cmd == "shorten" || cmd == "window" || cmd == "bidir") given = read_paths(paths_f);
     map<string, vector<vector<int>>> allp;
     if (cmd == "splice" || cmd == "rebeam") { vector<string> fs; string cur; for (char ch : paths_f + ",") { if (ch == ',') { if (!cur.empty()) fs.push_back(cur); cur.clear(); } else cur += ch; } allp = read_all_paths(fs); }
     vector<Source> srcs = sources(o.stable);
@@ -1117,6 +1124,13 @@ int main(int argc, char** argv) {
                 }
                 mv = *min_element(pool.begin(), pool.end(), [](auto& a, auto& b) { return a.size() < b.size(); });
                 if (pool.size() > 1) { auto sp = splice(p.s, pool, o.stable, o.radius, o.slack, &B, srcs); if (!sp.empty() && sp.size() < mv.size()) mv = sp; }
+            }
+            else if (cmd == "bidir") {                  // whole-problem bidirectional similarity search: start <-> (x, y)
+                int best = given.count(p.id) ? (int)given[p.id].size() : 400;
+                St tgt = srcs[0].s;
+                vector<int> seg = window_search(p.s, tgt, best, o.width, o.maxlen, o.seed);
+                if (!seg.empty()) { vector<int> fin = seg; if (o.stable) fin.insert(fin.end(), srcs[0].suffix.begin(), srcs[0].suffix.end()); mv = fin; }
+                else if (given.count(p.id)) mv = given[p.id];
             }
             else if (cmd == "window") {
                 if (!given.count(p.id)) continue;

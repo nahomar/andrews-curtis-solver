@@ -18,7 +18,8 @@ db = json.load(open(a.db)) if os.path.exists(a.db) else {}
 cand = {}
 for f in a.files:
     for line in open(f):
-        r = json.loads(line)
+        try: r = json.loads(line)
+        except ValueError: continue               # skip a line garbled by an interrupted write
         want = 'sac-' if 'sac' in os.path.basename(a.db) else 'ac-'
         if not r['id'].startswith(want): continue            # each DB holds one problem type only
         if r.get('solved') and (r['id'] not in db or len(r['moves']) < len(db[r['id']]['moves'])):
