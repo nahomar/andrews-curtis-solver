@@ -28,5 +28,7 @@ open('results/cloud_paths.jsonl','w').writelines(json.dumps({'id':i,'solved':Tru
     fi
     log "$VM synced"
   done
+  ./orbit_round.sh >> results/cloudsync.log 2>&1        # symmetry-splice the fresh cloud routes into the DBs
+  ./autosubmit.sh >> results/autosubmit.log 2>&1
   sleep 1800
 done

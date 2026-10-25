@@ -9,7 +9,15 @@ python3 sair.py snapshot >> results/autosubmit.log 2>&1 || log "snapshot failed 
 python3 check.py $(ls results/*.jsonl | grep -v -E "train|_sac\.jsonl|sac_from_ac") --db best_ac.json >> results/autosubmit.log 2>&1
 python3 tools.py sac-from-ac >> results/autosubmit.log
 python3 check.py results/sac_from_ac.jsonl $(ls results/*_sac.jsonl 2>/dev/null) --db best_sac.json >> results/autosubmit.log 2>&1
-rm -rf submit && python3 tools.py plan submit >> results/autosubmit.log
+rm -rf submit && pl=$(python3 tools.py plan submit) && print -r -- "$pl" >> results/autosubmit.log
+# quota guard: 40 files/day are shared with the other agent. Defer tiny batches until they accumulate
+# (they are re-planned from the DB every round, nothing is lost) and cap this session's daily count.
+total=$(print -r -- "$pl" | sed -n 's/.*submit_.*expected +\([0-9.]*\) points.*/\1/p' | awk '{s+=$1} END{printf "%.3f", s+0}')
+day=$(date +%Y%m%d); cnt=$(cat results/.subcount_$day 2>/dev/null || echo 0)
+# pace the 20 daily files over the day (4 up front, then 2 per 3 hours) so a valuable late batch is never locked out
+pace=$(( 4 + 16 * $(date +%H | sed "s/^0//") / 24 )); [ $pace -gt ${DAILYCAP:-20} ] && pace=${DAILYCAP:-20}
+[ "$cnt" -ge $pace ] && { log "pacing: $cnt files used, $pace allowed by this hour; deferring (expected +$total)"; exit 0; }
+if [ $(date +%H) -lt 22 ] && [ $(print -r -- "$total < ${MINGAIN:-0.1}" | bc) -eq 1 ]; then log "deferring small batch (expected +$total < ${MINGAIN:-0.1})"; exit 0; fi
 ls submit/submit_*.txt(N) >/dev/null 2>&1 && [ -n "$(ls submit/submit_*.txt 2>/dev/null)" ] || { log "nothing improves our score; no submission this round"; exit 0; }
 n=0
 for f in submit/submit_*.txt(N); do
@@ -31,6 +39,6 @@ for l in open(f):
 json.dump(led, open('submitted.json', 'w'))
 print(f'submission {sid}: accepted for processing, {n} locally verified lines recorded (no status polling, to save read quota)')
 PY
-  n=$((n+1))
+  n=$((n+1)); echo $((cnt+n)) > results/.subcount_$day
 done
 log "round done: $n files submitted"

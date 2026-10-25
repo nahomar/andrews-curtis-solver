@@ -524,13 +524,23 @@ static vector<int> window_opt(const St& start, vector<int> moves, bool stable, i
 }
 
 // ---------------------------------------------------------------- beam search
+// Optional immutable database of known valid tails. Its distances are upper
+// bounds, not admissible lower bounds; they only construct candidate solutions.
+struct TailOracle {
+    virtual int length(const St& state) const = 0;
+    virtual vector<int> path(const St& state) const = 0;
+    virtual ~TailOracle() = default;
+};
 struct Opt {
     int width = 20000, maxlen = 64, extra = 6, radius = 3, slack = 4, heur = 1, max_depth = 2000, maxcost = 30, maxgrow = 1000, class_dedup = 1;
     double time_limit = 600; int verbose = 0, junk = 4, gw = 8, reps = 3, look = 0, look_pen = 16, power = 8, minw = 0, noise = 0, bmult = 8, gsw = 8, gspen = 64, guidew = 8, guidek = 1, lincap = 0, linper = 8;
     vector<vector<int>> macros;
+    vector<int> cyclic_profile;
+    int profile_weight = 0, profile_ahead = 4;
     vector<double> lin;   // learned score: cyc, junk, |c0-c1|, min(c0,c1), best_child, const
     string mode = "bucket";
     uint64_t seed = 1; bool stable = false;
+    const TailOracle* tail = nullptr;
 };
 static vector<int> beam(const St& start, const Ball& B, const vector<Source>& srcs, const Opt& o, long long* expanded) {
     struct Cand { St s; int parent; int8_t move; uint64_t score; };
@@ -836,6 +846,16 @@ static vector<int> bucket_beam(const St& start, const Ball& B, const vector<Sour
     vector<int> best; int best_len = INT32_MAX;
     auto chain = [&](int id) { vector<vector<int8_t>> parts; while (id > 0) { parts.push_back(perm[id].seq); id = perm[id].parent; }
         vector<int> p; for (int k = parts.size() - 1; k >= 0; k--) p.insert(p.end(), parts[k].begin(), parts[k].end()); return p; };
+    auto check_tail = [&](int pid, int g, const St& state) {
+        if (!o.tail) return;
+        int d = o.tail->length(state);
+        if (d < 0 || g + d >= best_len) return;
+        auto suffix = o.tail->path(state);
+        auto candidate = chain(pid); candidate.insert(candidate.end(), suffix.begin(), suffix.end());
+        if ((int)suffix.size() == d && verify(start, candidate, o.stable)) {
+            best = std::move(candidate); best_len = best.size();
+        }
+    };
     auto t0 = chrono::steady_clock::now();
     vector<Rot> ri, rj;
     auto push = [&](int pid, int g, const St& t, const Seq& seq) {
@@ -854,6 +874,13 @@ static vector<int> bucket_beam(const St& start, const Ball& B, const vector<Sour
         if (d >= 0) return;                               // inside the ball the exact finish is already recorded
         int c0 = cyc_len(t.r0(), t.n0), c1 = cyc_len(t.r1(), t.n1), c = c0 + c1;
         int64_t hs = (int64_t)c * 8 + (t.tot() - c) * o.junk - (int64_t)o.minw * (c - 2 * min(c0, c1));
+        if (o.profile_weight > 0 && !o.cyclic_profile.empty()) {
+            size_t first = min(size_t(ng), o.cyclic_profile.size() - 1);
+            size_t last = min(size_t(ng + o.profile_ahead), o.cyclic_profile.size() - 1);
+            int distance = MAXT;
+            for (size_t k = first; k <= last; ++k) distance = min(distance, abs(c - o.cyclic_profile[k]));
+            hs += (int64_t)o.profile_weight * distance;
+        }
         uint64_t hv = hs < 0 ? 0 : hs;
         if (o.noise > 0) hv += mix(h ^ (o.seed * 0x9E3779B97F4A7C15ULL)) % (uint64_t)(o.noise + 1);   // route diversity
         auto& b = bk[ng]; auto& k = kk[ng];
@@ -910,8 +937,13 @@ static vector<int> bucket_beam(const St& start, const Ball& B, const vector<Sour
             }
         }
     };
-    { vector<int> fin; if (B.get(start) >= 0 && descend(B, srcs, start, fin)) return fin; }
-    seen.insert(hst(start)); cls_count[mix(class_hash(start.r0(), start.n0) * 31 + class_hash(start.r1(), start.n1))] = 1;
+    check_tail(0, 0, start);
+    { vector<int> fin; if (B.get(start) >= 0 && descend(B, srcs, start, fin)) {
+        if ((int)fin.size() < best_len) best = std::move(fin);
+        return best;
+    } }
+    seen.insert(hst(start));
+    if (o.class_dedup) cls_count[mix(class_hash(start.r0(), start.n0) * 31 + class_hash(start.r1(), start.n1))] = 1;
     expand(0, 0, start);
     for (int g = 1; g < G && g < best_len; g++) {
         if (chrono::duration<double>(chrono::steady_clock::now() - t0).count() > o.time_limit) break;
@@ -965,18 +997,22 @@ static vector<int> bucket_beam(const St& start, const Ball& B, const vector<Sour
         for (auto& key : kv) { Pend& c = b[key.idx];
             if ((int)sel.size() >= o.width) break;
             if (!seen.insert(c.h)) continue;
-            uint8_t& k = cls_count[mix(class_hash(c.s.r0(), c.s.n0) * 31 + class_hash(c.s.r1(), c.s.n1))];
-            if (k >= o.reps) continue;
+            uint64_t cls = 0;
+            if (o.class_dedup) {
+                cls = mix(class_hash(c.s.r0(), c.s.n0) * 31 + class_hash(c.s.r1(), c.s.n1));
+                if (cls_count[cls] >= o.reps) continue;
+            }
             int lin = perm[c.parent].lin;                 // lineage diversity: new lineages every linper levels, capped slots each
             if (o.lincap > 0 && lincount[lin] >= o.lincap) continue;
-            k++; if (o.lincap > 0) lincount[lin]++;
+            if (o.class_dedup) cls_count[cls]++;
+            if (o.lincap > 0) lincount[lin]++;
             perm.push_back({c.parent, vector<int8_t>(c.seq, c.seq + c.nseq)});
             perm.back().lin = (o.lincap > 0 && g % o.linper == 0) ? (int)perm.size() - 1 : lin;
             sel.push_back({(int)perm.size() - 1, c.s});
         }
         vector<Pend>().swap(b); vector<Key>().swap(kv);
         *expanded += sel.size();
-        for (auto& [pid, st] : sel) expand(pid, g, st);
+        for (auto& [pid, st] : sel) { check_tail(pid, g, st); expand(pid, g, st); }
         if (o.verbose && g % 5 == 0)
             fprintf(stderr, "  g=%d sel=%zu best=%d classes=%zu %.1fs\n", g, sel.size(), best_len == INT32_MAX ? -1 : best_len, cls_count.size(),
                     chrono::duration<double>(chrono::steady_clock::now() - t0).count());
