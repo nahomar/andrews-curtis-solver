@@ -19,7 +19,7 @@ jobs:
       - name: Build and check C++ tools
         run: make check
       - name: Install shortcut package
-        run: python -m pip install -e ./shortcut-search
+        run: python -m pip install ./shortcut-search
       - name: Check native kernels and shortcut search
         env:
           ACC_OFFICIAL_TOOLS: ${{ github.workspace }}/.official/competition/tools

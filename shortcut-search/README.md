@@ -30,7 +30,7 @@ git clone https://github.com/SAIRcompetition/Andrews-Curtis.git .official
 git -C .official checkout a0fd6e6f52d82c93ccc06ab91d81e8fa3678256e
 python3 -m venv .venv
 . .venv/bin/activate
-python -m pip install -e ./shortcut-search
+python -m pip install ./shortcut-search
 export ACC_OFFICIAL_TOOLS="$PWD/.official/competition/tools"
 ```
 
