@@ -1,0 +1,93 @@
+{
+  "description": "Curated library extraction from the private research workspace; no paths, datasets, checkpoints, or credentials included. Module imports, formatting, public input validation and native fallback adapted for standalone use.",
+  "sources": {
+    "waypoint_bidir.py": {
+      "sha256": "46463b1f834469cd1ae5ffb8997a99a9ec5dbb1603cce4dd3aa7f60e08046fb5",
+      "definitions": [
+        "ROWS",
+        "within",
+        "states_of",
+        "forward",
+        "backward"
+      ]
+    },
+    "alignment_waypoints.py": {
+      "sha256": "7175a7fe9067e95aae1a5f2598229396ad51518d98bd9490d0be962ca4e238df",
+      "definitions": [
+        "lev",
+        "aligned"
+      ]
+    },
+    "class_corridor.py": {
+      "sha256": "0e7017b099fa7bfbe10957751d46129178ebce6bc700577df2c547c85b55f2f9",
+      "definitions": [
+        "word_class"
+      ]
+    },
+    "structural_waypoint_probe.py": {
+      "sha256": "6ad92019dc60f73a97ddc7780620d0b08fa88b59a1dc2908fd2ef8492a642693",
+      "definitions": [
+        "inverse",
+        "product_length"
+      ]
+    },
+    "shared_frontier_probe.py": {
+      "sha256": "bb2fa4fdfbdb5391aa489fa4bf753056c37df576866305a2c93550313b14c0d2",
+      "definitions": [
+        "product"
+      ]
+    },
+    "symbolic_goal_probe.py": {
+      "sha256": "45c80788c90958552cca2608e797e1409028f1b799996d51445590c80c770cb7",
+      "definitions": [
+        "INV",
+        "CONJ",
+        "peel",
+        "conjugator"
+      ]
+    },
+    "frontier_join_search.py": {
+      "sha256": "7769369ae968763efe33981a853244a2ade729b70d94e1ee92b794dd1fb3c770",
+      "definitions": [
+        "key",
+        "connector"
+      ]
+    },
+    "rewritten_seed_core.py": {
+      "sha256": "d27759d5d83c92eae5794742c0b84774ddde3033c1438177ac7361b0856a7a98",
+      "definitions": [
+        "search"
+      ]
+    },
+    "compose_waypoint_shortcuts.py": {
+      "sha256": "fafdd8c3f762385228b7179f5a5ddbe6910f24c4c8aa61c1e663ab58f246b792",
+      "definitions": [
+        "compose"
+      ]
+    },
+    "universal_move_rewrite.py": {
+      "sha256": "adb7a3fd3b6998c40b35f8cbdf81b43e0123d04d0e71f13f8f7a43766693793e",
+      "definitions": [
+        "TABLES",
+        "ROWS",
+        "BYID",
+        "inv",
+        "formal_step",
+        "signature",
+        "prepare",
+        "rewrite"
+      ]
+    },
+    "rewritten_seed_search.py": {
+      "sha256": "a56f03277c1d74eb727f1e999c568d97ddb83412a903b78e19f489b8051c4f33",
+      "definitions": [
+        "schedule",
+        "search"
+      ]
+    },
+    "native_word_kernels.cpp": {
+      "sha256": "e954c9e17fbb8232b20d658c5e23ad5227f24ce39045bb4dd929bdabc581cfcd",
+      "definitions": "all"
+    }
+  }
+}

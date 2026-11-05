@@ -1,5 +1,9 @@
 # Continuing single-holder record campaign
 
+For a standalone goal-conditioned Python API, see
+[`shortcut-search`](../shortcut-search/README.md). It accepts an explicit witness
+and needs no local campaign database or account credentials.
+
 The campaign prioritizes Stable AC `sac-05598` below 40 moves, followed by other
 single-holder records. A shorter internal path is not a leaderboard gain unless
 it beats the current record. Refresh records before every submission and use the
@@ -42,6 +46,21 @@ controlled diversity experiments.
 
 The self-test builds independent AC and Stable AC tables at cap 6, then compares
 all 1,768 raw states and replays every reconstructed Stable AC path.
+
+## Optional bounded corpus tails
+
+`nielsen_weighted --state-cap N --state-limit M` retains at most `M` canonical
+states (maximum 40,000), each with total length at most `N`. Omitted intermediate
+states remove edges; they never create free jumps. The retained graph adds only
+actual one-move connections and preserves paid orientation handling. Bounded
+mode cannot be combined with `--graph-cache`; omit `--state-cap` for the original
+full-graph behavior.
+
+`--tail-window K` optionally keeps only the last `K` edges of each supplied
+route and prioritizes the first selected target. It requires bounded mode.
+`--polish-cache` skips repeated, identical polishing inputs within a target,
+with bounded cache storage. These are resource controls, not completeness or
+optimality guarantees. Final candidates still require official verification.
 
 ## Alternative routes through the saved corpus
 

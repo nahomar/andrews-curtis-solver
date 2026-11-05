@@ -3,6 +3,7 @@
 #define NIELSEN_NO_MAIN
 #include "nielsen_transfer.cpp"
 #include "orbit_graph_cache.inc"
+#include "bounded_tail_graph.inc"
 
 struct WeightedSearch {
     static constexpr uint32_t INF=UINT32_MAX;
@@ -73,19 +74,23 @@ static void weighted_self_test(const Ball& ball,bool stable) {
 }
 
 int main(int argc,char**argv) {
-    orbit::init();string problems,paths,targets,incumbents,seeds,out,acball,sacball,cache;int depth=1,stride=5,map_start=0,max_maps=10000,candidate_slack=0,polish_radius=0;double seconds=0;bool test=false,stable_only=false;
-    for(int i=1;i<argc;i++){string a=argv[i];if(a=="--self-test"){test=true;continue;}if(a=="--stable-only"){stable_only=true;continue;}if(i+1>=argc)return 1;string v=argv[++i];
+    orbit::init();string problems,paths,targets,incumbents,seeds,out,acball,sacball,cache;int depth=1,stride=5,map_start=0,max_maps=10000,candidate_slack=0,polish_radius=0,state_cap=0,state_limit=40000,tail_window=0;double seconds=0;bool test=false,stable_only=false,polish_cache=false;
+    for(int i=1;i<argc;i++){string a=argv[i];if(a=="--self-test"){test=true;continue;}if(a=="--stable-only"){stable_only=true;continue;}if(a=="--polish-cache"){polish_cache=true;continue;}if(i+1>=argc)return 1;string v=argv[++i];
         if(a=="--problems")problems=v;else if(a=="--paths")paths=v;else if(a=="--targets")targets=v;else if(a=="--incumbents")incumbents=v;
         else if(a=="--seed-paths")seeds=v;else if(a=="--out")out=v;else if(a=="--ac-ball")acball=v;else if(a=="--sac-ball")sacball=v;else if(a=="--depth")depth=stoi(v);else if(a=="--stride")stride=stoi(v);
         else if(a=="--map-start")map_start=stoi(v);else if(a=="--max-maps")max_maps=stoi(v);else if(a=="--seconds")seconds=stod(v);
-        else if(a=="--candidate-slack")candidate_slack=stoi(v);else if(a=="--polish-radius")polish_radius=stoi(v);else if(a=="--graph-cache")cache=v;else return 1;}
+        else if(a=="--candidate-slack")candidate_slack=stoi(v);else if(a=="--polish-radius")polish_radius=stoi(v);else if(a=="--graph-cache")cache=v;
+        else if(a=="--state-cap")state_cap=stoi(v);else if(a=="--state-limit")state_limit=stoi(v);else if(a=="--tail-window")tail_window=stoi(v);else return 1;}
     if(acball.empty()||sacball.empty()||depth<0||depth>3||stride<1||map_start<0||max_maps<1||seconds<0||candidate_slack<0||polish_radius<0||polish_radius>4)return 1;
+    if(state_cap<0||state_cap>MAXT||state_limit<1||state_limit>40000||(state_cap>0&&!cache.empty()))return 1;
+    if(tail_window<0||tail_window>1000||(tail_window>0&&state_cap==0))return 1;
     if(test){nielsen::self_test();for(bool stable:{false,true}){Ball ball;if(!ball.load(stable?sacball:acball)||ball.stable!=stable)return 1;weighted_self_test(ball,stable);}return 0;}
     if(problems.empty()||paths.empty()||targets.empty()||incumbents.empty()||out.empty())return 1;
     if(!ifstream(problems)||!ifstream(paths)||!ifstream(targets)||!ifstream(incumbents)||(!seeds.empty()&&!ifstream(seeds))){fprintf(stderr,"unreadable input file\n");return 1;}
     auto all=read_problems(problems),jobs=read_problems(targets);auto db=read_paths(incumbents),chosen=read_paths(seeds);auto maps=nielsen::generate(depth);
     orbit::Graph graph(true);
-    if(cache.empty())graph=orbit::load_graph(all,paths,true,64,2);
+    if(state_cap>0)graph=bounded_tail_graph(all,jobs,paths,state_cap,state_limit,tail_window);
+    else if(cache.empty())graph=orbit::load_graph(all,paths,true,64,2);
     else {
         graphcache::Identity identity{graphcache::fingerprint(problems),graphcache::fingerprint(paths),64,2};
         if(graphcache::load(cache,identity,graph))fprintf(stderr,"loaded checked graph cache: %zu states\n",graph.keys.size());
@@ -98,7 +103,7 @@ int main(int argc,char**argv) {
     for(bool stable:{false,true}) {
         if(stable_only&&!stable)continue;
         Ball ball;if(!ball.load(stable?sacball:acball)||ball.stable!=stable)return 1;
-        struct Job{string id;St start;vector<int> best;vector<pair<St,vector<int>>> waypoints;};vector<Job> work;
+        struct Job{string id;St start;vector<int> best;vector<pair<St,vector<int>>> waypoints;set<vector<int>> polished;};vector<Job> work;size_t cache_entries=0;
         for(auto&p:jobs){string id=(stable?"sac-":"ac-")+p.id.substr(p.id.find('-')+1);auto orig=db.find(id);if(orig==db.end())continue;
             Job j{id,p.s,orig->second,{{p.s,{}}}};auto seed=chosen.find(id);
             if(seed!=chosen.end()){vector<St> states;if(verify(p.s,seed->second,stable,&states))for(size_t k=stride;k<states.size();k+=stride)j.waypoints.push_back({states[k],vector<int>(seed->second.begin(),seed->second.begin()+k)});}
@@ -111,7 +116,7 @@ int main(int argc,char**argv) {
             // Nonnegative prefix costs therefore make larger tails irrelevant,
             // even when cancellation-aware post-polishing is enabled.
             uint32_t horizon=0;for(const auto&j:work)horizon=max(horizon,uint32_t(j.best.size()+candidate_slack-1));
-            const auto&a=maps[index];WeightedSearch search(graph,a.back,ball,stable,horizon);size_t changed=0;
+            const auto&a=maps[index];WeightedSearch search(graph,a.back,ball,stable,horizon);size_t changed=0,cache_hits=0;
             for(auto&j:work)for(auto&[s,prefix]:j.waypoints){St transformed;if(!nielsen::transform(s,a.forward,transformed))continue;
                 auto [key,o]=orbit::canonical(transformed,true);auto it=graph.ids.find(key);if(it==graph.ids.end())continue;uint32_t q=it->second*16+o;
                 // Transported length is only an upper bound. A slightly longer
@@ -119,10 +124,19 @@ int main(int argc,char**argv) {
                 if(search.dist[q]==WeightedSearch::INF||prefix.size()+search.dist[q]>=j.best.size()+candidate_slack)continue;
                 auto candidate=prefix;auto tail=search.path(q);candidate.insert(candidate.end(),tail.begin(),tail.end());
                 if(!verify(j.start,candidate,stable))continue;
-                if(polish_radius>0)candidate=shorten(j.start,std::move(candidate),stable,polish_radius,4);
+                if(polish_radius>0) {
+                    // For a fixed start/radius/slack, shorten is deterministic.
+                    // Every cached result was already compared against best,
+                    // which only decreases. Skipping its exact input is safe.
+                    if(polish_cache) {
+                        if(j.polished.count(candidate)){cache_hits++;continue;}
+                        if(j.polished.size()<512&&cache_entries<10000){j.polished.insert(candidate);cache_entries++;}
+                    }
+                    candidate=shorten(j.start,std::move(candidate),stable,polish_radius,4);
+                }
                 if(candidate.size()<j.best.size()&&verify(j.start,candidate,stable)){fprintf(stderr,"%s %zu -> %zu (map %zu)\n",j.id.c_str(),j.best.size(),candidate.size(),index);
                     j.best=std::move(candidate);f<<jsonl(j.id,true,j.best,0,", \"method\": \"nielsen-weighted\"");f.flush();changed++;}}
-            fprintf(stderr,"%s weighted map %zu/%zu: %zu improvements, %.2fs\n",stable?"SAC":"AC",index+1,maps.size(),changed,chrono::duration<double>(chrono::steady_clock::now()-map_started).count());
+            fprintf(stderr,"%s weighted map %zu/%zu: %zu improvements, %zu cached repeats, %.2fs\n",stable?"SAC":"AC",index+1,maps.size(),changed,cache_hits,chrono::duration<double>(chrono::steady_clock::now()-map_started).count());
         }
     }
 }
