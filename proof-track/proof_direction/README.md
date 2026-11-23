@@ -103,8 +103,9 @@ letter permutations. Full lists are in `data/residual_classes16.txt` (class → 
   presentations of length ≤ 19 and solved 125 192 of them, without (as far as we could see) a per-length exhaustive
   statement. We have not compared C3, C4, C6 against their unsolved set. They may therefore already appear, unlabelled,
   in [BM] or in the AC-19 data.
-* Stable AC: AK(3) is stably AC-trivial [S24; Lisitsa 2025]. We did not study stable moves for C3, C4, C6. They are
-  natural next targets.
+* Stable AC: we do not use stable triviality of AK(3). The 2024 claim relied on an [MMS02] presentation, and v2 of
+  [S24] reports that a misprint there undermines it; [L25] starts from the same presentation. We did not study stable
+  moves for C3, C4, C6. They are natural next targets.
 
 ## 3. Method and proofs of the reduction lemmas
 
@@ -199,6 +200,7 @@ Sanity checks:
 * [BM] R. S. Bowman, S. B. McCaul, Fast searching for Andrews–Curtis trivializations, Experimental Math. 15(2) (2006) 193–198.
 * [PU] D. Panteleev, A. Ushakov, Conjugacy search problem and the Andrews–Curtis conjecture, arXiv:1609.00325.
 * [J] D. L. Johnson, Topics in the Theory of Group Presentations, LMS LN 42, CUP (1980).
+* [MMS02] A. D. Myasnikov, A. G. Myasnikov, V. Shpilrain, On the Andrews–Curtis equivalence, Contemp. Math. 296 (2002) 183–198.
 * [MS] C. F. Miller III, P. E. Schupp, Some presentations of the trivial group, Contemp. Math. 250 (1999).
 * [S24] A. Shehper et al., What makes math problems hard for reinforcement learning: a case study, arXiv:2408.15332.
 * [L25] A. Lisitsa, Stable Andrews–Curtis trivialization of AK(3) revisited, arXiv:2501.18601.

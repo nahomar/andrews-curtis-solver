@@ -78,8 +78,8 @@ C4 and C6 may therefore appear unlabelled in earlier data.
 * Panteleev–Ushakov (arXiv:1609.00325): the automorphism invariance of AK(n), used to drop φ for AK(3).
 * Johnson (1980): P1.
 * Miller–Schupp (1999): the MS(n,w) family.
-* Shehper et al. (arXiv:2408.15332): the hard length-14 MS presentations; stable triviality of AK(3).
-* Lisitsa (arXiv:2501.18601): stable triviality of AK(3).
+* Shehper et al. (arXiv:2408.15332): the hard length-14 MS presentations; v2 corrects the AK(3) stable claim of v1.
+* Lisitsa (arXiv:2501.18601): AC-equivalence of the [MMS02] presentation to AK(3) (its stable conclusion inherits the misprint).
 * Fagan et al. (ICML 2026, arXiv:2606.21611): the AC-19 enumeration.
 * Carreras (arXiv:2607.23611): the length-14 frontier and its certified equivalences.
 * SAIR ACC repository: the official verifier and `AC.lean`.

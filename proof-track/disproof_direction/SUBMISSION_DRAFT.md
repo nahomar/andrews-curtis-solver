@@ -65,8 +65,9 @@ evidence of the strength a disproof needs:
   trivialisations need super-exponentially many moves, and hence very large intermediate lengths;
 * Lisitsa found an MS trivialisation of 8,634 steps.
 
-AK(3) is known to be stably AC-trivial (Shehper et al. 2024; Lisitsa, arXiv:2501.18601), so it is
-open only for unstable AC. Our bounds are for the elementary, exact-word graph. They do not transfer to
+To our knowledge AK(3) is open for both AC and stable AC. Shehper et al. v1 (2024) claimed it is stably
+AC-trivial, but v2 (arXiv:2408.15332v2, Feb 2025) reports a misprint in the [MMS02] presentation that the
+claim relied on; Lisitsa (arXiv:2501.18601) starts from the same presentation. Our bounds are for the elementary, exact-word graph. They do not transfer to
 cyclic-word or arbitrary-conjugator formulations. The largest components are verified by code
 cross-validation, not by shipped closure certificates.
 
@@ -78,7 +79,7 @@ cross-validation, not by shipped closure certificates.
 * Miller–Schupp (1999): the family.
 * Akbulut–Kirby (1985): AK(n).
 * Havas–Ramsay (2003) and Miasnikov–Myasnikov (arXiv:math/0304305): the length-12/13 classification.
-* Shehper et al. (arXiv:2408.15332): MS benchmark, AK(3) stably trivial, and unpublished equivalence
+* Shehper et al. (arXiv:2408.15332): MS benchmark, the v2 correction about AK(3), and unpublished equivalence
   claims.
 * Fagan et al., "Two-Hump" (arXiv:2606.21611): the `reported_class` labels. We compare with them; we
   do not use them as input.

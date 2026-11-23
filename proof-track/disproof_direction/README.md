@@ -208,12 +208,15 @@ computations cannot yield a counterexample. We report it as a reproducible negat
 * **Panteleev–Ushakov (arXiv:1609.00325)**: every automorphism of F2 is AC-realised on AK(n); they
   also introduced a strong equivalence and ACM-moves.
 * **Shehper et al., "What makes math problems hard for RL" (arXiv:2408.15332)**:
-  * AK(3) is **stably** AC-trivial; an alternative proof is in **Lisitsa, arXiv:2501.18601**;
+  * v1 (2024) claimed that AK(3) is stably AC-trivial. **v2 (Feb 2025) does not support this**: it reports a
+    misprint in [MMS02, p. 10] that "undermines the claim" that the presentation it started from is stably
+    AC-trivial. What stands is that this presentation is AC-equivalent to AK(3). **Lisitsa,
+    arXiv:2501.18601**, starts from the same presentation, so its stable conclusion has the same gap;
   * greedy and RL search on the 1190 MS instances;
   * the statement, without published paths, that the length-14 MS presentations are AC-equivalent to
     AK(3).
 
-  AK(3) therefore remains open **only for (unstable) AC**.
+  To our knowledge AK(3) is therefore open for both AC and stable AC.
 * **Lisitsa (Examples & Counterexamples 2024 and 2025)**: new MS trivialisations via automated
   theorem proving, including one of 8,634 steps.
 * **Fagan, Tarquini, Shehper, …, Gukov, "The Two-Hump Problem" (ICML 2026, arXiv:2606.21611)**: AC-19
@@ -268,8 +271,10 @@ Unpublished computations, e.g. behind the Two-Hump labels, may contain more.
   `lcc` wherever both ran (caps ≤ 23 on AK(3), cap 14 on the trivial component), but it was not
   re-run independently at caps 25–26.
 * Membership-only merges (frontier runs) are not counted in the 207; they are listed separately.
-* Stable AC: our search is rank 2 only and says nothing about stable counterexamples. Note that AK(3)
-  is already known to be stably trivial.
+* Stable AC: our search is rank 2 only and says nothing about stable counterexamples. We do
+  not treat AK(3) as stably AC-trivial: the 2024 claim (Shehper et al., v1) used a presentation from
+  [MMS02] that v2 of that paper reports to be affected by a misprint, and Lisitsa (arXiv:2501.18601)
+  builds on the same input.
 
 ## 6. Why known invariants cannot separate (survey summary)
 
